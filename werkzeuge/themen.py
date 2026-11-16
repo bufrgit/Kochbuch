@@ -19,9 +19,7 @@ TANNE = ('<g stroke="#2f5d3a" stroke-width="2.2" fill="none" stroke-linecap="rou
 
 THEMEN = {
     "Weihnachtsbäckerei": dict(a="#a8322d", b="#2f5d3a", papier="#fbf3e8", zettel="#f6e2d6",
-        motiv=_svg(TANNE + stern(90, 60, 7, "#c9a23a") + stern(70, 30, 5, "#c9a23a") + stern(30, 40, 4, "#c9a23a", .7)),
-        extra=".rahmen{position:absolute;inset:5mm;border:1.2px dashed #a8322d55;border-radius:3mm;pointer-events:none}"
-              ".stern{position:absolute;color:#c9a23a}"),
+        motiv=_svg(TANNE + stern(90, 60, 7, "#c9a23a") + stern(70, 30, 5, "#c9a23a") + stern(30, 40, 4, "#c9a23a", .7))),
     "Backen": dict(a="#b0566a", b="#7a5a3a", papier="#fbf5f0", zettel="#f3e2e2",
         motiv=_svg('<g fill="none" stroke="#b0566a" stroke-width="2.2" stroke-linecap="round"><path d="M20 70 h70 l-6 22 h-58 z"/>'
                    '<path d="M24 70 q8 -28 32 -30 q24 2 30 30"/><path d="M40 62 q6 -10 14 -12 M62 52 q8 4 10 14"/></g>'
