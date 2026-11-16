@@ -19,9 +19,17 @@ https://bufrgit.github.io/Kochbuch/ – geänderte Rezepte sind also automatisch
 - **QR-Code neben einem Rezept scannen:** Kochansicht mit Bring!-Knopf; das Rezept steht damit auch auf dem Wochenplan.
 - **QR-Code auf Seite 2 (bzw. die Startseite):** der Wochenplan mit allen gescannten Rezepten. Per Tipp auf Mo–So einem Tag zuordnen, mit × löschen. Oben steht, was es heute gibt.
 
-Der Plan liegt in einem kostenlosen Online-Speicher bei jsonblob.com (ohne Konto) und ist dadurch auf allen Handys und PCs gleich.
-Die Adresse steht in `werkzeuge/speicher.txt` und wird beim ersten Veröffentlichen automatisch angelegt. Wer die Adresse kennt,
-kann den Plan lesen und ändern – drin stehen aber nur Rezeptnamen und Wochentage. Ohne Verbindung merkt sich jedes Gerät
-die Änderungen und überträgt sie später. Zeigt der Plan dauerhaft „keine Verbindung“ (z. B. weil jsonblob einen lange unbenutzten Speicher gelöscht hat):
-`werkzeuge/speicher.txt` löschen – beim nächsten Veröffentlichen wird ein neuer, leerer Speicher angelegt.
+Der Plan liegt in einer kostenlosen Firebase-Datenbank (Google) und ist dadurch auf allen Handys und PCs gleich.
+Ihre Adresse steht in `werkzeuge/speicher.txt` (z. B. `https://kochbuch-xyz-default-rtdb.europe-west1.firebasedatabase.app/wochenplan.json`).
+Fehlt die Datei, speichert jedes Gerät für sich. Ohne Verbindung merkt sich jedes Gerät die Änderungen und überträgt sie später.
+
+**Firebase einmalig einrichten (ca. 5 Minuten):**
+1. https://console.firebase.google.com → „Projekt erstellen“, Name z. B. `kochbuch`, Google Analytics aus.
+2. Links „Build → Realtime Database“ → „Datenbank erstellen“ → Standort Europa → „Im gesperrten Modus starten“.
+3. Reiter „Regeln“, Inhalt ersetzen und „Veröffentlichen“:
+   `{ "rules": { "wochenplan": { ".read": true, ".write": true } } }`
+4. Die oben angezeigte Adresse (endet auf `firebasedatabase.app`) + `/wochenplan.json` in `werkzeuge/speicher.txt` eintragen.
+
+Wer die Adresse kennt, kann den Plan lesen und ändern – drin stehen aber nur Rezeptnamen und Wochentage.
+
 Lokal ansehen: `python3 werkzeuge/webseite.py _site && python3 -m http.server -d _site`

@@ -26,8 +26,8 @@ WEB = os.path.join(HIER, "web")
 FONTS = ("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400"
          "&family=Caveat:wght@500;700&family=Karla:wght@400;600&display=swap")
 e = html.escape
-# Adresse des gemeinsamen Online-Speichers (jsonblob.com). Wird beim ersten Veröffentlichen von
-# .github/workflows/pages.yml automatisch angelegt. Fehlt die Datei, speichert jedes Gerät für sich.
+# Adresse des gemeinsamen Online-Speichers (Firebase Realtime Database, …/wochenplan.json; siehe README).
+# Fehlt die Datei, speichert jedes Gerät für sich.
 _sp = os.path.join(HIER, "speicher.txt")
 SPEICHER = open(_sp).read().strip() if os.path.exists(_sp) else ""
 
