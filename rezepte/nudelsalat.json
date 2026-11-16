@@ -1,0 +1,62 @@
+{
+  "id": "nudelsalat",
+  "titel": "Nudelsalat",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": 6,
+  "zeit": "30 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Nudeln"
+    },
+    {
+      "menge": "1 kleines Glas",
+      "zutat": "Miracel Whip Balance"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "Erbsen"
+    },
+    {
+      "menge": "1 Glas",
+      "zutat": "Pilze"
+    },
+    {
+      "menge": "1 ganzer",
+      "zutat": "Fleischwurstring"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Fleischsalat"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Essig zum Würzen"
+    }
+  ],
+  "schritte": [
+    "Nudeln kochen und abkühlen lassen.",
+    "Alle Zutaten miteinander vermengen. Am Ende mit Salz, Pfeffer und Essig abschmecken."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090802.jpg",
+  "geschaetzt": [
+    "portionen",
+    "zeit"
+  ],
+  "aenderungen": [
+    "Neues Kapitel „Salate, Dips & Saucen“",
+    "Portionen fehlen im Original – 6 geschätzt",
+    "Zeit geschätzt",
+    "Schritt „Nudeln kochen und abkühlen lassen“ ergänzt",
+    "Frage: Fleischwurst klein schneiden ergänzen?"
+  ],
+  "freigegeben": false
+}

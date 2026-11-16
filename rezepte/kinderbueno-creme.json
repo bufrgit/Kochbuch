@@ -1,0 +1,73 @@
+{
+  "id": "kinderbueno-creme",
+  "titel": "Kinderbueno-Creme",
+  "untertitel": null,
+  "kapitel": "Desserts",
+  "portionen": 6,
+  "zeit": "45 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Sauce:"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Zartbitter-Kuvertüre"
+    },
+    {
+      "menge": "100 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "",
+      "zutat": "Creme:"
+    },
+    {
+      "menge": "60 g",
+      "zutat": "gehackte Haselnüsse"
+    },
+    {
+      "menge": "600 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "8 EL",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "16",
+      "zutat": "Kinderbueno-Riegel"
+    },
+    {
+      "menge": "500 g",
+      "zutat": "Mascarpone"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Vollmilch-Kuvertüre"
+    }
+  ],
+  "schritte": [
+    "Zartbitterkuvertüre klein hacken. 100 ml Sahne aufkochen und die Schokolade darin schmelzen. Sauce mit Folie abdecken und beiseitestellen.",
+    "Haselnüsse in einer Pfanne rösten und abkühlen lassen.",
+    "600 ml Sahne mit dem Vanillezucker steif schlagen. 13 Kinderbueno-Riegel kleinhacken. Mascarpone glattrühren und die Sahne vorsichtig unterheben.",
+    "Vollmilch-Kuvertüre im Wasserbad erhitzen.",
+    "⅓ der Mascarpone-Creme in die Dessertgläser füllen.",
+    "Restliche Creme mit den gehackten Kinderbueno vermischen. Halbieren und die eine Hälfte in die Dessertgläser füllen. Die übrige Creme mit der Vollmilchkuvertüre verrühren und in die Dessertgläser geben.",
+    "Zum Schluss die Sauce darauf verteilen und kaltstellen.",
+    "Direkt vor dem Servieren mit den 3 übrigen Riegeln verzieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090725.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Portionen: „6 große Portionen à 300 ml Gläser“ → 6",
+    "Zeit geschätzt (ohne Kühlzeit)",
+    "Frage: Haselnüsse werden geröstet, aber danach nicht mehr verwendet – unverändert gelassen"
+  ],
+  "freigegeben": false
+}

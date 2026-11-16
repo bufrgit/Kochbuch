@@ -1,0 +1,43 @@
+{
+  "id": "zitronen-schnittlauch-sauce",
+  "titel": "Zitronen-Schnittlauch-Sauce",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": 2,
+  "zeit": "5 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Saft einer halben Zitrone"
+    },
+    {
+      "menge": "5 g",
+      "zutat": "Schnittlauch"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "griechischer Joghurt"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Alle Zutaten miteinander vermischen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090807.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Steht mit dem Datteldip auf einem Blatt"
+  ],
+  "freigegeben": false
+}

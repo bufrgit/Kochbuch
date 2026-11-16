@@ -1,0 +1,50 @@
+{
+  "id": "suesser-himbeertraum",
+  "titel": "Süßer Himbeertraum",
+  "untertitel": null,
+  "kapitel": "Desserts",
+  "portionen": 4,
+  "zeit": "15 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "200 g",
+      "zutat": "TK Himbeeren"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Schokocookies"
+    },
+    {
+      "menge": "500 g",
+      "zutat": "Sahnejoghurt"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Zitronensaft"
+    }
+  ],
+  "schritte": [
+    "Himbeeren antauen lassen und mit 2 EL Zucker bestreuen.",
+    "Kekse zerbröseln und in Dessertgläser geben.",
+    "Joghurt, 2 EL Zucker und 2 EL Zitronensaft mischen, Himbeeren unterheben.",
+    "Creme auf die Kekse verteilen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090714.jpg",
+  "geschaetzt": [
+    "portionen",
+    "zeit"
+  ],
+  "aenderungen": [
+    "Neues Kapitel „Desserts“",
+    "Portionen fehlen im Original – 4 geschätzt",
+    "Zeit geschätzt (ohne Auftauzeit)"
+  ],
+  "freigegeben": false
+}

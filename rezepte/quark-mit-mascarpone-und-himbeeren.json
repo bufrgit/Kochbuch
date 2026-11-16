@@ -1,0 +1,61 @@
+{
+  "id": "quark-mit-mascarpone-und-himbeeren",
+  "titel": "Quark mit Mascarpone und Himbeeren",
+  "untertitel": null,
+  "kapitel": "Desserts",
+  "portionen": 4,
+  "zeit": "15 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "125 g",
+      "zutat": "Himbeeren TK"
+    },
+    {
+      "menge": "1 Päckchen",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Magerquark"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Mascarpone"
+    },
+    {
+      "menge": "5 EL",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "75 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "",
+      "zutat": "Saft von ½ Zitrone"
+    },
+    {
+      "menge": "",
+      "zutat": "Schokostreusel"
+    }
+  ],
+  "schritte": [
+    "Himbeeren antauen lassen und in Dessertgläser geben.",
+    "Alle übrigen Zutaten miteinander verrühren.",
+    "Creme auf die Himbeeren schichten.",
+    "Schokostreusel obendrüber."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090731.jpg",
+  "geschaetzt": [
+    "portionen",
+    "zeit"
+  ],
+  "aenderungen": [
+    "Portionen fehlen im Original – 4 geschätzt",
+    "Zeit geschätzt"
+  ],
+  "freigegeben": false
+}

@@ -1,0 +1,52 @@
+{
+  "id": "datteldip",
+  "titel": "Datteldip",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": null,
+  "zeit": "10 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "1 Packung",
+      "zutat": "Frischkäse"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Schmand"
+    },
+    {
+      "menge": "150 g",
+      "zutat": "entsteinte Datteln"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Currypulver"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Harissapaste"
+    }
+  ],
+  "schritte": [
+    "Alles zusammen pürieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090807.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„1x Frischkäse“ → „1 Packung“",
+    "Steht mit der Zitronen-Schnittlauch-Sauce auf einem Blatt"
+  ],
+  "freigegeben": false
+}

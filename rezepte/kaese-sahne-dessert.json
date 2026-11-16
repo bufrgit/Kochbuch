@@ -1,0 +1,59 @@
+{
+  "id": "kaese-sahne-dessert",
+  "titel": "Käse-Sahne-Dessert",
+  "untertitel": "frisch-fruchtiges Dessert mit Quark, Joghurt und Früchten – gut vorzubereiten",
+  "kapitel": "Desserts",
+  "portionen": 10,
+  "zeit": "ca. 25 Min + 12 Std. Ruhezeit",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "400 ml",
+      "zutat": "Schlagsahne"
+    },
+    {
+      "menge": "2 Pck.",
+      "zutat": "Vanillinzucker"
+    },
+    {
+      "menge": "2 Pck.",
+      "zutat": "Sahnesteif"
+    },
+    {
+      "menge": "500 g",
+      "zutat": "Quark"
+    },
+    {
+      "menge": "500 g",
+      "zutat": "Naturjoghurt"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "2 Dosen",
+      "zutat": "Mandarinen (alternativ 1 große Dose Pfirsiche oder Aprikosen)"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Butterkekse"
+    }
+  ],
+  "schritte": [
+    "Die Schlagsahne mit Vanillinzucker und Sahnesteif steif schlagen und kaltstellen. Den Quark mit dem Naturjoghurt und dem Zucker cremig rühren. Die Sahne locker unterheben.",
+    "Die Früchte abtropfen lassen, dann unterheben (Pfirsiche oder Aprikosen vorher klein schneiden) – dann aber nicht mehr rühren, da sonst die Früchte zerschlagen werden.",
+    "Die Kekse zerbröseln (z. B. in einem Gefrierbeutel).",
+    "Wahlweise in Dessertgläser oder eine große Schüssel schichten. Zuerst eine Schicht Kekse, danach Quark-Joghurt-Creme. Mit einer Schicht Kekse abschließen.",
+    "Das Dessert sollte bis zum Servieren einige Stunden – zum Beispiel über Nacht – durchziehen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090736.jpg",
+  "geschaetzt": [],
+  "aenderungen": [
+    "Quelle: Chefkoch-Ausdruck (Rezept von Ilschen13) – Text übernommen, Foto/Logo/QR-Code/Kalorien weggelassen",
+    "Doppeltes „steif schlagen“ der Sahne zusammengefasst"
+  ],
+  "freigegeben": false
+}

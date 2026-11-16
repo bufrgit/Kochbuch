@@ -1,0 +1,45 @@
+{
+  "id": "schokokuss-dessert",
+  "titel": "Schokokuss-Dessert",
+  "untertitel": null,
+  "kapitel": "Desserts",
+  "portionen": 4,
+  "zeit": "ca. 30 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "20",
+      "zutat": "Schokoküsse"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Quark (40 %)"
+    },
+    {
+      "menge": "2 Becher",
+      "zutat": "süße Sahne"
+    },
+    {
+      "menge": "500 ml",
+      "zutat": "Rote Grütze, selbst gemacht"
+    },
+    {
+      "menge": "1 Pck.",
+      "zutat": "Sahnesteif"
+    }
+  ],
+  "schritte": [
+    "Zuerst die Waffelböden von den Schokoküssen trennen. Die Schaummasse in eine Schüssel geben und glatt streichen.",
+    "Die Sahne mit dem Sahnesteif steif schlagen und den Quark unterrühren. Die Sahne-Quarkmasse unter die Schaummasse ziehen und die Creme fertigstellen.",
+    "Nun schichten: zuerst Creme, dann eine Schicht Rote Grütze, dann wieder die Creme – die letzte Schicht besteht aus der Creme.",
+    "Nun die Waffelböden zerkleinern und zum Abschluss über die Masse streuen."
+  ],
+  "notiz": "Tipp: Man kann auch ein paar Schokoküsse ganz lassen, dann zerkleinern und die Creme damit dekorieren.",
+  "clipart": null,
+  "quelle": "IMG20261116090721.jpg",
+  "geschaetzt": [],
+  "aenderungen": [
+    "Quelle: Chefkoch-Ausdruck (Rezept von butterfly07) – Text übernommen, Foto/Logo/QR-Code weggelassen"
+  ],
+  "freigegeben": false
+}
