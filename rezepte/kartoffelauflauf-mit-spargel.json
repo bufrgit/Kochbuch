@@ -1,0 +1,72 @@
+{
+  "id": "kartoffelauflauf-mit-spargel",
+  "titel": "Kartoffelauflauf mit Spargel",
+  "untertitel": "Für die Spargelzeit",
+  "kapitel": "Aufläufe",
+  "portionen": "4",
+  "zeit": "ca. 60 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1 kg",
+      "zutat": "weißer Spargel"
+    },
+    {
+      "menge": "1 kg",
+      "zutat": "Kartoffeln"
+    },
+    {
+      "menge": "300 g",
+      "zutat": "Kochschinken"
+    },
+    {
+      "menge": "300 g",
+      "zutat": "Crème fraîche"
+    },
+    {
+      "menge": "1 Tüte",
+      "zutat": "Reibekäse"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Butter für die Form"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz und Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Muskat"
+    }
+  ],
+  "schritte": [
+    "Spargel schälen, in Stücke schneiden und in Wasser mit 1 EL Butter und je einer Prise Salz und Zucker ca. 10 Minuten kochen. Währenddessen die Kartoffeln geschält in Salzwasser 15 Minuten kochen.",
+    "Die fast garen Kartoffeln in grobe Scheiben schneiden und in einer gebutterten Auflaufform verteilen.",
+    "Spargel darauf verteilen und mit dem fein gewürfelten Schinken belegen.",
+    "Crème fraîche mit Salz, Pfeffer und Muskat abschmecken und den Knoblauch dazupressen. Je nach Dicke etwas Milch zugeben und die Soße über die Zutaten in der Form gießen.",
+    "Mit dem geriebenen Käse bestreuen und ca. 15 bis 20 Minuten bei 180 °C Umluft überbacken."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082719.jpg",
+  "geschaetzt": [
+    "zeit"
+  ]
+}

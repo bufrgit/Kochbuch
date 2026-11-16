@@ -1,0 +1,50 @@
+{
+  "id": "tortellini-gratin",
+  "titel": "Tortellini-Gratin",
+  "untertitel": null,
+  "kapitel": "Aufläufe",
+  "portionen": "3",
+  "zeit": "ca. 35 Minuten",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "2 Packungen",
+      "zutat": "Tortellini mit Spinat-Ricotta-Füllung (à 250 g)"
+    },
+    {
+      "menge": "5",
+      "zutat": "Tomaten"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "geriebener Mozzarella"
+    },
+    {
+      "menge": "200 ml",
+      "zutat": "Schlagsahne"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Fett für die Form"
+    }
+  ],
+  "schritte": [
+    "Backofen vorheizen (Ober-/Unterhitze 200 °C, Umluft 175 °C).",
+    "Für die Tortellini 3 bis 4 l Salzwasser zum Kochen bringen. Tortellini ca. 2 Minuten garen lassen und abgießen.",
+    "Tomaten waschen und würfeln. Sahne und ⅔ des Mozzarellas verrühren und mit Pfeffer und Salz würzen.",
+    "Auflaufform fetten. Tomaten und Tortellini darin verteilen, mit der Käsesahne übergießen und den restlichen Mozzarella darüberstreuen.",
+    "Ca. 15 Minuten goldbraun backen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082734.jpg",
+  "geschaetzt": [
+    "zeit"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "penne-mit-brokkoli-sauce",
+  "titel": "Penne mit Brokkoli-Sauce",
+  "untertitel": null,
+  "kapitel": "Pasta",
+  "portionen": "3",
+  "zeit": "ca. 25 Minuten",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "300 g",
+      "zutat": "Penne"
+    },
+    {
+      "menge": "1",
+      "zutat": "Brokkoli"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "150 g",
+      "zutat": "Frischkäse"
+    },
+    {
+      "menge": "300 ml",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Nudeln nach Anleitung kochen.",
+    "Brokkoli waschen und in Röschen schneiden. Zwiebel würfeln.",
+    "Wasser in einem Topf zum Kochen bringen und salzen. Brokkoli 5 Minuten garkochen.",
+    "Zwiebeln in einem Topf mit Olivenöl glasig dünsten und mit der Gemüsebrühe ablöschen. Frischkäse hinzufügen und aufkochen lassen.",
+    "Brokkoli hinzugeben, alles pürieren und mit Salz und Pfeffer abschmecken."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082741.jpg",
+  "geschaetzt": [
+    "zeit"
+  ]
+}
