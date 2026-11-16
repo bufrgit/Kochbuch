@@ -44,7 +44,12 @@ THEMEN.update({
     "Aufläufe": _t("#8c5a3c", "#6f7f3e", "#faf4ec", "#efe0cf",
         '<rect x="18" y="52" width="74" height="30" rx="6"/><path d="M10 58 h8 M92 58 h8"/><path d="M24 52 q10 -10 20 0 q10 -10 20 0 q10 -10 20 0"/><path d="M40 36 q-4 -8 2 -14 M60 36 q-4 -8 2 -14"/>'),
     "Pasta": _t("#a8851c", "#a0442a", "#fbf6e6", "#f2e8c4",
-        '<path d="M55 95 v-40 M45 55 v-25 M55 55 v-25 M65 55 v-25 M45 55 q10 8 20 0"/><path d="M30 40 q25 -25 50 0 M28 52 q27 -22 54 0 M34 30 q21 -18 42 0"/>'),
+        # Farfalle (Schleife) oben, Penne unten
+        '<path d="M14 18 q20 6 26 16 q6 -10 26 -16 q-4 16 0 32 q-20 -6 -26 -16 q-6 10 -26 16 q4 -16 0 -32z"/>'
+        '<path d="M36 28 q4 6 0 12 M44 28 q-4 6 0 12 M20 24 v20 M60 24 v20"/>'
+        '<g transform="translate(70 72) rotate(-35)"><path d="M-24 -9 h44 M-20 9 h44"/>'
+        '<ellipse cx="22" cy="0" rx="4" ry="9"/><path d="M-24 -9 q-6 9 4 18"/><path d="M-12 -6 h28 M-12 0 h28 M-12 6 h28" stroke-width="1.4"/></g>'
+        '<g transform="translate(26 80) rotate(20)"><path d="M-14 -6 h28 M-14 6 h28"/><ellipse cx="14" cy="0" rx="3" ry="6"/><path d="M-14 -6 q-4 6 3 12"/></g>'),
     "Fisch": _t("#2f7a7a", "#b4572a", "#f5f6f0", "#dfece8",
         '<path d="M18 55 q30 -30 62 0 q-32 30 -62 0z M80 55 l18 -14 v28z"/><circle cx="32" cy="51" r="2.5"/><path d="M48 44 q6 11 0 22"/>'),
     "Snacks": _t("#6d5f9c", "#b4572a", "#f8f5f0", "#e7e3f0",
