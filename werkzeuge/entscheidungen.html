@@ -1,0 +1,182 @@
+<title>Kochbuch-Entscheidungen</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: eine schmale Spalte mit Entscheidungskarten, gruppiert nach Thema, Fortschritt oben fixiert */
+:root{
+  --bg:#f6f7f4; --card:#ffffff; --fg:#1f2620; --muted:#5f6a61; --line:#dfe3dc;
+  --accent:#2f6b4f; --accent-soft:#e3efe7; --warn:#a4561b; --done:#2f6b4f;
+  --f-display:"Bricolage Grotesque", system-ui, sans-serif;
+  --f-body:"Inter", system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141815; --card:#1d221e; --fg:#e8ece8; --muted:#a1aca3; --line:#2e3630;
+  --accent:#7cc39c; --accent-soft:#233229; --warn:#e3a06a; --done:#7cc39c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141815; --card:#1d221e; --fg:#e8ece8; --muted:#a1aca3; --line:#2e3630;
+  --accent:#7cc39c; --accent-soft:#233229; --warn:#e3a06a; --done:#7cc39c; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.45}
+.wrap{max-width:640px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 60px}
+h1{font-family:var(--f-display);font-size:26px;margin:0 0 4px;text-wrap:balance}
+.lead{color:var(--muted);margin:0 0 14px}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:10px 0;display:flex;gap:10px;align-items:center;border-bottom:1px solid var(--line);margin-bottom:8px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.prog{flex:1;min-width:0}
+.prog .t{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.track{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:4px}
+.track i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+.seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{border:0;background:transparent;color:var(--muted);padding:6px 10px;font:500 13px var(--f-body);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent)}
+h2{font-family:var(--f-display);font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:22px 0 8px}
+.list{display:flex;flex-direction:column;gap:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.card.chosen{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+.head{display:flex;gap:8px;align-items:flex-start;justify-content:space-between}
+.head b{font-weight:600}
+.q{color:var(--muted);margin:2px 0 0;font-size:14px}
+.chip{font-size:11px;font-weight:600;padding:3px 8px;border-radius:99px;white-space:nowrap}
+.chip.open{background:color-mix(in srgb,var(--warn) 15%,transparent);color:var(--warn)}
+.chip.set{background:var(--accent-soft);color:var(--accent)}
+.chip.done{background:var(--accent);color:var(--card)}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opts button{flex:1 1 auto;min-height:42px;padding:8px 12px;border-radius:9px;border:1px solid var(--line);background:transparent;color:var(--fg);font:500 14px var(--f-body);cursor:pointer;text-align:center}
+.opts button:hover{border-color:var(--accent)}
+.opts button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--card)}
+button:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+details summary{font-size:13px;color:var(--muted);cursor:pointer}
+textarea{width:100%;box-sizing:border-box;margin-top:6px;min-height:58px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);font:14px var(--f-body);padding:8px}
+.msg{font-size:13px;color:var(--warn)}
+.empty{color:var(--muted);text-align:center;padding:30px 0}
+@media (prefers-reduced-motion: reduce){.track i{transition:none}}
+</style>
+
+<div class="wrap">
+  <h1>Kochbuch-Entscheidungen</h1>
+  <p class="lead">Tippe bei jeder Frage auf eine Antwort. Ich setze deine Wahl danach im Rezept um, und die Karte zeigt dann „umgesetzt“.</p>
+  <div class="bar">
+    <div class="prog"><div class="t" id="progText">Lädt …</div><div class="track"><i id="progBar"></i></div></div>
+    <div class="seg" role="group" aria-label="Filter">
+      <button id="fOpen" aria-pressed="true">Offen</button>
+      <button id="fAll" aria-pressed="false">Alle</button>
+    </div>
+  </div>
+  <p class="msg" id="msg" hidden></p>
+  <div id="root"></div>
+</div>
+
+<script>
+const G = [
+ ["Fehlende Seiten", [
+  ["mausekuchen","Mausestarker Käsekuchen für Kinder","Nur Seite 1 von 2 fotografiert, die Anleitung fehlt.",["Rezept löschen","Ich fotografiere Seite 2 nach","Anleitung von dir ergänzen lassen"]],
+  ["spekulatius","Spekulatius-Frischkäse-Torte","Nur die Zutatenseite, ohne Titel und Anleitung.",["Rezept löschen","Ich fotografiere die andere Seite nach","Anleitung von dir ergänzen lassen"]],
+  ["joghurtkuchen","Joghurtkuchen (Oma Idas Rezept)","Backzeit und Backform fehlen.",["Schätzen (Kastenform, ca. 50 Min.)","Ich schreibe es in die Anmerkung","So lassen"]],
+  ["thunfischdip","Thunfisch-Dip (à la Manu)","Nur zwei Zutaten, keine Anleitung.",["„Alles verrühren“ ergänzen","So lassen","Rezept löschen"]],
+ ]],
+ ["Doppelte Rezepte und Titel", [
+  ["tomatenfeta","Tomaten-Feta-Dip","Zwei Varianten: handschriftlich (Thermomix, Joghurt) und getippt (Doppelrahm).",["Beide behalten","Nur die handschriftliche","Nur die getippte"]],
+  ["apfelkuchen","Zweiter „Gedeckter Apfelkuchen“","Anderes Rezept mit Pudding und Streuseln. Bei mir: „Gedeckter Apfelkuchen (mit Pudding und Streuseln)“.",["So lassen","„Apfel-Pudding-Kuchen mit Streuseln“","Eigener Name (Anmerkung)"]],
+  ["pauline","Paulines Tomatenkuchen!","Die Zutaten sind eine Tomaten-Aprikosen-Suppe, ohne Anleitung.",["Titel so lassen","„Paulines Tomatensuppe“","Rezept löschen"]],
+  ["griechisch","Griechischer Salat","Eigentlich ein Nudelsalat mit Kritharaki.",["„Griechischer Nudelsalat“","So lassen"]],
+  ["weihnachten","Spritzgebäck, Vanillekipferl, Kokosmakronen","Eigenes Kapitel?",["Kapitel „Weihnachtsbäckerei“","Bei „Backen“ lassen"]],
+  ["ripfoto","Rip Rip Hurra!!","Auf dem Blatt klebt ein Foto von zwei Personen beim Rippchen-Essen.",["Foto ins Buch übernehmen","Kein Foto"]],
+ ]],
+ ["Widersprüche im Original", [
+  ["tomaten40","Hähnchen mit Mozzarella, Tomaten und Pesto","Zutat: 40 g Cherrytomaten.",["400 g","40 g lassen"]],
+  ["bolowein","Spaghetti Bolognese","Zutaten: Weißwein, Anleitung: Weißweinessig.",["Weißwein","Weißweinessig"]],
+  ["pekingzucker","Pekingsuppe","Zutaten: 4 TL Zucker, Anleitung: 4 EL.",["4 TL","4 EL"]],
+  ["tacos","Tacos","Anleitung nennt 1 TL Koriander, der in den Zutaten fehlt.",["„die Gewürze“ statt Koriander","Koriander zu den Zutaten","So lassen"]],
+  ["zupfkuchen","Russischer Zupfkuchen","„Teig 3 Min. kühl stellen“.",["30 Min.","3 Min. lassen"]],
+  ["bueno","Kinderbueno-Creme","Haselnüsse werden geröstet, aber nie verwendet.",["Als Topping obendrauf","Haselnüsse streichen","So lassen"]],
+  ["karotte","Karottenkuchen","Zimt nie verwendet, Frosting-Zubereitung fehlt.",["Beides ergänzen","So lassen"]],
+  ["schokokaese","Schokoladenkäsekuchen","Zitronensaft im Belag nie verwendet.",["Mit dem Quark verrühren","So lassen"]],
+  ["fruehlingszw","Griechischer Salat","Frühlingszwiebeln nie verwendet.",["Mit der Paprika untermischen","So lassen"]],
+  ["lorbeer","Freddys Speziallasagne","Lorbeerblatt nie verwendet.",["Mit der Brühe in die Sauce","So lassen"]],
+  ["unbenutzt","Hähnchenschnitzel, Gefüllte Paprika, Schinken-Hack-Röllchen","TK-Kräuter bzw. Knoblauch nie verwendet.",["Jeweils ergänzen","So lassen"]],
+  ["nudelschinken","Nudel-Schinken-Auflauf","Gedruckt „ungekochte Nudeln“, handschriftlich „Penne etwas vorkochen“.",["Handschrift (vorkochen)","Gedruckt (ungekocht)"]],
+  ["zaziki","Griechische Hähnchen-Zaziki-Bowl","Zutaten 1½ EL Öl, Anleitung 2 + ½ EL.",["2½ EL","1½ EL"]],
+  ["spinatlasagne","Spinat-Lasagne","Backzeit laut Zettel nur 20 Min.",["20 Min. lassen","30 Min."]],
+  ["linsen","Linsenbolognese","Kita-Rezept für 10 Kinderportionen.",["Auf 4 Portionen umrechnen","So lassen"]],
+ ]],
+ ["Fehlende Schritte ergänzen?", [
+  ["s_pfannkuchen","Pfannkuchen, Crêpes & Pancakes","Nur Zutaten, keine Anleitung.",["Grundanleitung ergänzen","So lassen"]],
+  ["s_avocado","Pasta mit Avocado-Erdnuss-Pesto","„Abschmecken und unter die Pasta mischen“",["Ergänzen","So lassen"]],
+  ["s_dips","Schnittlauchdip, Walnuss-Dressing, Mexikaner","„Alles verrühren und abschmecken“",["Ergänzen","So lassen"]],
+  ["s_waffeln","Buttermilchwaffeln","„Im Waffeleisen ausbacken“",["Ergänzen","So lassen"]],
+  ["s_gurke","Chinesischer Gurkensalat","„Gurke in Scheiben schneiden“",["Ergänzen","So lassen"]],
+  ["s_nudelsalat","Nudelsalat","„Fleischwurst klein schneiden“",["Ergänzen","So lassen"]],
+  ["s_spritz","Spritzgebäck","„Mit dem Spritzbeutel aufs Blech spritzen“",["Ergänzen","So lassen"]],
+  ["s_kokos","Kokosmakronen","„Häufchen aufs Blech setzen“",["Ergänzen","So lassen"]],
+  ["s_stockbrot","Stockbrot","„Teig um Stöcke wickeln und über dem Feuer backen“",["Ergänzen","So lassen"]],
+ ]],
+ ["Allgemein", [
+  ["portionen","Geschätzte Portionen (19 Rezepte)","Wo nichts stand, habe ich aus den Mengen geschätzt, z. B. Tacos 2, Nacho-Schichtsalat 6.",["Schätzungen übernehmen","Portion leer lassen","Korrekturen in der Anmerkung"]],
+  ["routine","Routineänderungen","Zeiten geschätzt (102×), Tippfehler korrigiert, Du-Form neutral, Fotos aus Ausdrucken weggelassen, persönliche Zusätze behalten.",["Passt so","Anmerkung dazu"]],
+ ]],
+];
+const ALL = G.flatMap(g=>g[1]);
+let state = {}; let filter = "open"; let db = null; const touched = new Set();
+const $ = id => document.getElementById(id);
+
+function render(){
+  const decided = ALL.filter(q=>state[q[0]]?.wahl).length;
+  $("progText").textContent = decided + " von " + ALL.length + " entschieden";
+  $("progBar").style.width = (decided/ALL.length*100) + "%";
+  const root = $("root"); root.textContent = "";
+  let shown = 0;
+  for (const [title, qs] of G){
+    const vis = qs.filter(q => filter==="all" || !state[q[0]]?.wahl || touched.has(q[0]));
+    if (!vis.length) continue;
+    const h = document.createElement("h2"); h.textContent = title; root.append(h);
+    const list = document.createElement("div"); list.className="list"; root.append(list);
+    for (const q of vis){ list.append(card(q)); shown++; }
+  }
+  if (!shown){ const p=document.createElement("p"); p.className="empty"; p.textContent = filter==="open" ? "Alles entschieden. Danke! Ich setze es jetzt um." : "Keine Fragen."; root.append(p); }
+}
+function card([id,title,q,opts]){
+  const s = state[id]||{};
+  const c = document.createElement("div"); c.className = "card" + (s.wahl?" chosen":"");
+  const head = document.createElement("div"); head.className="head";
+  const t = document.createElement("div"); const b=document.createElement("b"); b.textContent=title;
+  const p = document.createElement("p"); p.className="q"; p.textContent=q; t.append(b,p);
+  const chip = document.createElement("span");
+  chip.className = "chip " + (s.umgesetzt ? "done" : s.wahl ? "set" : "open");
+  chip.textContent = s.umgesetzt ? "umgesetzt" : s.wahl ? "entschieden" : "offen";
+  head.append(t, chip); c.append(head);
+  const o = document.createElement("div"); o.className="opts";
+  for (const label of opts){
+    const btn = document.createElement("button"); btn.type="button"; btn.textContent=label;
+    btn.setAttribute("aria-pressed", s.wahl===label ? "true":"false");
+    btn.onclick = () => save(id, {wahl: s.wahl===label ? null : label, notiz: s.notiz||""});
+    o.append(btn);
+  }
+  c.append(o);
+  const d = document.createElement("details"); if (s.notiz) d.open = true;
+  const sm = document.createElement("summary"); sm.textContent = s.notiz ? "Anmerkung" : "Anmerkung hinzufügen";
+  const ta = document.createElement("textarea"); ta.id = "n_"+id; ta.value = s.notiz||""; ta.placeholder="z. B. eigener Name, Backzeit …";
+  ta.onchange = () => save(id, {wahl: (state[id]||{}).wahl||null, notiz: ta.value.trim()});
+  d.append(sm, ta); c.append(d);
+  return c;
+}
+async function save(id, val){
+  const prev = state[id]; touched.add(id);
+  state[id] = {...val, umgesetzt:false}; render();
+  if (!db){ showMsg("Speichern geht hier gerade nicht. Bitte in der Claude-App angemeldet öffnen."); return; }
+  try { await db.collection("entscheidungen").doc(id).set({wahl: val.wahl, notiz: val.notiz, umgesetzt:false, zeit: new Date().toISOString()}); }
+  catch(e){ state[id]=prev; render(); showMsg("Konnte nicht speichern. Bitte noch einmal tippen."); }
+}
+function showMsg(t){ const m=$("msg"); m.textContent=t; m.hidden=false; }
+$("fOpen").onclick=()=>{filter="open";$("fOpen").setAttribute("aria-pressed","true");$("fAll").setAttribute("aria-pressed","false");render();};
+$("fAll").onclick=()=>{filter="all";$("fAll").setAttribute("aria-pressed","true");$("fOpen").setAttribute("aria-pressed","false");render();};
+render();
+(async()=>{
+  const timer = setTimeout(()=>{ if(!db) showMsg("Gespeicherte Antworten konnten nicht geladen werden."); }, 10000);
+  try { db = await window.claude?.use?.("db"); } catch(e){ db = null; }
+  if (!db){ clearTimeout(timer); showMsg("Speichern geht hier gerade nicht. Bitte in der Claude-App angemeldet öffnen."); return; }
+  db.collection("entscheidungen").onSnapshot(snap=>{
+    clearTimeout(timer);
+    const s = {}; for (const d of snap.docs) s[d.id] = d.data();
+    state = s; render();
+  }, ()=>{ clearTimeout(timer); showMsg("Gespeicherte Antworten konnten nicht geladen werden."); });
+})();
+</script>
