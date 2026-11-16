@@ -2,7 +2,7 @@
   "id": "spritzgebaeck",
   "titel": "Spritzgebäck",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Weihnachtsbäckerei",
   "portionen": null,
   "zeit": "ca. 1 Std.",
   "merkmale": [
@@ -44,6 +44,7 @@
   ],
   "schritte": [
     "Butter schaumig schlagen und nach und nach die restlichen Zutaten unterrühren. Mehl und Backpulver vorher sieben und mit der Milch unterrühren.",
+    "Teig mit dem Spritzbeutel (oder Fleischwolf-Aufsatz) in Streifen oder Kringeln auf ein mit Backpapier belegtes Blech spritzen.",
     "Bei 180 °C ca. 15 Min. backen."
   ],
   "notiz": null,
@@ -55,7 +56,9 @@
   "aenderungen": [
     "Zeit geschätzt",
     "Frage: Spritzen (Spritzbeutel/Fleischwolf-Aufsatz) und Backblech ergänzen?",
-    "Möglicherweise neues Kapitel „Weihnachtsbäckerei“ für Spritzgebäck & Vanillekipferl?"
+    "Möglicherweise neues Kapitel „Weihnachtsbäckerei“ für Spritzgebäck & Vanillekipferl?",
+    "Abgestimmt: Kapitel „Weihnachtsbäckerei“",
+    "Abgestimmt: Spritzen (von mir ergänzt)"
   ],
   "freigegeben": false
 }

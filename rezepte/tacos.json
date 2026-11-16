@@ -76,7 +76,7 @@
     "Knoblauch schälen und pressen. Limette pressen.",
     "Avocado kleindrücken und mit Limette und Knoblauch mischen. Tomate würfeln, zum Avocadodip hinzugeben und mit Salz & Pfeffer abschmecken.",
     "Hack in einer Pfanne anbraten. Mais und Kidneybohnen abtropfen lassen.",
-    "Bohnen, Mais und 1 TL Koriander zum Hack dazugeben.",
+    "Bohnen, Mais und die Gewürze zum Hack dazugeben.",
     "Cherrytomaten vierteln und zum Hackgemisch hinzugeben.",
     "Eisbergsalat schneiden. Alles zusammen anrichten."
   ],
@@ -90,7 +90,8 @@
   "aenderungen": [
     "Portionen fehlen im Original („[Portionen]“ leer) – 2 geschätzt (200 g Hack)",
     "Zeit geschätzt",
-    "Frage: Anleitung nennt „1 TL Koriander“, Zutaten aber Kreuzkümmel/Oregano/Chili – vermutlich sind die Gewürze gemeint; unverändert gelassen"
+    "Frage: Anleitung nennt „1 TL Koriander“, Zutaten aber Kreuzkümmel/Oregano/Chili – vermutlich sind die Gewürze gemeint; unverändert gelassen",
+    "Abgestimmt: „die Gewürze“ statt Koriander"
   ],
   "freigegeben": false
 }

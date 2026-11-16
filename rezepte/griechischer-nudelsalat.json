@@ -1,6 +1,6 @@
 {
   "id": "griechischer-nudelsalat",
-  "titel": "Griechischer Salat",
+  "titel": "Griechischer Nudelsalat",
   "untertitel": null,
   "kapitel": "Salate, Dips & Saucen",
   "portionen": 4,
@@ -65,7 +65,7 @@
     }
   ],
   "schritte": [
-    "Nudeln nach Packungsbeilage kochen und mit etwas Olivenöl, zerkrümeltem Feta und geschnittener Paprika mischen. Bei Belieben Oliven zugeben.",
+    "Frühlingszwiebeln in Ringe schneiden. Nudeln nach Packungsbeilage kochen und mit etwas Olivenöl, zerkrümeltem Feta und geschnittener Paprika und den Frühlingszwiebeln mischen. Bei Belieben Oliven zugeben.",
     "Dressing: Zitronensaft, etwas Zitronenabrieb, Essig, Knoblauch, Oregano und Senf vermischen. Nach und nach 100 ml Olivenöl dazugeben. Mit Salz und Pfeffer abschmecken. Etwas Zucker dazugeben.",
     "Mit den gerösteten Pinienkernen bestreuen."
   ],
@@ -78,7 +78,8 @@
   "aenderungen": [
     "Zeit geschätzt",
     "Frage: Frühlingszwiebeln stehen in den Zutaten, aber nicht in der Anleitung – vermutlich mit der Paprika untermischen?",
-    "Titel evtl. „Griechischer Nudelsalat“ (Kritharaki)?"
+    "Titel evtl. „Griechischer Nudelsalat“ (Kritharaki)?",
+    "Abgestimmt: Titel „Griechischer Nudelsalat“; Frühlingszwiebeln mit der Paprika untermischen"
   ],
   "freigegeben": false
 }

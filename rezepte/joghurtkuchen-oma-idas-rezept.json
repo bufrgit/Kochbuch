@@ -3,8 +3,8 @@
   "titel": "Joghurtkuchen (Oma Idas Rezept)",
   "untertitel": null,
   "kapitel": "Backen",
-  "portionen": null,
-  "zeit": null,
+  "portionen": "1 Kastenform",
+  "zeit": "ca. 1 Std. 5 Min",
   "merkmale": [
     "vegetarisch"
   ],
@@ -48,16 +48,20 @@
   ],
   "schritte": [
     "Alle Zutaten miteinander vermengen.",
-    "Bei 175 °C Umluft backen.",
+    "In einer gefetteten Kastenform bei 175 °C Umluft ca. 50 Min. backen.",
     "Abkühlen lassen und mit Schokoglasur überziehen."
   ],
   "notiz": null,
   "clipart": null,
   "quelle": "IMG20261116093001.jpg",
-  "geschaetzt": [],
+  "geschaetzt": [
+    "zeit",
+    "form"
+  ],
   "aenderungen": [
     "Persönliches Rezept (von Oma Ida)",
-    "Frage: Backzeit und Form fehlen im Original – weißt du die?"
+    "Frage: Backzeit und Form fehlen im Original – weißt du die?",
+    "Abgestimmt: Form und Backzeit geschätzt (Kastenform, ca. 50 Min.)"
   ],
   "freigegeben": false
 }

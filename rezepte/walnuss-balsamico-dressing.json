@@ -44,7 +44,10 @@
       "zutat": "Ahornsirup"
     }
   ],
-  "schritte": [],
+  "schritte": [
+    "Walnüsse hacken und in einer Pfanne ohne Fett rösten. Knoblauch pressen.",
+    "Alles verrühren und mit Salz, Pfeffer, Senf und Ahornsirup abschmecken."
+  ],
   "notiz": null,
   "clipart": null,
   "quelle": "IMG20261116090841.jpg",
@@ -54,7 +57,8 @@
   "aenderungen": [
     "Original hat nur Zutaten, keine Anleitung – evtl. ergänzen: „Knoblauch pressen, alles verrühren und abschmecken“?",
     "Zeit geschätzt",
-    "Steht mit der Paprika-Mayo auf einem Blatt"
+    "Steht mit der Paprika-Mayo auf einem Blatt",
+    "Abgestimmt: Anleitung (von mir ergänzt)"
   ],
   "freigegeben": false
 }

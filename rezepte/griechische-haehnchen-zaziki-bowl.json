@@ -20,7 +20,7 @@
       "zutat": "rote Zwiebel"
     },
     {
-      "menge": "2½ EL",
+      "menge": "1½ EL",
       "zutat": "Olivenöl"
     },
     {
@@ -58,7 +58,7 @@
   ],
   "schritte": [
     "Knoblauch pressen, Zwiebel in halbe Ringe schneiden, Hähnchen klein schneiden.",
-    "Knoblauch, 2 EL Olivenöl, 4 EL Naturjoghurt, Zitronensaft und Oregano zu einer Marinade verrühren. Hähnchen darin einlegen und 30 Minuten im Kühlschrank ziehen lassen.",
+    "Knoblauch, 1 EL Olivenöl, 4 EL Naturjoghurt, Zitronensaft und Oregano zu einer Marinade verrühren. Hähnchen darin einlegen und 30 Minuten im Kühlschrank ziehen lassen.",
     "Reis kochen.",
     "Gurke und Tomaten würfeln, mit 2 EL Naturjoghurt und ½ EL Olivenöl vermischen und die Zwiebeln dazugeben.",
     "Fleisch braten und alles zusammen mit Zaziki in einem tiefen Teller anrichten."
@@ -71,7 +71,8 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "Olivenöl: Liste sagt 1½ EL, Anleitung braucht 2½ EL – auf 2½ EL gesetzt"
+    "Olivenöl: Liste sagt 1½ EL, Anleitung braucht 2½ EL – auf 2½ EL gesetzt",
+    "Abgestimmt: 1½ EL Olivenöl (1 EL Marinade, ½ EL Zaziki)"
   ],
   "freigegeben": false
 }

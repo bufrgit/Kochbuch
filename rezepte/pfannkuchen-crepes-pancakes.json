@@ -100,14 +100,20 @@
       "zutat": "Öl (zum Anbraten)"
     }
   ],
-  "schritte": [],
+  "schritte": [
+    "Eier, Zucker, Salz und Milch verquirlen. Mehl (und Backpulver) unterrühren, bis ein glatter Teig entsteht. 10 Min. quellen lassen.",
+    "Pfannkuchen: etwas Öl in einer Pfanne erhitzen, eine Kelle Teig hineingeben und von beiden Seiten goldbraun backen.",
+    "Crêpes: nur wenig Teig in die heiße Pfanne geben und durch Schwenken dünn verteilen, kurz von beiden Seiten backen.",
+    "Pancakes: kleine Kleckse Teig in die Pfanne geben, wenden, sobald sich Bläschen bilden."
+  ],
   "notiz": null,
   "clipart": null,
   "quelle": "IMG20261116083520.jpg",
   "geschaetzt": [],
   "aenderungen": [
     "Drei Grundteige von einer Seite zu einem Rezept zusammengefasst",
-    "Original hat nur Zutaten, keine Anleitung und keine Portionen – Anleitung ergänzen oder so lassen?"
+    "Original hat nur Zutaten, keine Anleitung und keine Portionen – Anleitung ergänzen oder so lassen?",
+    "Abgestimmt: Grundanleitung (von mir ergänzt)"
   ],
   "freigegeben": false
 }

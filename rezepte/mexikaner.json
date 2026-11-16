@@ -40,7 +40,9 @@
       "zutat": "Zitronensaft"
     }
   ],
-  "schritte": [],
+  "schritte": [
+    "Alles verrühren und gut gekühlt servieren."
+  ],
   "notiz": null,
   "clipart": null,
   "quelle": "IMG20261116091000.jpg",
@@ -50,7 +52,8 @@
   "aenderungen": [
     "Original hat nur Zutaten, keine Anleitung – evtl. ergänzen: „Alles verrühren und gut gekühlt servieren“?",
     "Zeit geschätzt",
-    "Steht mit der Altbierbowle auf einem Blatt"
+    "Steht mit der Altbierbowle auf einem Blatt",
+    "Abgestimmt: Anleitung (von mir ergänzt)"
   ],
   "freigegeben": false
 }
