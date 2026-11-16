@@ -1,0 +1,62 @@
+{
+  "id": "cream-cheese-muffins",
+  "titel": "Cream Cheese Muffins",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "15 Stück",
+  "zeit": "35 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "4",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "1",
+      "zutat": "Vanilleschote oder Vanilleextrakt"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Mascarpone"
+    },
+    {
+      "menge": "325 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "geschmolzene Butter"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Himbeeren"
+    }
+  ],
+  "schritte": [
+    "Backofen auf 180 °C Umluft vorheizen.",
+    "Eier, Zucker und Vanilleextrakt schaumig schlagen. Mascarpone unterrühren.",
+    "Mehl und Backpulver mischen und zum Teig geben.",
+    "Geschmolzene Butter und Himbeeren hinzugeben.",
+    "In Förmchen füllen und 20 Min. backen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116092942.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt"
+  ],
+  "freigegeben": false
+}

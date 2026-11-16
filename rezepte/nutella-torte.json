@@ -1,0 +1,90 @@
+{
+  "id": "nutella-torte",
+  "titel": "Nutella-Torte",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "1 Springform (26 cm)",
+  "zeit": "ca. 45 Min + Kühlzeit",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Boden:"
+    },
+    {
+      "menge": "12",
+      "zutat": "Zwieback"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Nutella"
+    },
+    {
+      "menge": "",
+      "zutat": "Füllung:"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Philadelphia Frischkäse"
+    },
+    {
+      "menge": "1 Tasse",
+      "zutat": "Puderzucker"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "2 Becher",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "2 Päckchen",
+      "zutat": "Sahnesteif"
+    },
+    {
+      "menge": "1 Päckchen",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "1 Glas",
+      "zutat": "Sauerkirschen"
+    },
+    {
+      "menge": "",
+      "zutat": "Guss:"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Tortenguss"
+    },
+    {
+      "menge": "",
+      "zutat": "Saft der Sauerkirschen"
+    }
+  ],
+  "schritte": [
+    "Zwieback zerkrümeln und mit 200 g Nutella erwärmen.",
+    "Boden in eine Springform mit etwas Rand drücken.",
+    "Philadelphia mit Puderzucker und 2 EL Milch verrühren und auf dem Teig verteilen.",
+    "2 Becher Sahne, 2× Sahnesteif und 1× Vanillezucker schlagen und auf dem Boden verteilen.",
+    "1 Glas Sauerkirschen abtropfen (Saft aufbewahren) und die Kirschen auf der Sahne verteilen.",
+    "Tortenguss nach Packungsbeilage mit dem Saft der Kirschen herstellen und auf dem Boden verteilen.",
+    "Kuchen unbedingt im Kühlschrank lagern."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116092946.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„Saft verwahren“ → „aufbewahren“",
+    "„2x/1x“ → „Päckchen“ in der Zutatenliste"
+  ],
+  "freigegeben": false
+}

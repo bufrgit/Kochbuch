@@ -1,0 +1,63 @@
+{
+  "id": "joghurtkuchen-oma-idas-rezept",
+  "titel": "Joghurtkuchen (Oma Idas Rezept)",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": null,
+  "zeit": null,
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "3",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Margarine"
+    },
+    {
+      "menge": "300 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Natron"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Zimt"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Kakao"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Naturjoghurt"
+    },
+    {
+      "menge": "375 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "",
+      "zutat": "Schokoglasur"
+    }
+  ],
+  "schritte": [
+    "Alle Zutaten miteinander vermengen.",
+    "Bei 175 °C Umluft backen.",
+    "Abkühlen lassen und mit Schokoglasur überziehen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116093001.jpg",
+  "geschaetzt": [],
+  "aenderungen": [
+    "Persönliches Rezept (von Oma Ida)",
+    "Frage: Backzeit und Form fehlen im Original – weißt du die?"
+  ],
+  "freigegeben": false
+}

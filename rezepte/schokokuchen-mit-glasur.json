@@ -1,0 +1,76 @@
+{
+  "id": "schokokuchen-mit-glasur",
+  "titel": "Schokokuchen mit Glasur",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "1 Ring (20 cm)",
+  "zeit": "45 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Kuchen:"
+    },
+    {
+      "menge": "180 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "Backkakao"
+    },
+    {
+      "menge": "120 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "5 EL",
+      "zutat": "Sonnenblumenöl"
+    },
+    {
+      "menge": "200 ml",
+      "zutat": "Sprudelwasser"
+    },
+    {
+      "menge": "",
+      "zutat": "Vanilleextrakt"
+    },
+    {
+      "menge": "",
+      "zutat": "Glasur:"
+    },
+    {
+      "menge": "50 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Zartbitter-Kuvertüre"
+    }
+  ],
+  "schritte": [
+    "Zutaten für den Kuchen alle miteinander vermischen und 30 Min. bei 180 °C Umluft backen.",
+    "Sahne und Kuvertüre in einem Topf aufkochen und über den abgekühlten Kuchen geben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116093005.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„(20 cm Ring)“ aus dem Titel in die Mengenangabe verschoben"
+  ],
+  "freigegeben": false
+}

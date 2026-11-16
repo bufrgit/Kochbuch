@@ -1,0 +1,106 @@
+{
+  "id": "schokoladenkaesekuchen",
+  "titel": "Schokoladenkäsekuchen",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "1 Springform",
+  "zeit": "ca. 1 Std. 30 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Boden:"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "150 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "1",
+      "zutat": "Ei"
+    },
+    {
+      "menge": "½ Packung",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Backkakao"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Nutella"
+    },
+    {
+      "menge": "",
+      "zutat": "Saft von 1 Zitrone"
+    },
+    {
+      "menge": "350 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "½ Packung",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "",
+      "zutat": "Belag:"
+    },
+    {
+      "menge": "750 g",
+      "zutat": "Quark"
+    },
+    {
+      "menge": "",
+      "zutat": "Saft von 1 Zitrone"
+    },
+    {
+      "menge": "4",
+      "zutat": "Eier, getrennt"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "½ Packung",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "1½ Packungen",
+      "zutat": "Vanillepuddingpulver"
+    },
+    {
+      "menge": "",
+      "zutat": "Schokodekor"
+    }
+  ],
+  "schritte": [
+    "150 g Zucker, 125 g Butter, ½ Packung Vanillezucker und das Ei schaumig schlagen.",
+    "2 EL Backkakao, 1 EL Nutella und den Saft von 1 Zitrone nach und nach zugeben.",
+    "Das mit dem Backpulver vermischte Mehl hinzugeben (Knethaken).",
+    "Teig in eine gefettete Springform drücken und einen kleinen Rand formen.",
+    "4 Eiweiß steif schlagen. Backofen auf 175 °C Umluft vorheizen.",
+    "750 g Quark, 200 g Zucker, ½ Packung Vanillezucker und 4 Eigelb verrühren. Nach und nach 1½ Packungen Vanillepuddingpulver unterrühren. Eiweiß unterheben.",
+    "Creme auf dem Teig verteilen und bei 175 °C Umluft 60 Min. backen.",
+    "Mit Schokodekor verzieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116092936.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Frage: Zitronensaft beim Belag steht in den Zutaten, aber nicht in der Anleitung"
+  ],
+  "freigegeben": false
+}

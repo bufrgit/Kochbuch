@@ -1,0 +1,91 @@
+{
+  "id": "kaesekuchen-mit-mandarinen-vom-blech",
+  "titel": "Käsekuchen mit Mandarinen vom Blech",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "1 Blech",
+  "zeit": "ca. 1 Std.",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Teig:"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Margarine"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "2",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "375 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "2½ TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "",
+      "zutat": "Belag:"
+    },
+    {
+      "menge": "500 g",
+      "zutat": "Sahnequark"
+    },
+    {
+      "menge": "500 g",
+      "zutat": "Magerquark"
+    },
+    {
+      "menge": "4",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "1 Päckchen",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "250 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Öl"
+    },
+    {
+      "menge": "2 kl. Dosen",
+      "zutat": "Mandarinen"
+    }
+  ],
+  "schritte": [
+    "Backofen auf 180 °C Umluft vorheizen.",
+    "Rührteig herstellen und auf ein mit Backpapier belegtes Backblech geben.",
+    "Alle Zutaten vom Belag mischen (außer den Mandarinen) und auf dem Teig verteilen.",
+    "Mandarinen in Reihen auf dem Kuchen verteilen.",
+    "30–40 Min. backen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116092956.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„1x Vanillezucker“ → „1 Päckchen“"
+  ],
+  "freigegeben": false
+}

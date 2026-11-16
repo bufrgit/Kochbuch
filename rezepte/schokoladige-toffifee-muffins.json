@@ -1,0 +1,72 @@
+{
+  "id": "schokoladige-toffifee-muffins",
+  "titel": "Schokoladige Toffifee-Muffins",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "12 Stück",
+  "zeit": "35 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "200 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "2",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "80 ml",
+      "zutat": "Öl"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "gemahlene Mandeln"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Backkakao"
+    },
+    {
+      "menge": "3 TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "300 ml",
+      "zutat": "Buttermilch"
+    },
+    {
+      "menge": "12",
+      "zutat": "Toffifee"
+    },
+    {
+      "menge": "",
+      "zutat": "Kuvertüre"
+    }
+  ],
+  "schritte": [
+    "Backofen auf 160 °C vorheizen.",
+    "Eier, Zucker, Öl und Buttermilch verrühren.",
+    "Mehl, Backpulver, Mandeln und Backkakao unterrühren.",
+    "Förmchen befüllen. Je 1 Toffifee mittig in ein Förmchen geben.",
+    "Muffins 20 Minuten backen.",
+    "Mit Kuvertüre bestreichen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116092952.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„12 Portionen“ → „12 Stück“"
+  ],
+  "freigegeben": false
+}
