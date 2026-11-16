@@ -1,0 +1,112 @@
+{
+  "id": "donauwelle",
+  "titel": "Donauwelle",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "1 Blech",
+  "zeit": "ca. 1 Std. 15 Min + Kühlzeit",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Teig:"
+    },
+    {
+      "menge": "3",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "175 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "175 ml",
+      "zutat": "Öl"
+    },
+    {
+      "menge": "175 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "350 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "3 TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Kakaopulver"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "1 Glas",
+      "zutat": "Sauerkirschen"
+    },
+    {
+      "menge": "",
+      "zutat": "Creme:"
+    },
+    {
+      "menge": "1 Päckchen",
+      "zutat": "Vanillepuddingpulver"
+    },
+    {
+      "menge": "400 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "weiche Butter"
+    },
+    {
+      "menge": "",
+      "zutat": "Glasur:"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Öl"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Zartbitterschokolade"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Nutella"
+    }
+  ],
+  "schritte": [
+    "Pudding nach Anleitung mit 400 ml Milch kochen, mit Frischhaltefolie abdecken und abkühlen lassen.",
+    "Blech mit Backpapier belegen. Ofen auf 180 °C Ober-/Unterhitze vorheizen.",
+    "3 Eier mit 175 g Zucker aufschlagen und 175 ml Öl hinzugeben. Mehl mit 3 TL Backpulver sieben und abwechselnd mit 175 ml Milch zum Teig geben und verrühren.",
+    "Die Hälfte des Teiges auf das Blech geben. Den übrigen Teig mit 1 EL Kakao (und 1 EL Milch) verrühren und vorsichtig auf den anderen Teig geben.",
+    "Kirschen darauf verteilen und ca. 30 Min. backen. Anschließend auskühlen lassen.",
+    "250 g weiche Butter schaumig rühren und nach und nach den Pudding unterrühren. Anschließend auf den kalten Kuchen geben.",
+    "Zartbitterschokolade im Wasserbad erwärmen und 1 EL Öl und 2 EL Nutella hinzugeben. Guss gleichmäßig auf dem Pudding verteilen.",
+    "Im Kühlschrank fest werden lassen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116093014.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„175 ml zum Teig“ → „175 ml Milch“",
+    "„(und 1 EL Milch)“ ergänzt – steht in den Zutaten, fehlte in der Anleitung",
+    "Tippfehler „Kakopulver“, „250g g“ korrigiert"
+  ],
+  "freigegeben": false
+}

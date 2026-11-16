@@ -1,0 +1,62 @@
+{
+  "id": "vanillekipferl",
+  "titel": "Vanillekipferl",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": null,
+  "zeit": "ca. 1 Std.",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "250 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "1 Messerspitze",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "3",
+      "zutat": "Eigelb"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "gemahlene Mandeln"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Puderzucker"
+    },
+    {
+      "menge": "1 Päckchen",
+      "zutat": "Vanillezucker"
+    }
+  ],
+  "schritte": [
+    "Alle Zutaten (außer Puderzucker und Vanillezucker) zu einem Teig kneten.",
+    "Teig zu einer Rolle drehen und immer 2 cm lange Stücke abschneiden, zu einem Hörnchen formen und aufs Backblech legen.",
+    "Bei 180 °C ca. 10 Min. backen.",
+    "Puderzucker sieben und mit dem Vanillezucker vermengen und über die Hörnchen geben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116093033.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„(außer Puderzucker und Vanillezucker)“ ergänzt, da diese erst am Ende verwendet werden"
+  ],
+  "freigegeben": false
+}

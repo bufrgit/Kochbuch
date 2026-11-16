@@ -1,0 +1,61 @@
+{
+  "id": "spritzgebaeck",
+  "titel": "Spritzgebäck",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": null,
+  "zeit": "ca. 1 Std.",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "250 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "2 Päckchen",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "3",
+      "zutat": "Eigelb"
+    },
+    {
+      "menge": "",
+      "zutat": "abgeriebene Schale einer Zitrone"
+    },
+    {
+      "menge": "500 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "2 gestr. TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Milch"
+    }
+  ],
+  "schritte": [
+    "Butter schaumig schlagen und nach und nach die restlichen Zutaten unterrühren. Mehl und Backpulver vorher sieben und mit der Milch unterrühren.",
+    "Bei 180 °C ca. 15 Min. backen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116093029.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Frage: Spritzen (Spritzbeutel/Fleischwolf-Aufsatz) und Backblech ergänzen?",
+    "Möglicherweise neues Kapitel „Weihnachtsbäckerei“ für Spritzgebäck & Vanillekipferl?"
+  ],
+  "freigegeben": false
+}

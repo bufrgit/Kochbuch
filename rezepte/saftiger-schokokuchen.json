@@ -1,0 +1,74 @@
+{
+  "id": "saftiger-schokokuchen",
+  "titel": "Saftiger Schokokuchen",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "1 große Springform",
+  "zeit": "ca. 1 Std.",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Teig:"
+    },
+    {
+      "menge": "150 g",
+      "zutat": "Zartbitterschokolade"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "120 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "5",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Backkakao"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "",
+      "zutat": "Guss:"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Zartbitterschokolade"
+    },
+    {
+      "menge": "100 ml",
+      "zutat": "Schlagsahne"
+    }
+  ],
+  "schritte": [
+    "150 g Zartbitterschokolade mit 250 g Butter im Wasserbad schmelzen.",
+    "Eier und 120 g Zucker schaumig schlagen. 2 EL Mehl, 2 EL Kakao und 1 TL Backpulver zugeben. Schoko-Butter-Masse unterrühren.",
+    "Backofen auf 160 °C Umluft vorheizen. Kuchen 30 Min. in einer Springform backen.",
+    "100 g Zartbitterschokolade im Wasserbad schmelzen, Sahne hinzugeben. Glasur auf den abgekühlten Kuchen geben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116093025.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„(Große Springform)“ aus dem Titel in die Mengenangabe verschoben"
+  ],
+  "freigegeben": false
+}
