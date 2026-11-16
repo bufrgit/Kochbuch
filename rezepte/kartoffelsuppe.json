@@ -1,0 +1,68 @@
+{
+  "id": "kartoffelsuppe",
+  "titel": "Kartoffelsuppe",
+  "untertitel": null,
+  "kapitel": "Suppen",
+  "portionen": 6,
+  "zeit": "50 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1 kg",
+      "zutat": "Kartoffeln"
+    },
+    {
+      "menge": "",
+      "zutat": "Mettenden (nach Belieben)"
+    },
+    {
+      "menge": "",
+      "zutat": "TK Petersilie"
+    },
+    {
+      "menge": "2",
+      "zutat": "Zwiebeln"
+    },
+    {
+      "menge": "2 Pakete",
+      "zutat": "Suppengrün"
+    },
+    {
+      "menge": "2 l",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz und Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Fondor"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "Olivenöl"
+    }
+  ],
+  "schritte": [
+    "Porree in Ringe schneiden. Sellerie schälen und fein würfeln. Zwiebeln in Würfel schneiden. Kartoffeln schälen und würfeln. Karotten würfeln.",
+    "Mettenden in Scheiben schneiden und in einer Pfanne anbraten. Danach zur Seite stellen.",
+    "Zwiebeln, Porree und Sellerie in 3 EL Olivenöl in einem großen Topf anschwitzen.",
+    "Kartoffeln hinzugeben und mit der Gemüsebrühe ablöschen. Mit geschlossenem Deckel zum Kochen bringen.",
+    "Karotten mit in die Suppe geben und weitere 10 Min. köcheln lassen.",
+    "Wenn alles weichgekocht ist, die Suppe grob mit einem Pürierstab pürieren.",
+    "Salzen, pfeffern und die Petersilie hinzugeben. Mit Fondor abschmecken. Mettenden zugeben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083706.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„3 EL Olivenöl“ in die Zutaten ergänzt (stand nur in der Anleitung)",
+    "Hinweis: Porree, Sellerie und Karotten stammen aus dem Suppengrün"
+  ],
+  "freigegeben": false
+}

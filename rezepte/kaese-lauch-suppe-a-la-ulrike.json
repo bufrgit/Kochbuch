@@ -1,0 +1,68 @@
+{
+  "id": "kaese-lauch-suppe-a-la-ulrike",
+  "titel": "Käse-Lauch-Suppe (à la Ulrike)",
+  "untertitel": null,
+  "kapitel": "Suppen",
+  "portionen": 4,
+  "zeit": "35 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "2 Stangen",
+      "zutat": "Porree"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Mett"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "1 l",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Milkana Frischkäse"
+    },
+    {
+      "menge": "½ Becher",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "",
+      "zutat": "Pfeffer & Salz"
+    },
+    {
+      "menge": "",
+      "zutat": "Thymian"
+    },
+    {
+      "menge": "",
+      "zutat": "Rosmarin"
+    }
+  ],
+  "schritte": [
+    "Mett in einem Topf anbraten (kross und klein).",
+    "Zwiebeln und Porree klein schneiden und mit anbraten.",
+    "Danach die Brühe hinzugeben. Alles 20 Min. köcheln lassen.",
+    "Käse und Sahne hinzugeben.",
+    "Mit Salz, Pfeffer, Thymian und Rosmarin abschmecken."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083714.jpg",
+  "geschaetzt": [
+    "portionen",
+    "zeit"
+  ],
+  "aenderungen": [
+    "Persönliches Rezept (von Ulrike)",
+    "Portionen fehlen im Original – 4 geschätzt",
+    "Zeit geschätzt",
+    "Tippfehler: „Salt“ → „Salz“, „á la“ → „à la“"
+  ],
+  "freigegeben": false
+}

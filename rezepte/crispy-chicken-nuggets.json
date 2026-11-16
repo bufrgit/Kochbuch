@@ -1,0 +1,65 @@
+{
+  "id": "crispy-chicken-nuggets",
+  "titel": "Crispy Chicken Nuggets",
+  "untertitel": null,
+  "kapitel": "Snacks & Kleinigkeiten",
+  "portionen": 2,
+  "zeit": "25 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "400 g",
+      "zutat": "Hähnchenbrust"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Cornflakes"
+    },
+    {
+      "menge": "2",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Paniermehl"
+    },
+    {
+      "menge": "",
+      "zutat": "Curry"
+    },
+    {
+      "menge": "",
+      "zutat": "Paprikapulver"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Öl"
+    }
+  ],
+  "schritte": [
+    "Hähnchenbrust in mundgerechte Stücke schneiden.",
+    "In einem Suppenteller Eier mit etwas Milch verquirlen. Salzen & pfeffern.",
+    "In einem anderen Suppenteller Cornflakes etwas zerkleinern und mit dem Paniermehl mischen. Mit Curry und Paprika würzen.",
+    "Hähnchenstücke erst durch die Eimischung ziehen, dann panieren.",
+    "5 Min. in einer Pfanne mit reichlich Öl knusprig braten."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083652.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„Hähnchenfilets“ → „Hähnchenstücke“ (sind vorher klein geschnitten)"
+  ],
+  "freigegeben": false
+}

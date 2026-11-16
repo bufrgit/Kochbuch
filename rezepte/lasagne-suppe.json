@@ -1,0 +1,79 @@
+{
+  "id": "lasagne-suppe",
+  "titel": "Lasagne-Suppe",
+  "untertitel": null,
+  "kapitel": "Suppen",
+  "portionen": 4,
+  "zeit": "35 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "350 g",
+      "zutat": "Rinderhack"
+    },
+    {
+      "menge": "40 g",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "120 g",
+      "zutat": "Crème fraîche"
+    },
+    {
+      "menge": "1",
+      "zutat": "Karotte"
+    },
+    {
+      "menge": "2 kl. Dosen",
+      "zutat": "gestückelte Tomaten"
+    },
+    {
+      "menge": "140 g",
+      "zutat": "Lasagneblätter"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "2 TL",
+      "zutat": "Kräuter der Provence (TK)"
+    },
+    {
+      "menge": "2",
+      "zutat": "Knoblauchzehen"
+    },
+    {
+      "menge": "1 l",
+      "zutat": "Hühnerbrühe"
+    }
+  ],
+  "schritte": [
+    "Zwiebel und Knoblauch klein hacken. Karotte längs halbieren und in Scheiben schneiden.",
+    "Hackfleisch in einem großen Topf mit Olivenöl 5 Min. anbraten.",
+    "Karotten, Knoblauch und Zwiebeln dazugeben und 2 Min. mit anbraten. Mit Salz, Pfeffer und Kräutern der Provence würzen.",
+    "Tomatenmark dazugeben und 1 Min. unter ständigem Rühren mitbraten.",
+    "Brühe und die gestückelten Tomaten hinzugeben und 5 Min. köcheln lassen.",
+    "Lasagneplatten in mundgerechte Stücke brechen und dazugeben. Weitere 8 Min. kochen.",
+    "Suppe mit Crème fraîche servieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083752.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„Mit Salz, Pfeffer und Kräutern anbraten“ → „würzen“"
+  ],
+  "freigegeben": false
+}

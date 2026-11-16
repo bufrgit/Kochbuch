@@ -1,0 +1,113 @@
+{
+  "id": "pekingsuppe",
+  "titel": "Pekingsuppe",
+  "untertitel": null,
+  "kapitel": "Suppen",
+  "portionen": 6,
+  "zeit": "1 Std. 15 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1",
+      "zutat": "Hähnchenbrustfilet"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "4",
+      "zutat": "Tomaten"
+    },
+    {
+      "menge": "2",
+      "zutat": "Karotten"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Sojasprossen"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "gestiftelte Bambussprossen"
+    },
+    {
+      "menge": "2",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "einige",
+      "zutat": "getrocknete Mu-Err-Pilze"
+    },
+    {
+      "menge": "100 ml",
+      "zutat": "Reisessig"
+    },
+    {
+      "menge": "5 EL",
+      "zutat": "Sojasauce"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Sesamöl"
+    },
+    {
+      "menge": "4 TL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "1 Schuss",
+      "zutat": "Ketchup"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Speisestärke"
+    },
+    {
+      "menge": "2 l",
+      "zutat": "Wasser"
+    },
+    {
+      "menge": "",
+      "zutat": "Öl zum Anbraten"
+    },
+    {
+      "menge": "1 daumengroßes Stück",
+      "zutat": "Ingwer"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Sambal Oelek"
+    }
+  ],
+  "schritte": [
+    "Ingwer schälen und in Scheiben schneiden. In 2 Liter kochendes Wasser geben und etwas salzen.",
+    "Das ganze Hähnchenbrustfilet dazugeben und eine gute halbe Stunde darin garen lassen.",
+    "Zwiebel kleinschneiden. Sojasprossen zerkleinern. Karotten schälen und in Stifte schneiden. Tomaten würfeln. Mu-Err-Pilze in lauwarmes Wasser einlegen. Mehrmals das Wasser wechseln.",
+    "Hähnchenbrustfilet aus dem Sud nehmen und mit einer Gabel kleinreißen. Ingwer aus dem Sud entfernen. Sud im Topf belassen.",
+    "Öl in einem Wok erhitzen. Zwiebeln darin anschwitzen. Sojasprossen und Tomaten hinzugeben. Ketchup hinzugeben, ggf. einen Schuss Wasser, falls es zu dick wird.",
+    "1 TL Sambal Oelek hinzugeben und salzen. Masse köcheln lassen und dann zum Topf (Ingwersud) hinzugeben.",
+    "Fleisch, Karottenstifte, zerkleinerte Mu-Err-Pilze und Bambussprossen in die Brühe geben.",
+    "5 EL Sojasauce, 100 ml Reisessig und 4 TL Zucker hinzugeben.",
+    "2 EL Speisestärke mit lauwarmem Wasser anrühren und in die Suppe geben, aufkochen lassen.",
+    "Eier in einer Schale verquirlen und unter ständigem Rühren in die Suppe geben.",
+    "1 TL Sesamöl hinzugeben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083735.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„damengroßes“ → „daumengroßes“ Stück Ingwer",
+    "Frage: Zutaten 4 TL Zucker, Anleitung 4 EL – auf 4 TL vereinheitlicht (bitte bestätigen)",
+    "Tippfehler „laufwarmes“ → „lauwarmes“"
+  ],
+  "freigegeben": false
+}

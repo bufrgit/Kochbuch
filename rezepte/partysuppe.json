@@ -1,0 +1,102 @@
+{
+  "id": "partysuppe",
+  "titel": "Partysuppe",
+  "untertitel": null,
+  "kapitel": "Suppen",
+  "portionen": 8,
+  "zeit": "1 Std. 15 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Hack"
+    },
+    {
+      "menge": "1 Glas",
+      "zutat": "Pilze (oder 200 g frische Pilze)"
+    },
+    {
+      "menge": "2",
+      "zutat": "rote Paprikaschoten"
+    },
+    {
+      "menge": "4",
+      "zutat": "Zwiebeln"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "Mais"
+    },
+    {
+      "menge": "2",
+      "zutat": "Möhren"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Frischkäse"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Crème fraîche"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Tomatenketchup"
+    },
+    {
+      "menge": "1 l",
+      "zutat": "Rinderbrühe"
+    },
+    {
+      "menge": "5 EL",
+      "zutat": "Öl"
+    },
+    {
+      "menge": "",
+      "zutat": "getrocknete Petersilie"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "",
+      "zutat": "Paprikapulver"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "passierte Tomaten"
+    }
+  ],
+  "schritte": [
+    "Paprika in Streifen schneiden. 1 Zwiebel würfeln, 3 Zwiebeln in Ringe schneiden. Knoblauch pressen. Möhren würfeln.",
+    "Hack in einem Bräter anbraten. Gewürfelte Zwiebel und den Knoblauch hinzugeben. Mit Salz und Pfeffer würzen. 3 EL Tomatenmark hinzugeben.",
+    "Pilze und restliche Zwiebeln hinzugeben.",
+    "Brühe, Paprika, Mais und Möhren hinzugeben. Alles zum Kochen bringen und 30 Min. bei mittlerer Hitze köcheln lassen.",
+    "Passierte Tomaten, Crème fraîche, Frischkäse und Sahne hinzugeben. 20 Min. köcheln lassen.",
+    "Ketchup, Petersilie und Paprikapulver hinzugeben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083720.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Anleitung sagt „Gemüsebrühe“, Zutaten „Rinderbrühe“ – in der Anleitung zu „Brühe“ vereinheitlicht"
+  ],
+  "freigegeben": false
+}

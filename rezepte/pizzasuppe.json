@@ -1,0 +1,101 @@
+{
+  "id": "pizzasuppe",
+  "titel": "Pizzasuppe",
+  "untertitel": null,
+  "kapitel": "Suppen",
+  "portionen": 20,
+  "zeit": "45 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "2 kg",
+      "zutat": "Rinderhack"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Schinken"
+    },
+    {
+      "menge": "2",
+      "zutat": "Zwiebeln"
+    },
+    {
+      "menge": "2",
+      "zutat": "Knoblauchzehen"
+    },
+    {
+      "menge": "150 g",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "6",
+      "zutat": "rote Paprikaschoten"
+    },
+    {
+      "menge": "6",
+      "zutat": "gelbe Paprikaschoten"
+    },
+    {
+      "menge": "4 Dosen",
+      "zutat": "Champignons"
+    },
+    {
+      "menge": "4 Packungen",
+      "zutat": "Sahne-Schmelzkäse"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "2 Becher",
+      "zutat": "Crème fraîche"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "italienische Kräuter TK"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz und Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Chilipulver"
+    },
+    {
+      "menge": "1 Flasche",
+      "zutat": "Zigeunersauce"
+    },
+    {
+      "menge": "½ Flasche",
+      "zutat": "Barbecuesauce"
+    },
+    {
+      "menge": "2 Packungen",
+      "zutat": "passierte Tomaten"
+    },
+    {
+      "menge": "",
+      "zutat": "Paprikapulver"
+    }
+  ],
+  "schritte": [
+    "Rinderhack mit dem Kochschinken anbraten. Mit Salz und Pfeffer würzen.",
+    "Zwiebeln hacken und mit dem Tomatenmark zum Hack geben.",
+    "Paprika würfeln und mit den Champignons hinzugeben. 15 Min. köcheln lassen.",
+    "Restliche Zutaten hinzufügen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083727.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„4 x Sahne-Schmelzkäse“/„2 x passierte Tomaten“ → „Packungen“",
+    "Hinweis: Partymenge für 20 Portionen"
+  ],
+  "freigegeben": false
+}
