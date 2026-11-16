@@ -2,10 +2,10 @@
 
     python3 werkzeuge/webseite.py [ZIELORDNER]      (Standard: _site)
 
-- index.html            Wochenplan: alle Rezepte, die diese Woche per QR-Code zu Bring! geschickt wurden,
-                        lassen sich auf Wochentage ziehen; oben steht, was es heute gibt
-- <rezept-id>/          eine Kochansicht pro Rezept (dahin führen die QR-Codes im Buch); „Zu Bring!“
-                        merkt das Rezept zugleich für den Wochenplan vor
+- index.html            Wochenplan (QR-Code auf Seite 2 im Buch): alle gescannten Rezepte, per Tipp einem
+                        Wochentag zuordnen, mit × löschen; oben steht, was es heute gibt
+- <rezept-id>/          eine Kochansicht pro Rezept (QR-Code neben jedem Rezept); beim Öffnen landet
+                        das Rezept automatisch auf dem Wochenplan
 - app.js / app.css / sw.js / Icons aus werkzeuge/web/
 
 Datenquelle sind ausschließlich die Dateien in rezepte/. Interne Felder (Quellfoto,
@@ -82,14 +82,13 @@ def rezeptseite(r):
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head><body data-seite="rezept" data-id="{e(r['id'])}" data-titel="{e(r['titel'])}" data-portionen="{r['portionen']}">
 <main class="rezept">
-<a class="zurueck" href="../">← Kochbuch &amp; Wochenplan</a>
+<a class="zurueck" href="../">← Zum Wochenplan</a>
 {motiv}
 <p class="kap">{e(r['kapitel'])}</p>
 <h1>{e(r['titel'])}</h1>{f'<p class="sub">{e(r["untertitel"])}</p>' if r['untertitel'] else ''}
 <p class="meta">{e(meta)}</p>
 <div class="actions">
-<button class="btn voll" id="plan">📅 In den Wochenplan</button>
-<a class="btn bring" id="bring" href="{e(bring_url(r))}">🛒 Zu Bring!</a>
+<a class="btn bring" href="{e(bring_url(r))}">🛒 Zu Bring!</a>
 <button class="btn" id="wach" aria-pressed="false">☀️ Bildschirm anlassen</button>
 </div>
 <div class="grid">
@@ -119,7 +118,6 @@ MANIFEST = {
     "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"},
               {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
               {"src": "icon-180.png", "sizes": "180x180", "type": "image/png"}],
-    "shortcuts": [{"name": "Heute kochen", "url": "./#/heute"}],
 }
 
 if __name__ == "__main__":

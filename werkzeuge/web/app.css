@@ -50,53 +50,25 @@ h2{font:700 26px/1.1 var(--hand);color:var(--acc);margin:26px 0 8px}
 .heute .leer{font:500 22px/1.25 var(--hand);color:var(--soft);margin:2px 0 10px}
 .heute .reihe{display:flex;flex-wrap:wrap;gap:8px}
 
-/* Wochenleiste */
-.wnav{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:20px 0 6px}
-.wnav b{font:600 18px var(--serif);text-align:center;flex:1}
-.heute-link{font:600 13px var(--sans);color:var(--acc)}
-
-/* Ablageflächen: „Noch ohne Tag“ und die sieben Tage */
-.ziel{border-radius:14px;transition:background .12s,box-shadow .12s}
-.ziel.drueber{background:var(--heute);box-shadow:0 0 0 2px var(--acc)}
-.pool{background:var(--zettel);padding:4px 12px 10px;margin:14px 0 6px;box-shadow:var(--shadow)}
-.pool h2{margin:8px 0 4px}
-.leer-pool{font:15px/1.45 var(--sans);color:var(--soft);margin:2px 0 6px}
-.tag{border-bottom:1px dashed var(--dash);padding:10px 12px;margin:0 -12px;min-height:58px}
-.tag:last-child{border-bottom:0}
-.tag{border-radius:0}.tag.ist-heute,.tag.drueber{border-radius:14px}
-.tag .th{display:flex;align-items:baseline;gap:8px}
-.tag .th .wt{font:700 24px/1.1 var(--hand);color:var(--acc);min-width:96px}
-.tag .th .dt{font:13px var(--sans);color:var(--soft)}
-.tag.ist-heute{background:var(--heute);border-bottom-color:transparent}
-.tag.ist-heute .th .dt:after{content:" · heute";font-weight:600;color:var(--acc)}
-.tag.vorbei .th .wt{opacity:.55}
-.karte{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:12px;margin:6px 0;padding:2px 4px 2px 0;box-shadow:var(--shadow)}
-.karte a{flex:1;min-width:0;text-decoration:none;font:600 17px/1.25 var(--serif);padding:8px 0}
-.karte a small{display:block;font:12.5px var(--sans);color:var(--soft);font-weight:400;margin-top:1px}
-.griff{touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none;font:22px/1 var(--sans);color:var(--soft);padding:14px 8px 14px 12px;align-self:stretch;display:flex;align-items:center}
-.mehr{background:none;border:0;color:var(--soft);font:700 20px/1 var(--sans);width:40px;height:40px;cursor:pointer;border-radius:50%}
-.karte.weg-gezogen{opacity:.3}
-.karte.davor{box-shadow:0 -3px 0 var(--acc)}
-.karte.geist{position:fixed;left:0;top:0;margin:0;z-index:60;pointer-events:none;box-shadow:0 10px 28px #0004;transform-origin:center;opacity:.95}
-.karte.geist .griff{cursor:grabbing}
-.unten{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
-
-/* Auswahlblatt (Tag wählen) */
-.blatt-hg{position:fixed;inset:0;background:#0006;z-index:40;display:flex;align-items:flex-end;justify-content:center}
-.blatt{background:var(--paper);width:100%;max-width:560px;border-radius:20px 20px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom));max-height:88vh;overflow:auto}
-@media (min-width:640px){.blatt-hg{align-items:center}.blatt{border-radius:20px}}
-.blatt h3{font:600 20px/1.2 var(--serif);margin:0 0 2px}
-.blatt .kap{margin:14px 0 8px}
-.tage{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
-.tage button{border:1.5px solid var(--line);background:var(--card);border-radius:12px;padding:8px 0 6px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:1px;color:var(--ink)}
-.tage button b{font:700 20px/1 var(--hand);color:var(--acc)}
-.tage button span{font:12px var(--sans);color:var(--soft)}
-.tage button i{font:normal 600 11px var(--sans);color:var(--olive);min-height:13px}
-.tage button.ist-heute{border-color:var(--acc);background:var(--heute)}
-.tage button.vorbei{opacity:.5}
-.tage button.gewaehlt{background:var(--acc);border-color:var(--acc)}.tage button.gewaehlt b,.tage button.gewaehlt span{color:var(--acc-ink)}
-.blatt .zu{margin-top:12px;width:100%}
-.blatt .unten .btn{flex:1}
+/* Wochenplan-Liste */
+.leer-plan{background:var(--zettel);border-radius:4px;padding:16px 18px;transform:rotate(-.6deg);box-shadow:var(--shadow);margin:20px 0}
+.leer-plan p:first-child{font:500 26px/1.2 var(--hand);margin:0 0 4px}
+.leer-plan p{margin:0}
+.pool{background:var(--zettel);border-radius:14px;padding:4px 12px 10px;margin:16px 0 6px;box-shadow:var(--shadow)}
+.pool h2,.tagblock h2{margin:10px 0 4px}
+.tagblock{padding:2px 12px 6px;margin:6px -12px 0;border-radius:14px}
+.tagblock.ist-heute{background:var(--heute)}
+.karte{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:8px 0;padding:4px 4px 10px 14px;box-shadow:var(--shadow)}
+.kz{display:flex;align-items:center;gap:6px}
+.karte a{flex:1;min-width:0;text-decoration:none;font:600 18px/1.25 var(--serif);padding:8px 0 6px}
+.karte a small{display:block;font:12.5px var(--sans);color:var(--soft);font-weight:400;margin-top:2px}
+.weg{background:none;border:0;color:var(--soft);font:26px/1 var(--sans);width:44px;height:44px;cursor:pointer;border-radius:50%;flex:none}
+.weg:hover{color:var(--acc)}
+.tagwahl{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;padding-right:10px}
+.tagwahl button{border:1.5px solid var(--line);background:var(--paper);border-radius:10px;min-height:36px;font:600 13.5px var(--sans);color:var(--soft);cursor:pointer;padding:0}
+.tagwahl button.ht{border-color:var(--acc)}
+.tagwahl button[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.unten{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 
 .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--ink);color:var(--paper);
   font:600 15px var(--sans);padding:12px 18px;border-radius:999px;z-index:50;box-shadow:0 6px 20px #0003;display:flex;gap:12px;align-items:center;max-width:calc(100% - 32px)}
