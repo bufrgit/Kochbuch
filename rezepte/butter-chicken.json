@@ -12,38 +12,6 @@
       "zutat": "Hähnchenbrust"
     },
     {
-      "menge": "200 g",
-      "zutat": "griechischer Joghurt (Marinade)"
-    },
-    {
-      "menge": "1 TL",
-      "zutat": "Paprikapulver (Marinade)"
-    },
-    {
-      "menge": "1 TL",
-      "zutat": "Salz (Marinade)"
-    },
-    {
-      "menge": "1 TL",
-      "zutat": "Pfeffer (Marinade)"
-    },
-    {
-      "menge": "1½ EL",
-      "zutat": "Garam Masala (Marinade)"
-    },
-    {
-      "menge": "1 Spritzer",
-      "zutat": "Zitronensaft (Marinade)"
-    },
-    {
-      "menge": "2 cm",
-      "zutat": "Ingwer, gerieben (Marinade)"
-    },
-    {
-      "menge": "1",
-      "zutat": "Knoblauchzehe (Marinade)"
-    },
-    {
       "menge": "4 EL",
       "zutat": "Butter"
     },
@@ -86,6 +54,42 @@
     {
       "menge": "",
       "zutat": "Gemüsebrühe für den Reis"
+    },
+    {
+      "menge": "",
+      "zutat": "Marinade:"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "griechischer Joghurt"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Paprikapulver"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Pfeffer"
+    },
+    {
+      "menge": "1½ EL",
+      "zutat": "Garam Masala"
+    },
+    {
+      "menge": "1 Spritzer",
+      "zutat": "Zitronensaft"
+    },
+    {
+      "menge": "2 cm",
+      "zutat": "Ingwer, gerieben"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
     }
   ],
   "schritte": [
@@ -105,7 +109,8 @@
     "Zeit geschätzt",
     "Lange Anleitung auf 5 Schritte zusammengefasst",
     "Knoblauch und Ingwer der Marinade in die Zutatenliste übernommen",
-    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“",
+    "Zutaten-Zusätze wie „(Marinade)“ als Zwischenüberschriften gruppiert"
   ],
   "freigegeben": false,
   "oberkapitel": "Herzhaftes"

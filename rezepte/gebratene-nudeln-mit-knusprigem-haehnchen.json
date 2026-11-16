@@ -12,34 +12,6 @@
       "zutat": "Hähnchenbrüste"
     },
     {
-      "menge": "3 EL",
-      "zutat": "Sojasauce (Marinade)"
-    },
-    {
-      "menge": "1 TL",
-      "zutat": "Honig (Marinade)"
-    },
-    {
-      "menge": "1 TL",
-      "zutat": "brauner Zucker (Marinade)"
-    },
-    {
-      "menge": "1",
-      "zutat": "gepresste Knoblauchzehe (Marinade)"
-    },
-    {
-      "menge": "2 cm",
-      "zutat": "frisch geriebener Ingwer (Marinade)"
-    },
-    {
-      "menge": "1 TL",
-      "zutat": "Sesamöl (Marinade)"
-    },
-    {
-      "menge": "1 TL",
-      "zutat": "Salz & 1 TL Pfeffer (Marinade)"
-    },
-    {
       "menge": "250 g",
       "zutat": "Mie-Nudeln"
     },
@@ -88,32 +60,68 @@
       "zutat": "weißer Pfeffer"
     },
     {
-      "menge": "4 EL",
-      "zutat": "Mehl (Ausbackteig)"
-    },
-    {
-      "menge": "4 EL",
-      "zutat": "Maisstärke (Ausbackteig)"
-    },
-    {
-      "menge": "1 TL",
-      "zutat": "Backpulver (Ausbackteig)"
-    },
-    {
-      "menge": "1 Prise",
-      "zutat": "Salz (Ausbackteig)"
-    },
-    {
-      "menge": "150 ml",
-      "zutat": "eiskaltes Wasser (Ausbackteig)"
-    },
-    {
-      "menge": "1 EL",
-      "zutat": "Öl (Ausbackteig)"
+      "menge": "",
+      "zutat": "Öl zum Frittieren"
     },
     {
       "menge": "",
-      "zutat": "Öl zum Frittieren"
+      "zutat": "Marinade:"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "Sojasauce"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Honig"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "brauner Zucker"
+    },
+    {
+      "menge": "1",
+      "zutat": "gepresste Knoblauchzehe"
+    },
+    {
+      "menge": "2 cm",
+      "zutat": "frisch geriebener Ingwer"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Sesamöl"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Salz & 1 TL Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Ausbackteig:"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Maisstärke"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "1 Prise",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "150 ml",
+      "zutat": "eiskaltes Wasser"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Öl"
     }
   ],
   "schritte": [
@@ -139,7 +147,8 @@
     "Handschriftliche Änderungen übernommen: gekörnte Brühe statt Fondor, weißer Pfeffer",
     "„feddich“ aus dem Original bewusst behalten",
     "Öl zum Frittieren ergänzt",
-    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“",
+    "Zutaten-Zusätze wie „(Marinade)“ als Zwischenüberschriften gruppiert"
   ],
   "freigegeben": false,
   "oberkapitel": "Herzhaftes"

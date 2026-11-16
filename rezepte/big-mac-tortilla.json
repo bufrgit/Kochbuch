@@ -32,28 +32,32 @@
       "zutat": "Gewürzgurken zum Belegen"
     },
     {
-      "menge": "150 g",
-      "zutat": "Mayonnaise (Sauce)"
-    },
-    {
-      "menge": "2 EL",
-      "zutat": "Ketchup (Sauce)"
-    },
-    {
-      "menge": "1 EL",
-      "zutat": "Essig (Sauce)"
-    },
-    {
-      "menge": "1 TL",
-      "zutat": "Paprika-, Knoblauch- & Zwiebelpulver (Sauce)"
-    },
-    {
-      "menge": "2 EL",
-      "zutat": "fein gehackte Gewürzgurken (Sauce)"
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
     },
     {
       "menge": "",
-      "zutat": "Salz & Pfeffer"
+      "zutat": "Sauce:"
+    },
+    {
+      "menge": "150 g",
+      "zutat": "Mayonnaise"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Ketchup"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Essig"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Paprika-, Knoblauch- & Zwiebelpulver"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "fein gehackte Gewürzgurken"
     }
   ],
   "schritte": [
@@ -73,7 +77,8 @@
     "Untertitel und Notiz von mir",
     "Zeit geschätzt",
     "Eisbergsalat und Gewürzgurken zum Belegen in Zutatenliste ergänzt",
-    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“"
+    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“",
+    "Zutaten-Zusätze wie „(Marinade)“ als Zwischenüberschriften gruppiert"
   ],
   "freigegeben": false,
   "oberkapitel": "Kleinigkeiten & Beilagen"
