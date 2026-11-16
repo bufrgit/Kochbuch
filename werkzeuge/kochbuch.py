@@ -126,7 +126,7 @@ def build(out, toc_pages=2):
     pages.append(f'''<section class="page titel"><div class="kranz">{"".join(motiv(k) for k in ["Pfanne & Co","Suppen","Pasta","Fisch","Salate, Dips & Saucen","Kuchen & Backen","Desserts","Getränke"])}</div>
 <h1>{e(TITEL)}</h1><div class="ut">{e(UNTERTITEL)}</div><div class="linie"></div><div class="fuer">{len(seiten_nr)} Rezepte</div></section>''')
     WIDMUNG = "Für dich – damit unsere Lieblingsrezepte nie verloren gehen."
-    HINWEIS = ('<h1>So benutzt du dieses Buch</h1>' + d.qr_svg(d.BASE + "/") + '<p>Neben jedem Rezept findest du einen <b>QR-Code</b>. Einfach mit der Handy-Kamera scannen, dann öffnet sich das Rezept als Kochansicht: Der Bildschirm bleibt beim Kochen an, und mit einem Tipp landen alle Zutaten auf der <b>Bring!-Einkaufsliste</b>.</p><p class="hand">Viel Spaß beim Nachkochen!</p>')
+    HINWEIS = ('<h1>So benutzt du dieses Buch</h1>' + d.qr_svg(d.BASE + "/") + '<p>Dieser QR-Code führt zu unserem <b>Wochenplan</b>: Dort stehen alle Rezepte, die du gescannt hast. Mit einem Tipp teilst du sie einem Wochentag zu, mit × sind sie wieder weg.</p><p>Neben jedem Rezept findest du einen eigenen <b>QR-Code</b>. Mit der Handy-Kamera scannen, dann öffnet sich das Rezept als Kochansicht und steht gleich auf dem Wochenplan. Mit einem Tipp landen alle Zutaten auf der <b>Bring!-Einkaufsliste</b>.</p><p class="hand">Viel Spaß beim Nachkochen!</p>')
     if hinweis:
         pages.append(f'<section class="page widmung">{WIDMUNG}</section>')
     else:  # Widmung und Hinweis teilen sich Seite 2
