@@ -83,5 +83,12 @@
   "geschaetzt": [
     "zeit",
     "portionen"
-  ]
+  ],
+  "aenderungen": [
+    "Titel geändert (Original „Einfaches Pizzateigrezept“)",
+    "Zubereitung der Sauce als Schritt ergänzt (stand nur als Zutatenliste da)",
+    "Notiz von mir",
+    "Menge „2 Bleche“ und Zeit geschätzt"
+  ],
+  "freigegeben": false
 }

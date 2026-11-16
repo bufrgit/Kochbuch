@@ -75,5 +75,10 @@
   "geschaetzt": [
     "zeit",
     "portionen"
-  ]
+  ],
+  "aenderungen": [
+    "Portionen (4) und Zeit geschätzt",
+    "Schichtfolge zusammengefasst"
+  ],
+  "freigegeben": false
 }
