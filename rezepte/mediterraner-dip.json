@@ -1,0 +1,65 @@
+{
+  "id": "mediterraner-dip",
+  "titel": "Mediterraner Dip",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": null,
+  "zeit": "10 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "5",
+      "zutat": "getrocknete Tomaten"
+    },
+    {
+      "menge": "8",
+      "zutat": "schwarze Oliven"
+    },
+    {
+      "menge": "½ Bund",
+      "zutat": "Basilikum"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Frischkäse (200 g)"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "Naturjoghurt"
+    },
+    {
+      "menge": "1 Spritzer",
+      "zutat": "Zitrone"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Getrocknete Tomaten und Oliven etwas zerkleinern.",
+    "Knoblauch pressen. Basilikum klein hacken.",
+    "Alles mit den restlichen Zutaten mit einem Stabmixer zerkleinern."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090851.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Anleitung sagt „Petersilie klein hacken“, Zutat ist aber Basilikum – zu „Basilikum“ korrigiert"
+  ],
+  "freigegeben": false
+}

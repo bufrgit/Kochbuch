@@ -1,0 +1,62 @@
+{
+  "id": "kraeuter-aioli",
+  "titel": "Kräuter-Aioli",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": 2,
+  "zeit": "10 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "10 g",
+      "zutat": "Basilikum"
+    },
+    {
+      "menge": "1",
+      "zutat": "Ei"
+    },
+    {
+      "menge": "10 g",
+      "zutat": "Petersilie"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zitrone"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Senf"
+    },
+    {
+      "menge": "200 ml",
+      "zutat": "Sonnenblumenöl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Ei, 1 TL Senf, Zitronensaft und Knoblauch in einem hohen Gefäß pürieren.",
+    "200 ml Sonnenblumenöl nach und nach hinzugeben und den Pürierstab auf und ab bewegen.",
+    "Kräuter hinzugeben.",
+    "Mit Salz und Pfeffer abschmecken."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090828.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„200 ml Sonnenblumenöl“ in die Zutaten ergänzt (stand nur in der Anleitung)"
+  ],
+  "freigegeben": false
+}

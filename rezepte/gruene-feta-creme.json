@@ -1,0 +1,59 @@
+{
+  "id": "gruene-feta-creme",
+  "titel": "Grüne Feta-Crème",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": null,
+  "zeit": "10 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "300 g",
+      "zutat": "Frischkäse"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Feta"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "griechischer Joghurt"
+    },
+    {
+      "menge": "1 Bund",
+      "zutat": "glatte Petersilie"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Rosmarin"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Knoblauch pressen. Petersilie klein hacken.",
+    "Mit den restlichen Zutaten mit dem Stabmixer zerkleinern. Mit Salz, Pfeffer und Rosmarin würzen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090847.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt"
+  ],
+  "freigegeben": false
+}

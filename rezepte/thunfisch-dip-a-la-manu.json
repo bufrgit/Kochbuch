@@ -1,0 +1,33 @@
+{
+  "id": "thunfisch-dip-a-la-manu",
+  "titel": "Thunfisch-Dip (à la Manu)",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": null,
+  "zeit": "5 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1 Dose",
+      "zutat": "Thunfisch"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Kräuterfrischkäse"
+    }
+  ],
+  "schritte": [],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090814.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Persönliches Rezept (von Manu)",
+    "Original hat nur Zutaten (evtl. ist das Blatt unten abgeschnitten?), keine Anleitung",
+    "„á la“ → „à la“, „1x“ → „1 Packung“",
+    "Zeit geschätzt"
+  ],
+  "freigegeben": false
+}

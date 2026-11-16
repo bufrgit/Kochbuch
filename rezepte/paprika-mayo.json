@@ -1,0 +1,48 @@
+{
+  "id": "paprika-mayo",
+  "titel": "Paprika-Mayo",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": 2,
+  "zeit": "5 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "60 g",
+      "zutat": "Mayo"
+    },
+    {
+      "menge": "60 g",
+      "zutat": "geröstete Paprika im Glas"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Chilipulver"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Paprikapulver"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Geröstete Paprika in Stücke schneiden.",
+    "Mayo, Paprika und Gewürze zusammen pürieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090841.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„Majo“ → „Mayo“"
+  ],
+  "freigegeben": false
+}

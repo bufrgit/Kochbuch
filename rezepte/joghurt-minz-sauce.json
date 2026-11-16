@@ -1,0 +1,44 @@
+{
+  "id": "joghurt-minz-sauce",
+  "titel": "Joghurt-Minz-Sauce",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": 2,
+  "zeit": "5 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "120 g",
+      "zutat": "Naturjoghurt"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Frischkäse"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "4 Zweige",
+      "zutat": "frische Minze"
+    }
+  ],
+  "schritte": [
+    "Minze hacken.",
+    "Mit dem Joghurt und dem Frischkäse verrühren.",
+    "Salzen und pfeffern."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090836.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt"
+  ],
+  "freigegeben": false
+}
