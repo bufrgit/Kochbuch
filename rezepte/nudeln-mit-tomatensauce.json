@@ -1,0 +1,78 @@
+{
+  "id": "nudeln-mit-tomatensauce",
+  "titel": "Nudeln mit Tomatensauce",
+  "untertitel": null,
+  "kapitel": "Pasta",
+  "portionen": "2",
+  "zeit": "ca. 25 Minuten",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "250 g",
+      "zutat": "Nudeln"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "gehackte Tomaten"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "gehacktes Basilikum"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Sojasauce"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Oregano"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "",
+      "zutat": "Paprikapulver"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Frischkäse"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Nudeln kochen.",
+    "Zwiebel hacken und die Knoblauchzehe pressen.",
+    "Zwiebel in 2 EL Olivenöl anbraten, bis sie glasig ist, dann den Knoblauch dazugeben.",
+    "Die Dosentomaten und das Tomatenmark hinzugeben. Gewürze, Kräuter, Sojasauce und Frischkäse unterrühren.",
+    "Alles mit Salz und Pfeffer abschmecken und mit den Nudeln servieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082700.jpg",
+  "geschaetzt": [
+    "zeit"
+  ]
+}

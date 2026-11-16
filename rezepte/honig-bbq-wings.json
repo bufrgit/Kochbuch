@@ -1,0 +1,61 @@
+{
+  "id": "honig-bbq-wings",
+  "titel": "Honig-BBQ-Wings",
+  "untertitel": null,
+  "kapitel": "Snacks & Kleinigkeiten",
+  "portionen": "4",
+  "zeit": "ca. 65 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1 kg",
+      "zutat": "Geflügelflügel"
+    },
+    {
+      "menge": "½ Tasse",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Chilipulver"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Pfeffer"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Knoblauchpulver"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Paprika edelsüß"
+    },
+    {
+      "menge": "1 Tasse",
+      "zutat": "BBQ-Sauce"
+    },
+    {
+      "menge": "⅓ Tasse",
+      "zutat": "klarer Honig"
+    }
+  ],
+  "schritte": [
+    "Mehl, Chilipulver, Salz, Pfeffer, Knoblauchpulver und Paprika in einer Schüssel mischen und die Flügel darin panieren.",
+    "40 bis 45 Minuten bei 220 °C in den Ofen geben, nach 20 Minuten einmal wenden.",
+    "BBQ-Sauce und Honig in einer Schüssel vermischen.",
+    "Die Flügel herausnehmen und in der Sauce wälzen.",
+    "Weitere 10 Minuten bei 220 bis 250 °C in den Ofen geben."
+  ],
+  "notiz": "Mehl und Pfeffer haben wir handschriftlich auf die Hälfte reduziert.",
+  "clipart": null,
+  "quelle": "IMG20261116082714.jpg",
+  "geschaetzt": [
+    "zeit",
+    "portionen"
+  ]
+}

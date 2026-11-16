@@ -1,0 +1,53 @@
+{
+  "id": "backfisch-wie-auf-der-kirmes",
+  "titel": "Backfisch wie auf der Kirmes",
+  "untertitel": "Knusprig im Bierteig",
+  "kapitel": "Fisch",
+  "portionen": "2",
+  "zeit": "ca. 35 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "400 g",
+      "zutat": "Fischfilets (Kabeljau oder Alaska-Seelachs)"
+    },
+    {
+      "menge": "125 ml",
+      "zutat": "Bier (egal welches)"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "40 g",
+      "zutat": "Butter, weich"
+    },
+    {
+      "menge": "2",
+      "zutat": "Eier, getrennt"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Öl zum Frittieren"
+    }
+  ],
+  "schritte": [
+    "Mehl und Bier mischen, Eigelb unterrühren, mit Salz und Pfeffer würzen und 15 Minuten quellen lassen.",
+    "In einer anderen Schüssel das Eiweiß steif schlagen.",
+    "Die weiche Butter in den Teig rühren und den Eischnee unterheben.",
+    "Fritteuse auf 170 bis 180 °C aufheizen.",
+    "Den Fisch durch den Teig ziehen und ohne Korbeinsatz ca. 7 Minuten bis zur gewünschten Bräunung frittieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082653.jpg",
+  "geschaetzt": [
+    "zeit",
+    "portionen"
+  ]
+}

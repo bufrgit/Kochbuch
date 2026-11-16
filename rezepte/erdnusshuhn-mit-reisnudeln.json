@@ -1,0 +1,80 @@
+{
+  "id": "erdnusshuhn-mit-reisnudeln",
+  "titel": "Erdnusshuhn mit Reisnudeln",
+  "untertitel": null,
+  "kapitel": "Hauptgerichte",
+  "portionen": "4",
+  "zeit": "ca. 40 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "400 g",
+      "zutat": "Hühnerbrustfilet"
+    },
+    {
+      "menge": "1",
+      "zutat": "rote Zwiebel"
+    },
+    {
+      "menge": "1 Stange",
+      "zutat": "Porree"
+    },
+    {
+      "menge": "4",
+      "zutat": "Karotten"
+    },
+    {
+      "menge": "2",
+      "zutat": "Knoblauchzehen"
+    },
+    {
+      "menge": "2",
+      "zutat": "rote Paprika"
+    },
+    {
+      "menge": "80 g",
+      "zutat": "ungesalzene Erdnüsse"
+    },
+    {
+      "menge": "60 g",
+      "zutat": "Erdnussbutter"
+    },
+    {
+      "menge": "350 g",
+      "zutat": "Reisnudeln"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Sesamöl"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Sojasauce"
+    },
+    {
+      "menge": "4 TL",
+      "zutat": "Currypulver"
+    },
+    {
+      "menge": "350 ml",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz"
+    }
+  ],
+  "schritte": [
+    "Hühnerfilet in Streifen schneiden und mit Currypulver und Sesamöl marinieren.",
+    "Paprika in Streifen schneiden, Karotten längs halbieren und in Scheiben schneiden, Zwiebel in halbe Ringe schneiden, Porree waschen, längs halbieren und in Halbringe schneiden.",
+    "Hühnerfilet scharf anbraten und in einer Schüssel beiseitestellen. Gemüse anschwitzen und anschließend zum Fleisch geben.",
+    "Erdnüsse anrösten, Sojasauce und Erdnussbutter hinzugeben und mit der Brühe ablöschen. Fleisch, Gemüse und Salz hinzufügen und 10 Minuten schmoren lassen.",
+    "Nudeln nach Packungsbeilage kochen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082633.jpg",
+  "geschaetzt": [
+    "zeit"
+  ]
+}

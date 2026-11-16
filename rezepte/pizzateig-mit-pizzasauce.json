@@ -1,0 +1,87 @@
+{
+  "id": "pizzateig-mit-pizzasauce",
+  "titel": "Pizzateig mit Pizzasauce",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "2 Bleche",
+  "zeit": "ca. 30 Minuten + 1 Stunde Gehzeit",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Weizenmehl (Type 405 oder 550)"
+    },
+    {
+      "menge": "½ Würfel",
+      "zutat": "frische Hefe oder 1 Päckchen Trockenhefe"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "2 TL",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "250 ml",
+      "zutat": "lauwarmes Wasser"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "gehackte Tomaten (Sauce)"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Tomatenmark (Sauce)"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Zucker (Sauce)"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Salz (Sauce)"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Pfeffer (Sauce)"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Olivenöl (Sauce)"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe (Sauce)"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "getrockneter Oregano (Sauce)"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Basilikum (Sauce)"
+    }
+  ],
+  "schritte": [
+    "Die Hefe mit dem Zucker im lauwarmen Wasser auflösen und 5 bis 10 Minuten stehen lassen.",
+    "Mehl in eine große Schüssel geben und das Salz untermischen. Hefewasser und Olivenöl dazugeben und alles zu einem glatten Teig verkneten.",
+    "Den Teig abgedeckt an einem warmen Ort ca. 1 Stunde gehen lassen, bis er sich verdoppelt hat.",
+    "Für die Sauce gehackte Tomaten mit Tomatenmark, Olivenöl, gepresstem Knoblauch, Zucker, Salz, Pfeffer, Oregano und Basilikum verrühren.",
+    "Teig auf einer bemehlten Fläche ausrollen, mit Sauce bestreichen und nach Wunsch belegen. Im vorgeheizten Ofen bei 220 °C Ober-/Unterhitze ca. 12 bis 15 Minuten backen."
+  ],
+  "notiz": "Die Pizzasauce steht handgeschrieben auf unserem Teigrezept.",
+  "clipart": null,
+  "quelle": "IMG20261116082615.jpg",
+  "geschaetzt": [
+    "zeit",
+    "portionen"
+  ]
+}

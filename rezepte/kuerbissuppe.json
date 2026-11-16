@@ -1,0 +1,58 @@
+{
+  "id": "kuerbissuppe",
+  "titel": "Kürbissuppe",
+  "untertitel": null,
+  "kapitel": "Suppen",
+  "portionen": "4",
+  "zeit": "ca. 35 Minuten",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "800 g",
+      "zutat": "Hokkaido-Kürbis"
+    },
+    {
+      "menge": "2",
+      "zutat": "Zwiebeln"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Öl"
+    },
+    {
+      "menge": "600 ml",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "",
+      "zutat": "Rosmarin"
+    },
+    {
+      "menge": "100 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "milder Weißweinessig"
+    }
+  ],
+  "schritte": [
+    "Zwiebeln würfeln. Kürbis waschen, halbieren, die Kerne entfernen und das Fruchtfleisch grob würfeln.",
+    "Zwiebeln in einem Topf mit Öl glasig braten. Kürbiswürfel hinzugeben.",
+    "Gemüsebrühe angießen und Rosmarin nach Belieben dazugeben. 15 Minuten mit Deckel auf mittlerer Hitze kochen lassen.",
+    "Masse pürieren, die Sahne hinzugeben und aufkochen.",
+    "Mit Salz, Pfeffer und Weißweinessig würzen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082637.jpg",
+  "geschaetzt": [
+    "zeit"
+  ]
+}

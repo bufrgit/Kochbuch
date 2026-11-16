@@ -1,0 +1,104 @@
+{
+  "id": "butter-chicken",
+  "titel": "Butter Chicken",
+  "untertitel": null,
+  "kapitel": "Hauptgerichte",
+  "portionen": "2",
+  "zeit": "ca. 1 Stunde + 1,5 Stunden Marinieren",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Hähnchenbrust"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "griechischer Joghurt (Marinade)"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Paprikapulver (Marinade)"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Salz (Marinade)"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Pfeffer (Marinade)"
+    },
+    {
+      "menge": "1½ EL",
+      "zutat": "Garam Masala (Marinade)"
+    },
+    {
+      "menge": "1 Spritzer",
+      "zutat": "Zitronensaft (Marinade)"
+    },
+    {
+      "menge": "2 cm",
+      "zutat": "Ingwer, gerieben (Marinade)"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe (Marinade)"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zimtstange"
+    },
+    {
+      "menge": "500 ml",
+      "zutat": "passierte Tomaten"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Paprika rosenscharf"
+    },
+    {
+      "menge": "1 Stück",
+      "zutat": "Ingwer"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "200 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Honig"
+    },
+    {
+      "menge": "",
+      "zutat": "Reis für 2 Personen"
+    },
+    {
+      "menge": "",
+      "zutat": "Gemüsebrühe für den Reis"
+    }
+  ],
+  "schritte": [
+    "Für die Marinade Joghurt mit Paprikapulver, Salz, Pfeffer, Garam Masala und Zitronensaft verrühren. Knoblauch und Ingwer reiben und dazugeben.",
+    "Hähnchenbrust in mundgerechte Stücke schneiden, in eine Auflaufform geben, mit der Marinade verrühren, mit Alufolie abdecken und 1,5 Stunden kühl stellen. Dann bei 200 °C Ober-/Unterhitze 25 Minuten in den Ofen geben.",
+    "Zwiebel würfeln. 2 EL Butter erhitzen und die Zwiebeln mit der Zimtstange 5 Minuten glasig braten. Passierte Tomaten, 1 TL Salz, Paprika rosenscharf, geschälten Ingwer und angeritzte Knoblauchzehe (beides ganz) dazugeben und 20 Minuten einköcheln lassen. Reis in Gemüsebrühe kochen.",
+    "2 EL Butter in das Curry geben, die Sahne hinzufügen und 5 Minuten köcheln lassen. Den Honig einrühren und 3 Minuten köcheln lassen.",
+    "Hähnchen aus dem Ofen nehmen, ohne die Flüssigkeit in das Curry geben und 3 Minuten köcheln lassen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082706.jpg",
+  "geschaetzt": [
+    "zeit"
+  ]
+}
