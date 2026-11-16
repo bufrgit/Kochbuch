@@ -1,0 +1,91 @@
+{
+  "id": "russischer-zupfkuchen",
+  "titel": "Russischer Zupfkuchen",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "1 Blech",
+  "zeit": "ca. 1 Std. 30 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "400 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "1 Pck.",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Kakaopulver"
+    },
+    {
+      "menge": "330 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "800 g",
+      "zutat": "Quark"
+    },
+    {
+      "menge": "2",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "2 Prisen",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "10",
+      "zutat": "Eigelb"
+    },
+    {
+      "menge": "6",
+      "zutat": "Eiweiß"
+    },
+    {
+      "menge": "200 ml",
+      "zutat": "Öl"
+    },
+    {
+      "menge": "2 Pck.",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "2 Pck.",
+      "zutat": "Vanillepuddingpulver"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zitrone"
+    }
+  ],
+  "schritte": [
+    "Aus Mehl, Backpulver, 180 g Zucker, Kakaopulver, Eiern, 1 Prise Salz und Butter einen Teig bereiten und halbieren. Den Teig 3 Min. kühl stellen.",
+    "Eine Teighälfte auf das Blech rollen. Einen kleinen Rand hochziehen. Backofen auf 170 °C vorheizen.",
+    "Quark mit dem Eigelb und dem Öl verrühren. Mit dem restlichen Zucker, Vanillezucker und dem Puddingpulver vermischen.",
+    "Zitronensaft dazugeben.",
+    "Eiweiß mit Salz steif schlagen und unterheben.",
+    "Die Quarkmasse auf den Boden verteilen. Die 2. Teighälfte in Stückchen zupfen und darüber verteilen.",
+    "50–60 Min. backen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116092913.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zutaten aus Fließtext in Liste umgewandelt",
+    "Zeit geschätzt",
+    "Frage: „Teig 3 Min. kühl stellen“ – vielleicht 30 Min. gemeint? Unverändert",
+    "Steht mit der Schwarzwälder Kirschtorte auf einem Blatt"
+  ],
+  "freigegeben": false
+}

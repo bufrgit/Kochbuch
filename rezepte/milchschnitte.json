@@ -1,0 +1,93 @@
+{
+  "id": "milchschnitte",
+  "titel": "Milchschnitte",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "10 Stück",
+  "zeit": "ca. 27 Min + 3 Std. Kühlzeit",
+  "merkmale": [
+    "vegetarisch",
+    "kinder"
+  ],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Für den Teig:"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Dinkelmehl"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "Dattelzucker"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Kakaopulver"
+    },
+    {
+      "menge": "2 TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "250 ml",
+      "zutat": "Milch (pflanzliche Alternative möglich)"
+    },
+    {
+      "menge": "2",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Kokosöl"
+    },
+    {
+      "menge": "",
+      "zutat": "Für die Creme:"
+    },
+    {
+      "menge": "400 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "2 Päckchen",
+      "zutat": "Sahnesteif"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Honig"
+    },
+    {
+      "menge": "½",
+      "zutat": "Vanilleschote (das Mark davon)"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "Frischkäse (natur)"
+    }
+  ],
+  "schritte": [
+    "Den Backofen auf 180 °C Ober-/Unterhitze vorheizen.",
+    "Die Milch mit den Eiern und dem Dattelzucker schaumig rühren.",
+    "Das Dinkelmehl mit dem Kakaopulver und dem Backpulver in einer Schüssel mischen und mit der Eiermilch verrühren. Zum Schluss das Kokosöl unterrühren.",
+    "Ein Backblech mit Backpapier belegen und den Teig gleichmäßig darauf verteilen. Den Boden 12 Minuten backen und danach gut abkühlen lassen.",
+    "Die Sahne mit dem Sahnesteif und dem Vanillemark steif schlagen.",
+    "Den Frischkäse mit dem Honig in einer weiteren Schüssel verrühren. Die Schlagsahne unterheben.",
+    "Den Kuchenteig in 2 gleich große Hälften teilen. Die Creme auf eine der beiden Hälften streichen und die andere vorsichtig darauflegen.",
+    "Alles für ca. 3 Stunden in den Kühlschrank stellen.",
+    "Anschließend in 10 Teile schneiden oder als „Riesen-Milchschnitte“ servieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": [
+    "IMG20261116092836.jpg",
+    "IMG20261116092846_01.jpg"
+  ],
+  "geschaetzt": [],
+  "aenderungen": [
+    "Quelle: Familienkost.de-Ausdruck (© Jenny Böhme), 2 Seiten zusammengeführt – Foto/„Kauftipp“-Link weggelassen",
+    "Du-Form in neutrale Form umgeschrieben; „Sahnefest“ → „Sahnesteif“"
+  ],
+  "freigegeben": false
+}

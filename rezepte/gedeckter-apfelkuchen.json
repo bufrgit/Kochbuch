@@ -1,0 +1,97 @@
+{
+  "id": "gedeckter-apfelkuchen",
+  "titel": "Gedeckter Apfelkuchen",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "1 Springform (26 cm)",
+  "zeit": "ca. 1 Std. 30 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Teig:"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "1",
+      "zutat": "Ei"
+    },
+    {
+      "menge": "80 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "½ Päckchen",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "1 Prise",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "",
+      "zutat": "Füllung:"
+    },
+    {
+      "menge": "1 kg",
+      "zutat": "Äpfel"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "15 g",
+      "zutat": "Speisestärke"
+    },
+    {
+      "menge": "300 g",
+      "zutat": "Apfelmus"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Zimt"
+    },
+    {
+      "menge": "",
+      "zutat": "Zuckerguss:"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Wasser"
+    },
+    {
+      "menge": "",
+      "zutat": "Puderzucker"
+    }
+  ],
+  "schritte": [
+    "Zutaten für den Teig mit Knethaken zu einem Teig verarbeiten. Danach noch einmal mit den Händen verkneten und zu einer Kugel formen.",
+    "Boden der Springform mit Frischhaltefolie auslegen und Springformrand befestigen. ⅓ des Teiges gleichmäßig in die Form drücken. Springformrand wieder lösen, Frischhaltefolie (mit dem Teigdeckel) abziehen und im Kühlschrank kühl stellen.",
+    "Springform einfetten und mit dem restlichen Teig auskleiden und einen Rand bilden.",
+    "Äpfel schälen und entkernen, danach in kleine Stücke schneiden. Mit Apfelmus, Stärke, Zucker und Zimt verrühren.",
+    "Apfelmasse in die Form geben. Teig-Deckel auf den Kuchen geben.",
+    "Bei 160 °C Umluft 60 Minuten backen.",
+    "Wasser und Puderzucker für den Guss miteinander verrühren und auf den Kuchen streichen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116092924.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Kleine Ergänzungen zur Verständlichkeit: „(mit dem Teigdeckel)“, „und auf den Kuchen streichen“"
+  ],
+  "freigegeben": false
+}

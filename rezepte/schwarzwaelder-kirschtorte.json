@@ -1,0 +1,78 @@
+{
+  "id": "schwarzwaelder-kirschtorte",
+  "titel": "Schwarzwälder Kirschtorte",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "1 Springform",
+  "zeit": "ca. 1 Std. 30 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "5",
+      "zutat": "Eigelb"
+    },
+    {
+      "menge": "5",
+      "zutat": "Eiweiß"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "Margarine"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "Schokoraspeln"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "gemahlene Haselnüsse"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "1 Päckchen",
+      "zutat": "Bittermandelaroma"
+    },
+    {
+      "menge": "1400 g",
+      "zutat": "Schattenmorellen (Glas)"
+    },
+    {
+      "menge": "3 Päckchen",
+      "zutat": "Tortenguss rot"
+    },
+    {
+      "menge": "750 ml",
+      "zutat": "Schlagsahne"
+    }
+  ],
+  "schritte": [
+    "Eigelb, Margarine, Schokoraspeln, Haselnüsse, Backpulver, Aroma und Vanillezucker verrühren.",
+    "Eiweiß steif schlagen. Eischnee unter den Teig heben.",
+    "Masse in eine runde Backform geben und 40 Min. bei 175 °C backen.",
+    "Für die Füllung: Kirschen auf dem Kuchen verteilen. Kirschsaft im Topf erhitzen und mit Tortenguss vermischen.",
+    "Tortenguss auf die Torte geben.",
+    "Schlagsahne steif schlagen und auf den Kirschguss geben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116092913.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zutaten aus Fließtext in Liste umgewandelt",
+    "„125 gemahlene Haselnüsse“ → „125 g“",
+    "Zeit geschätzt (ohne Abkühlen)",
+    "Steht mit dem Russischen Zupfkuchen auf einem Blatt"
+  ],
+  "freigegeben": false
+}
