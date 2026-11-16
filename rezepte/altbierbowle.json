@@ -1,0 +1,35 @@
+{
+  "id": "altbierbowle",
+  "titel": "Altbierbowle",
+  "untertitel": null,
+  "kapitel": "Getränke",
+  "portionen": 4,
+  "zeit": "10 Min + 2 Std. Ziehzeit",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1 Dose",
+      "zutat": "Pfirsiche"
+    },
+    {
+      "menge": "75 ml",
+      "zutat": "Himbeersirup"
+    },
+    {
+      "menge": "2 Flaschen",
+      "zutat": "Altbier (ca. 600 ml)"
+    }
+  ],
+  "schritte": [
+    "Pfirsiche klein schneiden.",
+    "Alles zusammen in ein Gefäß geben und 2 Stunden im Kühlschrank ziehen lassen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116091000.jpg",
+  "geschaetzt": [],
+  "aenderungen": [
+    "Steht mit dem Mexikaner auf einem Blatt"
+  ],
+  "freigegeben": false
+}

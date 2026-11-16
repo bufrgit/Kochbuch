@@ -1,0 +1,56 @@
+{
+  "id": "mexikaner",
+  "titel": "Mexikaner",
+  "untertitel": null,
+  "kapitel": "Getränke",
+  "portionen": null,
+  "zeit": "10 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1 Flasche",
+      "zutat": "Korn"
+    },
+    {
+      "menge": "2 l",
+      "zutat": "Tomatensaft"
+    },
+    {
+      "menge": "500 ml",
+      "zutat": "Sangrita Pikant"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Tabasco"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Pfeffer"
+    },
+    {
+      "menge": "2 TL",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "5 EL",
+      "zutat": "Zitronensaft"
+    }
+  ],
+  "schritte": [],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116091000.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Original hat nur Zutaten, keine Anleitung – evtl. ergänzen: „Alles verrühren und gut gekühlt servieren“?",
+    "Zeit geschätzt",
+    "Steht mit der Altbierbowle auf einem Blatt"
+  ],
+  "freigegeben": false
+}

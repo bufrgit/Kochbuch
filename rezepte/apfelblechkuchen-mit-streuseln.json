@@ -1,0 +1,84 @@
+{
+  "id": "apfelblechkuchen-mit-streuseln",
+  "titel": "Apfelblechkuchen mit Streuseln",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": null,
+  "zeit": "1 Std.",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Kuchen:"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "2 Tüten",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "2 TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "4",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "5 große",
+      "zutat": "Äpfel"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Zimtzucker"
+    },
+    {
+      "menge": "",
+      "zutat": "Streusel:"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "Butter"
+    }
+  ],
+  "schritte": [
+    "250 g Butter und 250 g Zucker schaumig schlagen. 4 Eier und 2 Tüten Vanillezucker hinzugeben. 250 g Mehl mit 2 TL Backpulver sieben und hinzugeben.",
+    "Teig auf ein mit Backpapier ausgelegtes Blech geben.",
+    "Äpfel schälen, entkernen, in Scheiben schneiden und auf den Teig geben.",
+    "250 g Mehl, 250 g Zucker und 125 g Butter mit Knethaken zu Streuseln verarbeiten und auf die Äpfel geben.",
+    "Anschließend etwas Zimtzucker darübergeben.",
+    "Bei 180 °C Umluft ca. 30 Minuten backen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116092646.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Portionen: 1 Blech (keine Angabe im Original)"
+  ],
+  "freigegeben": false
+}

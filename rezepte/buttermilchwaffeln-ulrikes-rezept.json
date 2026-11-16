@@ -1,0 +1,60 @@
+{
+  "id": "buttermilchwaffeln-ulrikes-rezept",
+  "titel": "Buttermilchwaffeln (Ulrikes Rezept)",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "8 Stück",
+  "zeit": "30 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "125 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "4",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "1 Päckchen",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "500 ml",
+      "zutat": "Buttermilch"
+    }
+  ],
+  "schritte": [
+    "Eier trennen. Eiweiß mit der halben Menge Zucker steif schlagen und zur Seite stellen.",
+    "125 g Butter, restlichen Zucker, Vanillezucker und Eigelb verrühren.",
+    "Mehl mit 1 TL Backpulver sieben und zum Teig geben. 500 ml Buttermilch hinzugeben.",
+    "Eischnee unterheben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116092654.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Persönliches Rezept (von Ulrike)",
+    "Zeit geschätzt",
+    "Tippfehler „steig“ → „steif“",
+    "Frage: Ausbacken im Waffeleisen ergänzen?"
+  ],
+  "freigegeben": false
+}

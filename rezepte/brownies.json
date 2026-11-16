@@ -1,0 +1,84 @@
+{
+  "id": "brownies",
+  "titel": "Brownies",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "1 Blech",
+  "zeit": "55 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Für den Teig:"
+    },
+    {
+      "menge": "425 g",
+      "zutat": "Zartbitterschokolade, geschmolzen"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Zartbitterschokolade, gehackt"
+    },
+    {
+      "menge": "300 ml",
+      "zutat": "Öl, neutral"
+    },
+    {
+      "menge": "6 EL",
+      "zutat": "Kakaopulver"
+    },
+    {
+      "menge": "350 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "3 Pck.",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "9",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "300 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "",
+      "zutat": "Für das Topping:"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Schokolade"
+    },
+    {
+      "menge": "30 kleine",
+      "zutat": "Salzbrezeln"
+    }
+  ],
+  "schritte": [
+    "Den Backofen auf 175 °C Ober-/Unterhitze vorheizen. Die 425 g Zartbitterschokolade schmelzen. Die geschmolzene Schokolade und das Öl in die Rührschüssel geben und mit dem Mixer gut vermischen.",
+    "Das Kakaopulver, den Zucker, den Vanillezucker, das Salz und die Milch dazugeben und gut verrühren. Die Eier nacheinander dazugeben, nach jedem Ei gut verrühren. Das Mehl dazugeben und verrühren. Die 100 g Schokolade mit dem Messer zerkleinern, zum Teig geben und mit einem Kochlöffel unterrühren.",
+    "Den Teig auf das mit Backpapier ausgelegte Backblech geben und gleichmäßig verstreichen. Bei 175 °C Ober-/Unterhitze 30 Minuten backen.",
+    "Die Schokolade für das Topping in einem Topf schmelzen, auf die fertig gebackenen Brownies geben und jeweils eine Brezel drauflegen. Wem die süß-salzig-Kombination zu abgefahren ist, der lässt die Brezeln einfach weg."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116092721.jpg",
+  "geschaetzt": [],
+  "aenderungen": [
+    "Quelle: Chefkoch-Ausdruck (Chefkoch-Video) – Text übernommen, Foto/Logo weggelassen",
+    "„Zutaten für 1 Portion“ → „1 Blech“"
+  ],
+  "freigegeben": false
+}

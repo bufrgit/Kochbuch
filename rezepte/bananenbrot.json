@@ -1,0 +1,65 @@
+{
+  "id": "bananenbrot",
+  "titel": "Bananenbrot",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "1 Kastenform",
+  "zeit": "60 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "3",
+      "zutat": "reife Bananen"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Honig"
+    },
+    {
+      "menge": "80 g",
+      "zutat": "neutrales Öl"
+    },
+    {
+      "menge": "2",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Mehl (Dinkel)"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Zimt"
+    },
+    {
+      "menge": "1 Prise",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "ggf.",
+      "zutat": "Schokoraspeln"
+    }
+  ],
+  "schritte": [
+    "Backofen auf 175 °C Ober-/Unterhitze vorheizen.",
+    "Bananen mit einer Gabel zerdrücken. Honig, Öl & Eier unterrühren.",
+    "Restliche trockene Zutaten vermischen & unter den Teig heben.",
+    "Kastenform mit Backpapier auslegen, Teig hineingeben.",
+    "50–55 Min. in den Ofen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116092729.jpg",
+  "geschaetzt": [],
+  "aenderungen": [
+    "Handschriftliches Rezept",
+    "„Brotbackform“ → „Kastenform“; Utensilien (Form, Backpapier) aus der Zutatenliste genommen"
+  ],
+  "freigegeben": false
+}
