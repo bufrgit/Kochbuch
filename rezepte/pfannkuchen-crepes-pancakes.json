@@ -1,0 +1,113 @@
+{
+  "id": "pfannkuchen-crepes-pancakes",
+  "titel": "Pfannkuchen, Crêpes & Pancakes",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": null,
+  "zeit": null,
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Pfannkuchen:"
+    },
+    {
+      "menge": "4",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "400 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "1 Prise",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "1 Msp.",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "",
+      "zutat": "Öl (zum Anbraten)"
+    },
+    {
+      "menge": "",
+      "zutat": "Crêpes:"
+    },
+    {
+      "menge": "2",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "400 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "2 Prisen",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "",
+      "zutat": "Öl (zum Anbraten)"
+    },
+    {
+      "menge": "",
+      "zutat": "Pancakes:"
+    },
+    {
+      "menge": "2",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "200 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "2 Prisen",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Backpulver"
+    },
+    {
+      "menge": "",
+      "zutat": "Öl (zum Anbraten)"
+    }
+  ],
+  "schritte": [],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083520.jpg",
+  "geschaetzt": [],
+  "aenderungen": [
+    "Drei Grundteige von einer Seite zu einem Rezept zusammengefasst",
+    "Original hat nur Zutaten, keine Anleitung und keine Portionen – Anleitung ergänzen oder so lassen?"
+  ],
+  "freigegeben": false
+}

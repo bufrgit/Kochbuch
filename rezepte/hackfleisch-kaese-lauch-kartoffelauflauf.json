@@ -1,0 +1,96 @@
+{
+  "id": "hackfleisch-kaese-lauch-kartoffelauflauf",
+  "titel": "Hackfleisch-Käse-Lauch-Kartoffelauflauf",
+  "untertitel": "die bekannte Suppe als Auflauf",
+  "kapitel": "Aufläufe",
+  "portionen": 4,
+  "zeit": "ca. 1 Std. 5 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1 kg",
+      "zutat": "Kartoffeln, festkochend"
+    },
+    {
+      "menge": "500 g",
+      "zutat": "Hackfleisch, gemischt"
+    },
+    {
+      "menge": "2",
+      "zutat": "Zwiebeln"
+    },
+    {
+      "menge": "1 große",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "1 Stange",
+      "zutat": "Lauch"
+    },
+    {
+      "menge": "400 g",
+      "zutat": "Champignons, braune"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Sahne-Schmelzkäse"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Schmelzkäse mit Kräutern"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "saure Sahne"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Frischkäse"
+    },
+    {
+      "menge": "100 ml",
+      "zutat": "Wasser"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Kräuter (8-Kräuter-Mischung, TK)"
+    },
+    {
+      "menge": "1 Pck.",
+      "zutat": "Käse, gerieben"
+    },
+    {
+      "menge": "",
+      "zutat": "Majoran"
+    },
+    {
+      "menge": "",
+      "zutat": "Paprikapulver, edelsüß"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz und Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Gemüsebrühe"
+    }
+  ],
+  "schritte": [
+    "Die Kartoffeln schälen, in Scheiben schneiden und ca. 5 Minuten vorkochen (sie sollen nicht durch sein!). Die Zwiebeln fein schneiden, den Knoblauch sehr fein hacken. Den Lauch in Ringe und die Pilze in Scheiben schneiden.",
+    "Das Hackfleisch mit den Zwiebeln und dem Knoblauch anbraten und mit Pfeffer, Salz, Paprika und Majoran würzen. Lauch und Pilze dazugeben und alles für 5 Minuten anbraten.",
+    "Für die Sauce Schmelzkäse, saure Sahne, Wasser und Frischkäse verrühren und mit Pfeffer, Salz, Kräutern und etwas Brühe abschmecken.",
+    "Die Hackfleisch-Pilz-Lauch-Mischung mit den Kartoffeln in eine Auflaufform geben, die Sauce darübergeben und den Auflauf 30 Minuten bei 175 °C in den Ofen stellen. Nach den 30 Minuten den geriebenen Käse über den Auflauf streuen und alles weitere 15 Minuten überbacken."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083458.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Quelle: Chefkoch-Ausdruck (Rezept von Popaja) – Text übernommen, Foto/Logo weggelassen",
+    "Gesamtzeit: Original sagt „ca. 15 Minuten“, das ist nur die Arbeitszeit – auf ca. 1 Std. 5 Min korrigiert (15 Min + 5 Min vorkochen + 45 Min Ofen)"
+  ],
+  "freigegeben": false
+}

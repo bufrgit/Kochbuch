@@ -1,0 +1,67 @@
+{
+  "id": "vegetarischer-nudelauflauf",
+  "titel": "Vegetarischer Nudelauflauf",
+  "untertitel": null,
+  "kapitel": "Aufläufe",
+  "portionen": 2,
+  "zeit": "45 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "250 g",
+      "zutat": "Penne"
+    },
+    {
+      "menge": "½ Tube",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "2",
+      "zutat": "Knoblauchzehen"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "2 große",
+      "zutat": "Tomaten"
+    },
+    {
+      "menge": "1 Tüte",
+      "zutat": "geriebener Gouda"
+    },
+    {
+      "menge": "50 ml",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "",
+      "zutat": "Italienische Kräuter TK"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Nudeln al dente kochen. Ofen auf 180 °C Umluft vorheizen.",
+    "Sahne, Tomatenmark, Olivenöl, Kräuter, Salz und Pfeffer in einer Schüssel vermischen. Knoblauch pressen und dazugeben. ⅓ des geriebenen Käses zur Sauce geben.",
+    "Tomaten in Scheiben schneiden.",
+    "Nudeln in eine Auflaufform geben. Tomatenscheiben drübergeben, dann die Sauce. Mit dem restlichen Reibekäse bestreuen.",
+    "Für 30 Min. in den Ofen geben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083524.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„1 x Sahne“ → „1 Becher Sahne“"
+  ],
+  "freigegeben": false
+}

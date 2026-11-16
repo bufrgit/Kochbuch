@@ -1,0 +1,56 @@
+{
+  "id": "lachs-spinat-feta-boerek",
+  "titel": "Lachs-Spinat-Feta-Börek",
+  "untertitel": null,
+  "kapitel": "Fisch",
+  "portionen": 4,
+  "zeit": "30 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "2",
+      "zutat": "Blätterteig"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Blattspinat"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Fetakäse"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Lachs"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "1–2",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Frischkäse"
+    }
+  ],
+  "schritte": [
+    "Frischkäse auf den 1. Blätterteig streichen. Zutaten auf dem Blätterteig verteilen.",
+    "2. Blätterteig obendrauf legen und mit Ei bestreichen.",
+    "Bei 180 °C Umluft 15 Minuten in den Ofen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083512.jpg",
+  "geschaetzt": [
+    "portionen",
+    "zeit"
+  ],
+  "aenderungen": [
+    "Portionen fehlen im Original – 4 geschätzt",
+    "Zeit geschätzt"
+  ],
+  "freigegeben": false
+}

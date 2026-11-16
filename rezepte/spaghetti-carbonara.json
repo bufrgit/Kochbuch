@@ -1,0 +1,57 @@
+{
+  "id": "spaghetti-carbonara",
+  "titel": "Spaghetti Carbonara",
+  "untertitel": null,
+  "kapitel": "Pasta",
+  "portionen": 4,
+  "zeit": "25 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Spaghetti"
+    },
+    {
+      "menge": "3",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "500 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Bauchspeck"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "",
+      "zutat": "Petersilie"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Bauchspeck würfeln. Eier verquirlen.",
+    "Nudelwasser aufsetzen, ordentlich salzen und Nudeln kochen.",
+    "Speck in Öl kross braten. Danach in eine Schale geben.",
+    "500 ml Sahne in die Pfanne geben. Knoblauchzehe mit dem Messer zerdrücken und mit Pfeffer und Salz hinzugeben und aufkochen. Anschließend Knoblauchzehe rausnehmen.",
+    "Nudeln mit der Sauce und dem verquirlten Ei mischen.",
+    "Speck und Petersilie drübergeben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083541.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt"
+  ],
+  "freigegeben": false
+}

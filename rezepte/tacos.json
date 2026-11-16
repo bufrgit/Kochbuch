@@ -1,0 +1,96 @@
+{
+  "id": "tacos",
+  "titel": "Tacos",
+  "untertitel": null,
+  "kapitel": "Hauptgerichte",
+  "portionen": 2,
+  "zeit": "30 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Taco Shells"
+    },
+    {
+      "menge": "1",
+      "zutat": "Avocado"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Cherrytomaten"
+    },
+    {
+      "menge": "1",
+      "zutat": "Tomate"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Hackfleisch"
+    },
+    {
+      "menge": "1",
+      "zutat": "Limette"
+    },
+    {
+      "menge": "½",
+      "zutat": "Eisbergsalat"
+    },
+    {
+      "menge": "½",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "60 g",
+      "zutat": "Crème fraîche"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "Mais"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "Kidneybohnen"
+    },
+    {
+      "menge": "60 ml",
+      "zutat": "Tomatensalsa"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Kreuzkümmel"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Oregano"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Chilipulver"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Knoblauch schälen und pressen. Limette pressen.",
+    "Avocado kleindrücken und mit Limette und Knoblauch mischen. Tomate würfeln, zum Avocadodip hinzugeben und mit Salz & Pfeffer abschmecken.",
+    "Hack in einer Pfanne anbraten. Mais und Kidneybohnen abtropfen lassen.",
+    "Bohnen, Mais und 1 TL Koriander zum Hack dazugeben.",
+    "Cherrytomaten vierteln und zum Hackgemisch hinzugeben.",
+    "Eisbergsalat schneiden. Alles zusammen anrichten."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083534.jpg",
+  "geschaetzt": [
+    "portionen",
+    "zeit"
+  ],
+  "aenderungen": [
+    "Portionen fehlen im Original („[Portionen]“ leer) – 2 geschätzt (200 g Hack)",
+    "Zeit geschätzt",
+    "Frage: Anleitung nennt „1 TL Koriander“, Zutaten aber Kreuzkümmel/Oregano/Chili – vermutlich sind die Gewürze gemeint; unverändert gelassen"
+  ],
+  "freigegeben": false
+}
