@@ -1,0 +1,84 @@
+{
+  "id": "griechischer-nudelsalat",
+  "titel": "Griechischer Salat",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": 4,
+  "zeit": "30 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Kritharaki (Nudeln in Reisform)"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Feta-Käse"
+    },
+    {
+      "menge": "",
+      "zutat": "Oliven nach Belieben"
+    },
+    {
+      "menge": "100 ml",
+      "zutat": "Olivenöl (plus etwas für die Nudeln)"
+    },
+    {
+      "menge": "2",
+      "zutat": "rote Paprika"
+    },
+    {
+      "menge": "3",
+      "zutat": "Frühlingszwiebeln"
+    },
+    {
+      "menge": "1",
+      "zutat": "Bio-Zitrone"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "Pinienkerne"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Kräuteressig"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Dijonsenf"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Oregano"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz und Pfeffer"
+    },
+    {
+      "menge": "1 Prise",
+      "zutat": "Zucker"
+    }
+  ],
+  "schritte": [
+    "Nudeln nach Packungsbeilage kochen und mit etwas Olivenöl, zerkrümeltem Feta und geschnittener Paprika mischen. Bei Belieben Oliven zugeben.",
+    "Dressing: Zitronensaft, etwas Zitronenabrieb, Essig, Knoblauch, Oregano und Senf vermischen. Nach und nach 100 ml Olivenöl dazugeben. Mit Salz und Pfeffer abschmecken. Etwas Zucker dazugeben.",
+    "Mit den gerösteten Pinienkernen bestreuen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090907.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Frage: Frühlingszwiebeln stehen in den Zutaten, aber nicht in der Anleitung – vermutlich mit der Paprika untermischen?",
+    "Titel evtl. „Griechischer Nudelsalat“ (Kritharaki)?"
+  ],
+  "freigegeben": false
+}

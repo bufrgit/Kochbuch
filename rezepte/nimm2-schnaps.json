@@ -1,0 +1,35 @@
+{
+  "id": "nimm2-schnaps",
+  "titel": "Nimm2-Schnaps",
+  "untertitel": null,
+  "kapitel": "Getränke",
+  "portionen": null,
+  "zeit": "5 Min + über Nacht",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1 Packung",
+      "zutat": "Nimm2"
+    },
+    {
+      "menge": "1 Flasche",
+      "zutat": "Korn"
+    },
+    {
+      "menge": "2 l",
+      "zutat": "Maracujasaft"
+    }
+  ],
+  "schritte": [
+    "Bonbons über Nacht in Korn auflösen.",
+    "Am nächsten Tag den Saft hinzugeben und anschließend sieben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090953.jpg",
+  "geschaetzt": [],
+  "aenderungen": [
+    "Steht mit dem Solero-Schnaps auf einem Blatt"
+  ],
+  "freigegeben": false
+}

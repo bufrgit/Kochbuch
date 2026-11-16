@@ -1,0 +1,61 @@
+{
+  "id": "chinesischer-gurkensalat",
+  "titel": "Chinesischer Gurkensalat",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": 4,
+  "zeit": "10 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "1",
+      "zutat": "Gurke"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Kräuteressig"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Pfeffer"
+    },
+    {
+      "menge": "2",
+      "zutat": "Knoblauchzehen"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Sesamöl"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Chilisauce"
+    }
+  ],
+  "schritte": [
+    "Gurke halbieren und das Innere mit einem Löffel herausschaben.",
+    "Knoblauch pressen.",
+    "Alle Zutaten zu einem Dressing mischen, Knoblauch zugeben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090943.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Frage: Gurke klein schneiden fehlt – ergänzen?"
+  ],
+  "freigegeben": false
+}

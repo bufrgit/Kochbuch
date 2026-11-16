@@ -1,0 +1,55 @@
+{
+  "id": "solero-schnaps",
+  "titel": "Solero-Schnaps",
+  "untertitel": null,
+  "kapitel": "Getränke",
+  "portionen": null,
+  "zeit": "10 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1 Flasche",
+      "zutat": "Korn"
+    },
+    {
+      "menge": "3 Becher",
+      "zutat": "Maracuja-Joghurt"
+    },
+    {
+      "menge": "2 Becher",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "2 l",
+      "zutat": "Maracujasaft"
+    },
+    {
+      "menge": "2 Päckchen",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "150 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "5 Pinnchen",
+      "zutat": "Weinbrand"
+    }
+  ],
+  "schritte": [
+    "Alles mischen und anschließend durchsieben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090953.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Neues Kapitel „Getränke“",
+    "„3x/2x“ → „Becher“",
+    "Zeit geschätzt",
+    "Steht mit dem Nimm2-Schnaps auf einem Blatt"
+  ],
+  "freigegeben": false
+}

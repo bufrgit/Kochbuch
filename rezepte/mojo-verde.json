@@ -1,0 +1,57 @@
+{
+  "id": "mojo-verde",
+  "titel": "Mojo Verde",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": 2,
+  "zeit": "10 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "½",
+      "zutat": "grüne Paprika"
+    },
+    {
+      "menge": "1",
+      "zutat": "grüne Chilischote"
+    },
+    {
+      "menge": "20 g",
+      "zutat": "Petersilie TK"
+    },
+    {
+      "menge": "20 g",
+      "zutat": "Koriander, frisch"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Paprikaschote klein schneiden. Chilischote entkernen und klein schneiden. Knoblauch pressen.",
+    "Paprika, Chili, Petersilie, Koriander, Knoblauch und 2 EL Olivenöl pürieren.",
+    "Salzen und pfeffern."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090856.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Olivenöl, Salz & Pfeffer in die Zutaten ergänzt (standen nur in der Anleitung)"
+  ],
+  "freigegeben": false
+}

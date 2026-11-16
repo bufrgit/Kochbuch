@@ -1,0 +1,77 @@
+{
+  "id": "kartoffelsalat-ulrikes-rezept",
+  "titel": "Kartoffelsalat (Ulrikes Rezept)",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": 4,
+  "zeit": "45 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "6 mittelgroße",
+      "zutat": "Kartoffeln"
+    },
+    {
+      "menge": "2",
+      "zutat": "gekochte Eier"
+    },
+    {
+      "menge": "100 ml",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "½",
+      "zutat": "Fleischwurstring"
+    },
+    {
+      "menge": "1 kl. Glas",
+      "zutat": "Gewürzgurken"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Gurkenwasser"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Senf"
+    },
+    {
+      "menge": "5 EL",
+      "zutat": "Mayo"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Naturjoghurt"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Petersilie (TK)"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Kartoffeln kochen, abkühlen lassen und klein schneiden.",
+    "Alle anderen Zutaten ebenfalls kleinschneiden. Alles zusammen vermischen."
+  ],
+  "notiz": "Dazu passen Bockwürstchen oder Frikadellen.",
+  "clipart": null,
+  "quelle": "IMG20261116090913.jpg",
+  "geschaetzt": [
+    "portionen",
+    "zeit"
+  ],
+  "aenderungen": [
+    "Persönliches Rezept (von Ulrike)",
+    "Portionen fehlen im Original – 4 geschätzt",
+    "Zeit geschätzt (ohne Abkühlzeit)",
+    "„Majo“ → „Mayo“"
+  ],
+  "freigegeben": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "melone-feta-minzsalat",
+  "titel": "Melone-Feta-Minzsalat",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": 6,
+  "zeit": "15 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "1",
+      "zutat": "Melone"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Feta"
+    },
+    {
+      "menge": "1 Bund",
+      "zutat": "frische Minze"
+    },
+    {
+      "menge": "",
+      "zutat": "Saft einer Limette"
+    },
+    {
+      "menge": "1 Prise",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Honig"
+    }
+  ],
+  "schritte": [
+    "Melone und Feta in Würfel schneiden.",
+    "Minze hacken. Limette pressen.",
+    "Alles mit dem Limettensaft und dem Honig vermischen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090939.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„Alle Zutaten in Würfel schneiden“ → „Melone und Feta“"
+  ],
+  "freigegeben": false
+}

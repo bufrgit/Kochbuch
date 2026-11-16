@@ -1,0 +1,88 @@
+{
+  "id": "nacho-schichtsalat",
+  "titel": "Nacho-Schichtsalat",
+  "untertitel": null,
+  "kapitel": "Salate, Dips & Saucen",
+  "portionen": 6,
+  "zeit": "40 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Hack"
+    },
+    {
+      "menge": "½",
+      "zutat": "Eisbergsalat"
+    },
+    {
+      "menge": "300 ml",
+      "zutat": "Salsa-Sauce"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "Mais"
+    },
+    {
+      "menge": "3 große",
+      "zutat": "Tomaten"
+    },
+    {
+      "menge": "1",
+      "zutat": "rote Paprika"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Schmand"
+    },
+    {
+      "menge": "1 kl. Becher",
+      "zutat": "Naturjoghurt"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "Miracel Whip Balance"
+    },
+    {
+      "menge": "",
+      "zutat": "TK Schnittlauchröllchen"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Fondor"
+    },
+    {
+      "menge": "1 Tüte",
+      "zutat": "Reibekäse"
+    },
+    {
+      "menge": "1 Tüte",
+      "zutat": "Nachos"
+    }
+  ],
+  "schritte": [
+    "Salat kleinschneiden und in die Schüssel geben.",
+    "Hack würzen und anbraten, abkühlen lassen und auf den Salat schichten.",
+    "Darüber die Salsa-Sauce, dann den Mais. Darüber in Stücke geschnittene Tomaten und Paprika.",
+    "Schmand, Joghurt und Miracel Whip verrühren. Mit Salz, Pfeffer, Schnittlauch und Fondor würzen und über dem Gemüse verteilen.",
+    "Darüber den geriebenen Käse.",
+    "Nachos zerbröseln und kurz vor dem Servieren drüberstreuen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116090929.jpg",
+  "geschaetzt": [
+    "portionen",
+    "zeit"
+  ],
+  "aenderungen": [
+    "Portionen fehlen im Original – 6 geschätzt",
+    "Zeit geschätzt",
+    "Tippfehler „Becker“ → „Becher“"
+  ],
+  "freigegeben": false
+}
