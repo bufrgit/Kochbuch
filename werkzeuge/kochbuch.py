@@ -14,6 +14,7 @@ OBER = [  # Reihenfolge, Farbe, Spruch
     ("Getränke", "#3f86a8", ["Getränke"], "Zum Anstoßen"),
 ]
 TOC_ZEILEN = 46
+REGISTER = {"Pfanne & Co": "Pfanne", "Herzhaft gebacken": "Gebacken", "Salate, Dips & Saucen": "Salate", "Kuchen & Backen": "Kuchen", "Weihnachtsbäckerei": "Advent"}
 ZWEISEITIG = {"gebratene-nudeln-mit-knusprigem-haehnchen": (4, "Ausbackteig:"), "apfel-pudding-kuchen-mit-streuseln": (4, "Für die Streusel:")}  # Einträge pro Inhaltsverzeichnis-Seite (2 Spalten)
 
 
@@ -32,9 +33,13 @@ def motiv(kap):
 
 
 BUCH_CSS = """
-@page{size:210mm 297mm;margin:0}
+@page{size:216mm 303mm;margin:0}  /* DIN A4 + 3 mm Beschnitt rundum */
 /* DIN A4: A5-Layout mit 25 % Zoom auf etwas größerer Grundfläche (168 x 237,6 mm -> 210 x 297 mm) */
-.page{width:168mm;height:237.6mm;zoom:1.25}.page:last-of-type{page-break-after:auto}
+.page{width:168mm;height:237.6mm;zoom:1.25;margin:2.4mm;overflow:clip;overflow-clip-margin:2.4mm}
+/* Randregister: farbiger Reiter je Unterkapitel an der Außenkante, gestaffelt; reicht 3 mm in den Beschnitt */
+.reg{position:absolute;width:10.4mm;height:16mm;display:flex;align-items:center;justify-content:center;color:#fff;font:700 6.4pt Karla,sans-serif;letter-spacing:.12em;text-transform:uppercase}
+.reg span{writing-mode:vertical-rl;white-space:nowrap}
+.reg.r{right:-2.4mm;border-radius:1.6mm 0 0 1.6mm;padding-right:2.4mm}.reg.l{left:-2.4mm;border-radius:0 1.6mm 1.6mm 0;padding-left:2.4mm}.reg.l span{transform:rotate(180deg)}.page:last-of-type{page-break-after:auto}
 /* Bindungsrand (Ringbindung): rechte Seiten innen links, linke Seiten innen rechts */
 .rz:nth-of-type(odd),.toc:nth-of-type(odd){padding-left:21mm}.rz:nth-of-type(even),.toc:nth-of-type(even){padding-right:21mm}
 .rz:nth-of-type(even) .motiv{right:22mm}
@@ -89,6 +94,7 @@ document.fonts.ready.then(()=>{splitToc();for(const pg of document.querySelector
  const low=()=>Math.max(L.getBoundingClientRect().bottom,R.getBoundingClientRect().bottom);
  while(low()>limit&&fs>9){fs-=.3;pg.style.fontSize=fs+'px';}
  if(fs<11)console.log("ZU LANG klein "+pg.dataset.id+" "+fs.toFixed(1));if(low()>limit){pg.classList.add('zu-lang');console.log('ZU LANG '+pg.dataset.id);}}
+ for(const pg of document.querySelectorAll(".page"))pg.style.boxShadow="0 0 0 2.4mm "+getComputedStyle(pg).backgroundColor;
  document.body.dataset.fertig=1;});
 </script>"""
 
@@ -166,6 +172,11 @@ def build(out, toc_pages=2):
                 if not r["zutaten"]: p = p.replace('<h2>Zutaten</h2>', '', 1)
                 p = p.replace('<ol class="steps">', f'<ol class="steps" style="counter-reset:s {r["_start"]}">', 1)
                 p = p.replace('<div class="meta">', '<div class="fort">Fortsetzung</div><div class="meta" style="display:none">', 1)
+            alle = [k for _, _, ks, _ in OBER for k in ks]; i = alle.index(r["kapitel"])
+            top = 9.6 + i * (218.4 / len(alle)) + .4
+            farbe = themen.THEMEN.get(r["kapitel"], themen.STANDARD)["a"]
+            seite = "r" if n % 2 else "l"
+            p = p.replace('<div class="kap">', f'<div class="reg {seite}" style="top:{top:.1f}mm;background:{farbe}"><span>{REGISTER.get(r["kapitel"], r["kapitel"])}</span></div><div class="kap">', 1)
             pages.append(p)
 
     name, font, css = d.STYLES["landhaus"]

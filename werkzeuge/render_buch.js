@@ -7,7 +7,7 @@ const {chromium} = require('playwright');
   p.on('console', m => { if (/^(ZU LANG|TOC)/.test(m.text())) console.log(m.text()); });
   await p.goto('file://' + src, {waitUntil: 'networkidle'});
   await p.waitForSelector('body[data-fertig]', {state: 'attached', timeout: 120000});
-  await p.pdf({path: pdf, width: '210mm', height: '297mm', printBackground: true});
+  await p.pdf({path: pdf, width: '216mm', height: '303mm', preferCSSPageSize: true, printBackground: true});
   if (pngDir) {
     const s = await p.$$('section.page');
     const want = sel ? sel.split(',').map(Number) : s.map((_, i) => i + 1);
