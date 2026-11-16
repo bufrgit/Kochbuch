@@ -2,8 +2,10 @@
 
     python3 werkzeuge/webseite.py [ZIELORDNER]      (Standard: _site)
 
-- index.html            Web-App: Wochenplan, „Heute kochen“, Rezeptsuche, Einkaufsliste
-- <rezept-id>/          eine Kochansicht pro Rezept (dahin führen die QR-Codes im Buch)
+- index.html            Wochenplan: alle Rezepte, die diese Woche per QR-Code zu Bring! geschickt wurden,
+                        lassen sich auf Wochentage ziehen; oben steht, was es heute gibt
+- <rezept-id>/          eine Kochansicht pro Rezept (dahin führen die QR-Codes im Buch); „Zu Bring!“
+                        merkt das Rezept zugleich für den Wochenplan vor
 - app.js / app.css / sw.js / Icons aus werkzeuge/web/
 
 Datenquelle sind ausschließlich die Dateien in rezepte/. Interne Felder (Quellfoto,
@@ -25,7 +27,7 @@ FONTS = ("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..
          "&family=Caveat:wght@500;700&family=Karla:wght@400;600&display=swap")
 e = html.escape
 
-FELDER = ["id", "titel", "untertitel", "kapitel", "oberkapitel", "portionen", "zeit", "merkmale", "zutaten", "schritte", "notiz"]
+FELDER = ["id", "titel", "kapitel", "zeit"]  # mehr braucht der Wochenplan nicht
 REZEPTE = sorted((json.load(open(f, encoding="utf-8")) for f in glob.glob(os.path.join(ROOT, "rezepte", "*.json"))),
                  key=lambda r: r["titel"].lower())
 FARBE = {k: themen.THEMEN.get(k, themen.STANDARD)["a"] for _, _, ks, _ in OBER for k in ks}
@@ -87,7 +89,7 @@ def rezeptseite(r):
 <p class="meta">{e(meta)}</p>
 <div class="actions">
 <button class="btn voll" id="plan">📅 In den Wochenplan</button>
-<a class="btn bring" href="{e(bring_url(r))}">🛒 Zu Bring!</a>
+<a class="btn bring" id="bring" href="{e(bring_url(r))}">🛒 Zu Bring!</a>
 <button class="btn" id="wach" aria-pressed="false">☀️ Bildschirm anlassen</button>
 </div>
 <div class="grid">
@@ -100,35 +102,24 @@ def rezeptseite(r):
 
 
 def startseite():
-    daten = {
-        "basis": BASE,
-        "ober": [{"name": o, "farbe": f, "kapitel": [{"name": k, "farbe": FARBE[k]} for k in ks]} for o, f, ks, _ in OBER],
-        "rezepte": [{k: r.get(k) for k in FELDER} for r in REZEPTE],
-    }
+    daten = {"rezepte": [{k: r.get(k) for k in FELDER} for r in REZEPTE]}
     js = json.dumps(daten, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    ICON = {
-        "woche": '<rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path d="M7.5 14h2M11 14h2M14.5 14h2M7.5 17h2"/>',
-        "rezepte": '<path d="M5 4.5h10.5a3 3 0 0 1 3 3V20H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h10.5M9 8h6"/>',
-        "einkauf": '<path d="M4 9h16l-1.6 9.2a2 2 0 0 1-2 1.8H7.6a2 2 0 0 1-2-1.8z"/><path d="M8.5 9l3.5-5 3.5 5M9.5 13v3.5M14.5 13v3.5"/>',
-    }
-    tabs = "".join(f'<a href="#/{k}" data-tab="{k}"><svg viewBox="0 0 24 24" aria-hidden="true">{ICON[k]}</svg>{n}'
-                   f'{"<span class=zahl hidden></span>" if k == "einkauf" else ""}</a>'
-                   for k, n in [("woche", "Woche"), ("rezepte", "Rezepte"), ("einkauf", "Einkauf")])
-    return f"""{kopf(TITEL, 0, 'Wochenplan, Rezepte und Einkaufsliste zu unserem Familienkochbuch')}
+    return f"""{kopf(TITEL, 0, 'Unser Wochenplan zum Familienkochbuch')}
 </head><body data-seite="app">
 <main id="app"><noscript><p>Für den Wochenplan bitte JavaScript einschalten.</p></noscript></main>
-<nav class="tabs" aria-label="Bereiche">{tabs}</nav>
 <script type="application/json" id="daten">{js}</script>
 <script src="app.js"></script></body></html>"""
 
 
 MANIFEST = {
-    "name": TITEL, "short_name": "Kochbuch", "lang": "de", "start_url": "./#/woche", "scope": "./",
-    "display": "standalone", "background_color": "#fbf5ea", "theme_color": "#b4572a",
+    "name": TITEL, "short_name": "Kochbuch", "lang": "de", "start_url": "./", "scope": "./",
+    # "browser" statt "standalone": auf dem iPhone teilt sich das Homescreen-Symbol dann den Speicher mit Safari,
+    # wo die QR-Codes landen – sonst sähe der Wochenplan die gescannten Rezepte nicht.
+    "display": "browser", "background_color": "#fbf5ea", "theme_color": "#b4572a",
     "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"},
               {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
               {"src": "icon-180.png", "sizes": "180x180", "type": "image/png"}],
-    "shortcuts": [{"name": "Heute kochen", "url": "./#/heute"}, {"name": "Einkaufsliste", "url": "./#/einkauf"}],
+    "shortcuts": [{"name": "Heute kochen", "url": "./#/heute"}],
 }
 
 if __name__ == "__main__":

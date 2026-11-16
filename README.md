@@ -16,9 +16,9 @@ Design-Änderungen passieren nur in den Werkzeugen; die Rezepte müssen dafür n
 Bei jedem Push auf `main` baut `.github/workflows/pages.yml` die Seite neu und veröffentlicht sie unter
 https://bufrgit.github.io/Kochbuch/ – geänderte Rezepte sind also automatisch online.
 
-- **Woche:** Rezepte auf Wochentage legen, Personenzahl pro Tag anpassen, Woche per Link an die Familie schicken.
-- **Heute:** oben auf der Startseite; `…/Kochbuch/#/heute` öffnet direkt das heutige Rezept (gut als Handy-Lesezeichen).
-- **Einkauf:** Zutaten aller geplanten Rezepte zusammengerechnet zum Abhaken, eigene Einträge, Teilen als Text oder Übernahme in Bring!.
+- **QR-Code scannen → „Zu Bring!“:** die Zutaten gehen wie bisher an Bring!, und das Rezept wird zugleich für diese Woche vorgemerkt.
+- **Startseite = Wochenplan:** oben „Heute“, darunter „Noch ohne Tag“ mit den gescannten Rezepten. Am Griff ⠿ auf einen Wochentag ziehen (oder ⋯ antippen).
+- `…/Kochbuch/#/heute` öffnet direkt das heutige Rezept (gut als Lesezeichen).
 
-Der Plan wird nur im Browser des jeweiligen Geräts gespeichert (kein Konto, kein Server).
+Der Plan wird nur im Browser des jeweiligen Geräts gespeichert (kein Konto, kein Server) – also im selben Browser scannen und den Plan öffnen.
 Lokal ansehen: `python3 werkzeuge/webseite.py _site && python3 -m http.server -d _site`
