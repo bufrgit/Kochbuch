@@ -1,0 +1,66 @@
+{
+  "id": "partyknusperstangen",
+  "titel": "Partyknusperstangen",
+  "untertitel": null,
+  "kapitel": "Snacks & Kleinigkeiten",
+  "portionen": "24 Stück",
+  "zeit": "40 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "2 Packungen",
+      "zutat": "Blätterteig"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "geriebener Käse"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Kochschinken"
+    },
+    {
+      "menge": "2",
+      "zutat": "Zwiebeln"
+    },
+    {
+      "menge": "1",
+      "zutat": "Ei"
+    },
+    {
+      "menge": "",
+      "zutat": "Paprikapulver"
+    },
+    {
+      "menge": "",
+      "zutat": "TK-Kräuter"
+    },
+    {
+      "menge": "",
+      "zutat": "Sesam"
+    },
+    {
+      "menge": "",
+      "zutat": "Öl"
+    }
+  ],
+  "schritte": [
+    "Zwiebeln und Schinken klein würfeln. In Öl anbraten und zur Seite stellen.",
+    "Backofen auf 180 °C Umluft vorheizen.",
+    "1 Packung Blätterteig aufrollen. Zwiebel-Schinken-Mischung und die halbe Packung geriebenen Käse darüberstreuen.",
+    "2. Blätterteigplatte obendrauf legen. Mit dem verquirlten Ei bestreichen. Sesam, Paprikapulver und Kräuter darübergeben. Restlichen Käse daraufstreuen.",
+    "Teigplatte in 6 lange und dann jeweils 4 kurze Streifen schneiden. Streifen leicht spiralig auf ein Blech legen.",
+    "20 Min. backen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116093131.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„2 x Blätterteig“ → „2 Packungen“"
+  ],
+  "freigegeben": false
+}

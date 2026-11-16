@@ -1,0 +1,52 @@
+{
+  "id": "stockbrot",
+  "titel": "Stockbrot",
+  "untertitel": null,
+  "kapitel": "Snacks & Kleinigkeiten",
+  "portionen": 12,
+  "zeit": "25 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "400 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "1 Pck.",
+      "zutat": "Trockenhefe"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "300 ml",
+      "zutat": "lauwarme Milch"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Öl"
+    }
+  ],
+  "schritte": [
+    "Teig mit Knethaken herstellen.",
+    "15 Min. an einem warmen Ort gehen lassen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116093119.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Frage: „Teig um Stöcke wickeln und über dem Feuer backen“ ergänzen?"
+  ],
+  "freigegeben": false
+}

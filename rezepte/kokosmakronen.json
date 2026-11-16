@@ -1,0 +1,60 @@
+{
+  "id": "kokosmakronen",
+  "titel": "Kokosmakronen",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": null,
+  "zeit": "ca. 40 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "125 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "375 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "1 Päckchen",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "4",
+      "zutat": "Eigelb"
+    },
+    {
+      "menge": "4",
+      "zutat": "Eiweiß"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "375 g",
+      "zutat": "Kokosraspeln"
+    }
+  ],
+  "schritte": [
+    "Butter schaumig rühren, die Hälfte vom Zucker hinzugeben.",
+    "Vanillezucker und 4 Eigelb unter den restlichen Zucker geben und hinzufügen.",
+    "Mehl sieben und mit den Kokosraspeln unterrühren.",
+    "4 Eiweiß steif schlagen und zuletzt unter den Teig ziehen.",
+    "Bei 210 °C 10 Min. backen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116093036.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„4 Eigelb/4 Eiweiß“ auf zwei Zeilen aufgeteilt",
+    "Frage: Häufchen aufs Blech setzen (evtl. auf Oblaten) ergänzen?"
+  ],
+  "freigegeben": false
+}

@@ -1,0 +1,55 @@
+{
+  "id": "party-pizzabroetchenhaelften",
+  "titel": "Party-Pizzabrötchenhälften",
+  "untertitel": null,
+  "kapitel": "Snacks & Kleinigkeiten",
+  "portionen": "24 Brötchenhälften",
+  "zeit": "30 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "12",
+      "zutat": "Aufbackbrötchen (nicht TK)"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Tomatenketchup"
+    },
+    {
+      "menge": "1 großes Glas",
+      "zutat": "Miracel Whip"
+    },
+    {
+      "menge": "1 kl. Glas",
+      "zutat": "Gewürzgurken"
+    },
+    {
+      "menge": "300 g",
+      "zutat": "Gouda"
+    },
+    {
+      "menge": "2",
+      "zutat": "Zwiebeln"
+    },
+    {
+      "menge": "",
+      "zutat": "Belag: Salami, Schinken, Dosenpilze, Tomatenpaprika etc."
+    }
+  ],
+  "schritte": [
+    "Alles kleinschneiden und miteinander vermischen.",
+    "Die Brötchenhälften damit bestreichen.",
+    "Bei 200 °C Ober-/Unterhitze ca. 15 Min. backen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116093125.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„beschmieren“ → „bestreichen“"
+  ],
+  "freigegeben": false
+}
