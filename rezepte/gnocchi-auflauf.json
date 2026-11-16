@@ -1,0 +1,79 @@
+{
+  "id": "gnocchi-auflauf",
+  "titel": "Gnocchi-Auflauf mit Tomaten & Mozzarella",
+  "untertitel": null,
+  "kapitel": "Aufläufe",
+  "portionen": "2",
+  "zeit": "ca. 35 Minuten",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "400 g",
+      "zutat": "Gnocchi"
+    },
+    {
+      "menge": "20 g",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "passierte Tomaten"
+    },
+    {
+      "menge": "120 ml",
+      "zutat": "Schlagsahne"
+    },
+    {
+      "menge": "160 g",
+      "zutat": "Cherrytomaten"
+    },
+    {
+      "menge": "2",
+      "zutat": "Schalotten"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "1 Kugel",
+      "zutat": "Mozzarella"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Kräuter der Provence"
+    },
+    {
+      "menge": "",
+      "zutat": "Basilikum"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Backofen auf 200 °C Ober-/Unterhitze vorheizen. Schalotten in Ringe schneiden, Knoblauch pressen.",
+    "Schalotten glasig braten und Knoblauch hinzugeben. Tomatenmark hinzugeben und kurz anbraten.",
+    "Passierte Tomaten hinzugeben, 2 Minuten köcheln lassen. Kräuter der Provence, Salz und Pfeffer hinzugeben. Gnocchi kochen.",
+    "Cherrytomaten, Gnocchi und Sahne in die Pfanne geben. Alles in eine Auflaufform geben und den zerrupften Mozzarella darübergeben.",
+    "10 Minuten im Ofen backen. Basilikum darüberstreuen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082936.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Olivenöl im Schritt nicht erwähnt – unverändert"
+  ],
+  "freigegeben": false
+}

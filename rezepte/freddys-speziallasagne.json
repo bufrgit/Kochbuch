@@ -1,0 +1,107 @@
+{
+  "id": "freddys-speziallasagne",
+  "titel": "Freddys Speziallasagne",
+  "untertitel": null,
+  "kapitel": "Aufläufe",
+  "portionen": 4,
+  "zeit": "1 Std. 15 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Hackfleischsauce:"
+    },
+    {
+      "menge": "75 g",
+      "zutat": "gewürfelter Speck"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "500 g",
+      "zutat": "gemischtes Hack"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "500 ml",
+      "zutat": "Fleischbrühe"
+    },
+    {
+      "menge": "150 ml",
+      "zutat": "Rotwein"
+    },
+    {
+      "menge": "1",
+      "zutat": "Lorbeerblatt"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Muskat"
+    },
+    {
+      "menge": "",
+      "zutat": "Béchamelsauce:"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "500 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "",
+      "zutat": "weißer Pfeffer"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "",
+      "zutat": "Außerdem:"
+    },
+    {
+      "menge": "",
+      "zutat": "Lasagneplatten"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "geriebener Gouda"
+    }
+  ],
+  "schritte": [
+    "Speck in der Pfanne mit der gehackten Zwiebel auslassen. Hackfleisch hinzufügen und mit anbraten. 4 EL Tomatenmark, 500 ml Fleischbrühe, 150 ml Rotwein, Muskat, Salz und Pfeffer hinzugeben.",
+    "50 g Butter bei mittlerer Hitze im Topf zerlassen. Mehl nach und nach hineinstreuen. Kalte Milch nach und nach unterrühren. Kurz aufkochen lassen und kräftig mit dem Schneebesen durchschlagen. Salzen und pfeffern.",
+    "Backofen auf 180 °C Umluft vorheizen. Nudeln, Hackfleischsauce und Béchamelsauce abwechselnd schichten. Geriebenen Gouda zum Schluss drüberstreuen.",
+    "30 Min goldbraun backen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083000.jpg",
+  "geschaetzt": [
+    "portionen",
+    "zeit"
+  ],
+  "aenderungen": [
+    "Portionen fehlen im Original – 4 geschätzt",
+    "Zeit geschätzt",
+    "Zutaten-Gruppen (Hackfleischsauce/Béchamel/Außerdem) als Zwischenüberschriften übernommen",
+    "Lorbeerblatt steht in den Zutaten, aber nicht in der Anleitung – unverändert gelassen"
+  ],
+  "freigegeben": false
+}

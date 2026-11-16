@@ -1,0 +1,71 @@
+{
+  "id": "kartoffelgratin",
+  "titel": "Kartoffelgratin",
+  "untertitel": null,
+  "kapitel": "Beilagen",
+  "portionen": "4",
+  "zeit": "ca. 1 ¼ Stunden",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "800 g",
+      "zutat": "festkochende Kartoffeln"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "250 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "250 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "1",
+      "zutat": "Ei"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "",
+      "zutat": "Muskatnuss"
+    },
+    {
+      "menge": "",
+      "zutat": "Kräutersalz"
+    },
+    {
+      "menge": "",
+      "zutat": "Pfeffer"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Butter"
+    }
+  ],
+  "schritte": [
+    "Ofen auf 180 °C Umluft vorheizen. Knoblauch pressen. Auflaufform mit Butter fetten.",
+    "Kartoffeln in Scheiben hobeln. Die Hälfte in die Auflaufform schichten, mit Salz, Pfeffer und etwas Muskatnuss würzen. Die zweite Schicht Kartoffeln darübergeben.",
+    "Sahne und Milch mischen. Ei hinzufügen und verquirlen. Mit Gemüsebrühe, Kräutersalz, Pfeffer und Muskatnuss würzen.",
+    "Sauce über die Kartoffeln geben und Butterflöckchen obendrauf verteilen.",
+    "60 Minuten in den Backofen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082948.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Knoblauch: Verwendung im Original nicht genannt – unverändert"
+  ],
+  "freigegeben": false
+}

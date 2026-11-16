@@ -1,0 +1,62 @@
+{
+  "id": "haehnchen-mozzarella-tomaten-pesto",
+  "titel": "Hähnchen mit Mozzarella, Tomaten und Pesto",
+  "untertitel": null,
+  "kapitel": "Hauptgerichte",
+  "portionen": 2,
+  "zeit": "20 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "40 g",
+      "zutat": "Cherrytomaten"
+    },
+    {
+      "menge": "1 Kugel",
+      "zutat": "Mozzarella"
+    },
+    {
+      "menge": "400 g",
+      "zutat": "Hähnchenbrust"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Olivenöl oder Rama zum Kochen"
+    },
+    {
+      "menge": "20 g",
+      "zutat": "Pesto Verde"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Knoblauchpulver"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Kräuter der Provence"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz und Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Mozzarella und Cherrytomaten in Scheiben schneiden.",
+    "Hähnchen mit Knoblauchpulver, Kräutern der Provence, Salz und Pfeffer würzen.",
+    "Hähnchen 6 Min von jeder Seite anbraten.",
+    "In der Pfanne mit den Mozzarellascheiben belegen.",
+    "Mozzarella mit Pesto bestreichen und anschließend die Tomaten darauf geben."
+  ],
+  "notiz": "Dazu passen Salat, Kartoffeltaschen, Pommes, Bratkartoffeln, was man so mag 😊",
+  "clipart": null,
+  "quelle": "IMG20261116083006.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Frage: „40 g Cherrytomaten“ wirkt wenig – evtl. 400 g? Unverändert übernommen",
+    "Titel: „Hühnchen“ zu „Hähnchen“ vereinheitlicht"
+  ],
+  "freigegeben": false
+}

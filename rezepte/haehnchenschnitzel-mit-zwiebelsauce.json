@@ -1,0 +1,76 @@
+{
+  "id": "haehnchenschnitzel-mit-zwiebelsauce",
+  "titel": "Hähnchenschnitzel mit Zwiebelsauce",
+  "untertitel": null,
+  "kapitel": "Aufläufe",
+  "portionen": 3,
+  "zeit": "1 Std.",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Hähnchenfilets"
+    },
+    {
+      "menge": "4",
+      "zutat": "Zwiebeln"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Bacon Würfel"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "Öl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "TK Kräuter"
+    },
+    {
+      "menge": "1 gehäufter EL",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "300 ml",
+      "zutat": "Hühnerbrühe"
+    },
+    {
+      "menge": "200 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "1 Tüte",
+      "zutat": "Reibekäse"
+    },
+    {
+      "menge": "",
+      "zutat": "Reis"
+    }
+  ],
+  "schritte": [
+    "Hähnchenfilets in einer Pfanne anbraten. Mit Salz und Pfeffer würzen.",
+    "4 Zwiebeln in Ringe schneiden. Bacon Würfel in Öl anbraten.",
+    "Backofen auf 175 °C Umluft vorheizen.",
+    "Fleisch und Bacon in eine Auflaufform geben.",
+    "Zwiebelringe in Öl glasig braten. Mit Salz und Pfeffer würzen. 1/3 der Zwiebeln beiseite nehmen.",
+    "Rest der Zwiebeln mit dem Mehl bestäuben und anschwitzen. Mit der Brühe und der Sahne ablöschen. Sauce aufkochen lassen. Mit Salz und Pfeffer abschmecken. 4 Min. köcheln lassen.",
+    "Sauce über das Fleisch geben, mit den übrigen Zwiebeln und dem Käse bestreuen. 30 Min. in den Ofen.",
+    "Reis kochen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083016.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "TK-Kräuter stehen in den Zutaten, aber nicht in der Anleitung – unverändert gelassen"
+  ],
+  "freigegeben": false
+}

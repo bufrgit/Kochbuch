@@ -1,0 +1,70 @@
+{
+  "id": "flammkuchen",
+  "titel": "Flammkuchen",
+  "untertitel": null,
+  "kapitel": "Backen",
+  "portionen": "4",
+  "zeit": "ca. 45 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Mehl (Teig)"
+    },
+    {
+      "menge": "250 ml",
+      "zutat": "Wasser (Teig)"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Öl (Teig)"
+    },
+    {
+      "menge": "2 Prisen",
+      "zutat": "Salz (Teig)"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Crème double (Creme)"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Schmand (Creme)"
+    },
+    {
+      "menge": "",
+      "zutat": "Pfeffer (Creme)"
+    },
+    {
+      "menge": "",
+      "zutat": "Fondor (Creme)"
+    },
+    {
+      "menge": "",
+      "zutat": "Schnittlauchröllchen (Creme)"
+    },
+    {
+      "menge": "",
+      "zutat": "Belag nach Wahl: gewürfelter Schinkenspeck, Zwiebeln, Hähnchen, Mais, Süßsauersauce, rote Paprika"
+    }
+  ],
+  "schritte": [
+    "Teig mit Knethaken herstellen.",
+    "Creme zusammenrühren.",
+    "Zwiebeln andünsten. Hähnchen scharf anbraten.",
+    "Teig dünn ausrollen, mit der Creme bestreichen und nach Wunsch belegen.",
+    "Flammkuchen auf einem Pizzastein bei 250 °C backen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082941.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Schritt „Teig ausrollen, bestreichen, belegen“ ergänzt",
+    "Belagvorschläge zu einer Zeile zusammengefasst"
+  ],
+  "freigegeben": false
+}

@@ -1,0 +1,83 @@
+{
+  "id": "nudelauflauf-tomate-mozzarella",
+  "titel": "Cremiger Nudelauflauf mit Tomate-Mozzarella",
+  "untertitel": null,
+  "kapitel": "Aufläufe",
+  "portionen": "4",
+  "zeit": "ca. 45 Minuten",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "400 g",
+      "zutat": "Penne"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "2",
+      "zutat": "Knoblauchzehen"
+    },
+    {
+      "menge": "1",
+      "zutat": "Chilischote"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "passierte Tomaten"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "1 Kugel",
+      "zutat": "Mozzarella"
+    },
+    {
+      "menge": "1 Tüte",
+      "zutat": "Reibe-Mozzarella"
+    },
+    {
+      "menge": "400 g",
+      "zutat": "Cherrytomaten"
+    },
+    {
+      "menge": "",
+      "zutat": "Basilikum"
+    },
+    {
+      "menge": "",
+      "zutat": "Öl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Zucker"
+    }
+  ],
+  "schritte": [
+    "Ofen auf 200 °C Ober-/Unterhitze vorheizen. Zwiebel und Chilischote hacken, Knoblauch pressen, Cherrytomaten halbieren und Mozzarella grob würfeln.",
+    "Nudeln al dente kochen.",
+    "In einer Pfanne Zwiebeln, Chilischote und Knoblauch anbraten. Passierte Tomaten und Sahne hinzugeben. Köcheln lassen und etwas Reibemozzarella darunterstreuen. Mit Salz, Pfeffer und einer Prise Zucker abschmecken.",
+    "Nudeln in eine Auflaufform geben. Sauce, Cherrytomaten und Mozzarellawürfel darübergeben. Mit Basilikum bestreuen und Reibemozzarella darübergeben.",
+    "20 Minuten in den Backofen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082928.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Vorbereitungs-Schritte zusammengefasst"
+  ],
+  "freigegeben": false
+}

@@ -1,0 +1,75 @@
+{
+  "id": "frikadellen",
+  "titel": "Frikadellen",
+  "untertitel": null,
+  "kapitel": "Hauptgerichte",
+  "portionen": 4,
+  "zeit": "30 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1",
+      "zutat": "Brötchen"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "500 g",
+      "zutat": "Hack"
+    },
+    {
+      "menge": "1",
+      "zutat": "Ei"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Senf"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "getr. Majoran"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Paprikapulver"
+    },
+    {
+      "menge": "",
+      "zutat": "Pfeffer"
+    },
+    {
+      "menge": "2 TL",
+      "zutat": "Petersilie, getrocknet"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Maggi Würze"
+    }
+  ],
+  "schritte": [
+    "Brötchen in Wasser einweichen. Zwiebel würfeln.",
+    "Ei, Zwiebeln und die Gewürze zur Hackmasse geben und gut vermengen.",
+    "Brötchen gut ausdrücken und ebenfalls hinzugeben.",
+    "Bällchen formen und in einer Pfanne anbraten."
+  ],
+  "notiz": "Dazu passen Möhrenspalten, Bratkartoffeln, (Kartoffel-)Salat.",
+  "clipart": null,
+  "quelle": "IMG20261116082953.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt"
+  ],
+  "freigegeben": false
+}
