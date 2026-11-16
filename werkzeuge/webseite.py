@@ -1,100 +1,149 @@
-import sys, os, json, html, re
-from urllib.parse import quote
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from rezepte import RECIPES
+"""Erzeugt die Webseite zum Kochbuch (für GitHub Pages).
 
-BASE = (sys.argv[2] if len(sys.argv) > 2 else "https://bufrgit.github.io/Kochbuch").rstrip("/") + "/"
-OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-os.makedirs(OUT, exist_ok=True)
+    python3 werkzeuge/webseite.py [ZIELORDNER]      (Standard: _site)
+
+- index.html            Web-App: Wochenplan, „Heute kochen“, Rezeptsuche, Einkaufsliste
+- <rezept-id>/          eine Kochansicht pro Rezept (dahin führen die QR-Codes im Buch)
+- app.js / app.css / sw.js / Icons aus werkzeuge/web/
+
+Datenquelle sind ausschließlich die Dateien in rezepte/. Interne Felder (Quellfoto,
+Änderungsprotokoll, Freigabe) landen nicht auf der Webseite.
+"""
+import glob, html, json, os, re, shutil, sys
+from urllib.parse import quote
+
+HIER = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HIER)
+sys.path.insert(0, HIER)
+import themen
+from kochbuch import OBER, TITEL
+
+BASE = "https://bufrgit.github.io/Kochbuch/"  # so steht es in den QR-Codes im Buch
+OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "_site")
+WEB = os.path.join(HIER, "web")
+FONTS = ("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400"
+         "&family=Caveat:wght@500;700&family=Karla:wght@400;600&display=swap")
 e = html.escape
 
-def minutes(meta):
-    m = re.search(r"(\d+)\s*Minuten", meta); return int(m.group(1)) if m else None
-def portions(meta):
-    m = re.search(r"(\d+)\s*Portionen", meta); return int(m.group(1)) if m else 4
-def page_url(r): return f"{BASE}{r['id']}/"
+FELDER = ["id", "titel", "untertitel", "kapitel", "oberkapitel", "portionen", "zeit", "merkmale", "zutaten", "schritte", "notiz"]
+REZEPTE = sorted((json.load(open(f, encoding="utf-8")) for f in glob.glob(os.path.join(ROOT, "rezepte", "*.json"))),
+                 key=lambda r: r["titel"].lower())
+FARBE = {k: themen.THEMEN.get(k, themen.STANDARD)["a"] for _, _, ks, _ in OBER for k in ks}
+
+
+def kopf(titel, tiefe, beschreibung=""):
+    p = "../" * tiefe
+    return f"""<!doctype html><html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>{e(titel)}</title>{f'<meta name="description" content="{e(beschreibung)}">' if beschreibung else ''}
+<meta name="theme-color" content="#fbf5ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1f1a16" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="{p}manifest.webmanifest">
+<link rel="icon" href="{p}icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{p}icon-180.png">
+<meta name="apple-mobile-web-app-title" content="Kochbuch">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{FONTS}">
+<link rel="stylesheet" href="{p}app.css">"""
+
+
 def bring_url(r):
-    n = portions(r["meta"])
-    return ("https://api.getbring.com/rest/bringrecipes/deeplink?url=" + quote(page_url(r), safe="")
+    n = r["portionen"]
+    return ("https://api.getbring.com/rest/bringrecipes/deeplink?url=" + quote(BASE + r["id"] + "/", safe="")
             + f"&source=web&baseQuantity={n}&requestedQuantity={n}")
 
-CSS = """
-:root{--ink:#3b2f2a;--acc:#c8642a;--soft:#8a7a6e;--paper:#fbf6ee;--card:#fff;--line:#e6d9c6;--bring:#3a9b6e}
-@media (prefers-color-scheme:dark){:root{--ink:#f1e7da;--acc:#e8894f;--soft:#b5a597;--paper:#1f1a17;--card:#2a2420;--line:#3d342e;--bring:#4fb585}}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.55 Georgia,"Times New Roman",serif}
-main{max-width:980px;margin:0 auto;padding:28px 18px 60px}
-.kap{font:700 13px/1 -apple-system,system-ui,sans-serif;letter-spacing:.08em;color:var(--acc);text-transform:uppercase}
-h1{font-size:clamp(30px,6vw,44px);line-height:1.1;margin:8px 0 6px}
-.sub{font-style:italic;color:var(--soft);margin:0}.meta{font:15px -apple-system,system-ui,sans-serif;color:var(--soft);margin:8px 0 18px}
-.actions{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 24px}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:600 16px -apple-system,system-ui,sans-serif;text-decoration:none;cursor:pointer}
-.btn.bring{background:var(--bring);border-color:var(--bring);color:#fff}
-.btn[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#fff}
-.grid{display:grid;grid-template-columns:minmax(240px,1fr) 2fr;gap:28px}
-@media (max-width:720px){.grid{grid-template-columns:1fr}}
-h2{font:700 13px/1 -apple-system,system-ui,sans-serif;letter-spacing:.08em;color:var(--acc);text-transform:uppercase;margin:0 0 12px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
-ul.ing{list-style:none;margin:0;padding:0}ul.ing li{display:flex;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}ul.ing li:last-child{border:0}
-ul.ing b{min-width:64px}
-ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
-ol.steps li{counter-increment:s;position:relative;padding:12px 12px 12px 52px;border-radius:12px;cursor:pointer;margin-bottom:6px;font-size:20px}
-ol.steps li::before{content:counter(s);position:absolute;left:10px;top:12px;width:30px;height:30px;border-radius:50%;background:var(--acc);color:#fff;font:700 15px/30px -apple-system,system-ui,sans-serif;text-align:center}
-ol.steps li.done{opacity:.4;text-decoration:line-through}
-.note{border-left:3px solid var(--acc);padding-left:14px;font-style:italic;margin-top:20px}
-.hint{font:14px -apple-system,system-ui,sans-serif;color:var(--soft);margin-top:8px}
-a.back{font:15px -apple-system,system-ui,sans-serif;color:var(--soft);text-decoration:none}
-.list a{display:block;padding:14px 0;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none;font-size:22px}
-.list span{display:block;font:14px -apple-system,system-ui,sans-serif;color:var(--soft)}
-"""
-open(f"{OUT}/style.css", "w").write(CSS)
-open(f"{OUT}/.nojekyll", "w").write("")
 
-JS = """
-<script>
-document.querySelectorAll('ol.steps li').forEach(li=>li.addEventListener('click',()=>li.classList.toggle('done')));
-const b=document.getElementById('wake');let lock=null;
-if(!('wakeLock' in navigator)){b.hidden=true}
-b.addEventListener('click',async()=>{try{if(lock){await lock.release();lock=null}else{lock=await navigator.wakeLock.request('screen');lock.addEventListener('release',()=>{lock=null;b.setAttribute('aria-pressed','false')})}b.setAttribute('aria-pressed',lock?'true':'false')}catch(e){}});
-document.addEventListener('visibilitychange',async()=>{if(b.getAttribute('aria-pressed')==='true'&&!lock&&document.visibilityState==='visible'){try{lock=await navigator.wakeLock.request('screen')}catch(e){}}});
-</script>"""
+def ist_gruppe(z):
+    return not z["menge"] and z["zutat"].rstrip().endswith(":")
 
-def head(title):
-    return f"""<!doctype html><html lang="de"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><title>{e(title)}</title>
-<link rel="stylesheet" href="{'' if title=='Unser Familienkochbuch' else '../'}style.css">"""
 
-for r in RECIPES:
-    ings = [f"{a} {n}".strip() for a, n in r["ingredients"]]
-    ld = {"@context": "https://schema.org", "@type": "Recipe", "name": r["title"], "description": r["subtitle"] or "",
-          "recipeYield": str(portions(r["meta"])), "recipeCategory": r["kapitel"].title(),
-          "recipeIngredient": ings,
-          "recipeInstructions": [{"@type": "HowToStep", "text": s} for s in r["steps"]]}
-    if minutes(r["meta"]): ld["totalTime"] = f"PT{minutes(r['meta'])}M"
-    os.makedirs(f"{OUT}/{r['id']}", exist_ok=True)
-    body = f"""{head(r['title'])}
+def minuten(zeit):
+    h = re.search(r"(\d+)\s*Std", zeit or ""); m = re.search(r"(\d+)\s*Min", zeit or "")
+    return (int(h.group(1)) * 60 if h else 0) + (int(m.group(1)) if m else 0)
+
+
+def rezeptseite(r):
+    zut = [f"{z['menge']} {z['zutat']}".strip() for z in r["zutaten"] if not ist_gruppe(z)]
+    ld = {"@context": "https://schema.org", "@type": "Recipe", "name": r["titel"], "description": r["untertitel"] or "",
+          "recipeYield": str(r["portionen"]), "recipeCategory": r["kapitel"], "recipeIngredient": zut,
+          "recipeInstructions": [{"@type": "HowToStep", "text": s} for s in r["schritte"]]}
+    if minuten(r["zeit"]):
+        ld["totalTime"] = f"PT{minuten(r['zeit'])}M"
+    meta = "  ·  ".join([f"{r['portionen']} Portionen", r["zeit"] or "", *r["merkmale"]]).strip(" ·")
+    motiv = themen.THEMEN.get(r["kapitel"], {}).get("motiv", "")
+    farbe = FARBE.get(r["kapitel"], "#b4572a")
+    zl = "".join(f'<li class="grp">{e(z["zutat"].rstrip(":"))}</li>' if ist_gruppe(z)
+                 else f'<li><b>{e(z["menge"])}</b><span>{e(z["zutat"])}</span></li>' for z in r["zutaten"])
+    return f"""{kopf(r['titel'], 1, r['untertitel'] or '')}
+<style>.rezept .kap{{color:{farbe}}}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
-</head><body><main>
-<a class="back" href="../">← Alle Rezepte</a>
-<p class="kap" style="margin-top:18px">{e(r['kapitel'])}</p>
-<h1>{e(r['title'])}</h1><p class="sub">{e(r['subtitle'])}</p><p class="meta">{e(r['meta'])}</p>
+</head><body data-seite="rezept" data-id="{e(r['id'])}" data-titel="{e(r['titel'])}" data-portionen="{r['portionen']}">
+<main class="rezept">
+<a class="zurueck" href="../">← Kochbuch &amp; Wochenplan</a>
+{motiv}
+<p class="kap">{e(r['kapitel'])}</p>
+<h1>{e(r['titel'])}</h1>{f'<p class="sub">{e(r["untertitel"])}</p>' if r['untertitel'] else ''}
+<p class="meta">{e(meta)}</p>
 <div class="actions">
-<a class="btn bring" href="{e(bring_url(r))}">🛒 Zutaten zu Bring! hinzufügen</a>
-<button class="btn" id="wake" aria-pressed="false">☀️ Bildschirm anlassen</button>
+<button class="btn voll" id="plan">📅 In den Wochenplan</button>
+<a class="btn bring" href="{e(bring_url(r))}">🛒 Zu Bring!</a>
+<button class="btn" id="wach" aria-pressed="false">☀️ Bildschirm anlassen</button>
 </div>
 <div class="grid">
-<section class="card"><h2>Zutaten</h2><ul class="ing">
-{''.join(f'<li><b>{e(a)}</b><span>{e(n)}</span></li>' for a, n in r['ingredients'])}
-</ul></section>
-<section><h2>Zubereitung</h2><ol class="steps">
-{''.join(f'<li>{e(s)}</li>' for s in r['steps'])}
-</ol><p class="hint">Tipp: Erledigte Schritte antippen, dann werden sie ausgegraut.</p>
-{f'<p class="note">{e(r["note"])}</p>' if r["note"] else ""}</section>
-</div></main>{JS}</body></html>"""
-    open(f"{OUT}/{r['id']}/index.html", "w").write(body)
+<section><h2>Zutaten</h2><ul class="zut">{zl}</ul></section>
+<section><h2>Zubereitung</h2><ol class="schritte">{''.join(f'<li>{e(s)}</li>' for s in r['schritte'])}</ol>
+<p class="hinweis">Tipp: Erledigte Schritte antippen, dann werden sie ausgegraut.</p>
+{f'<p class="note">{e(r["notiz"])}</p>' if r['notiz'] else ''}</section>
+</div></main>
+<script src="../app.js"></script></body></html>"""
 
-items = "".join(f'<a href="{r["id"]}/">{e(r["title"])}<span>{e(r["kapitel"].title())} · {e(r["meta"])}</span></a>' for r in RECIPES)
-open(f"{OUT}/index.html", "w").write(f"""{head('Unser Familienkochbuch')}</head><body><main>
-<p class="kap">Familienkochbuch</p><h1>Unsere Rezepte</h1><div class="list">{items}</div></main></body></html>""")
-print("\n".join(page_url(r) for r in RECIPES))
+
+def startseite():
+    daten = {
+        "basis": BASE,
+        "ober": [{"name": o, "farbe": f, "kapitel": [{"name": k, "farbe": FARBE[k]} for k in ks]} for o, f, ks, _ in OBER],
+        "rezepte": [{k: r.get(k) for k in FELDER} for r in REZEPTE],
+    }
+    js = json.dumps(daten, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    ICON = {
+        "woche": '<rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path d="M7.5 14h2M11 14h2M14.5 14h2M7.5 17h2"/>',
+        "rezepte": '<path d="M5 4.5h10.5a3 3 0 0 1 3 3V20H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h10.5M9 8h6"/>',
+        "einkauf": '<path d="M4 9h16l-1.6 9.2a2 2 0 0 1-2 1.8H7.6a2 2 0 0 1-2-1.8z"/><path d="M8.5 9l3.5-5 3.5 5M9.5 13v3.5M14.5 13v3.5"/>',
+    }
+    tabs = "".join(f'<a href="#/{k}" data-tab="{k}"><svg viewBox="0 0 24 24" aria-hidden="true">{ICON[k]}</svg>{n}'
+                   f'{"<span class=zahl hidden></span>" if k == "einkauf" else ""}</a>'
+                   for k, n in [("woche", "Woche"), ("rezepte", "Rezepte"), ("einkauf", "Einkauf")])
+    return f"""{kopf(TITEL, 0, 'Wochenplan, Rezepte und Einkaufsliste zu unserem Familienkochbuch')}
+</head><body data-seite="app">
+<main id="app"><noscript><p>Für den Wochenplan bitte JavaScript einschalten.</p></noscript></main>
+<nav class="tabs" aria-label="Bereiche">{tabs}</nav>
+<script type="application/json" id="daten">{js}</script>
+<script src="app.js"></script></body></html>"""
+
+
+MANIFEST = {
+    "name": TITEL, "short_name": "Kochbuch", "lang": "de", "start_url": "./#/woche", "scope": "./",
+    "display": "standalone", "background_color": "#fbf5ea", "theme_color": "#b4572a",
+    "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"},
+              {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
+              {"src": "icon-180.png", "sizes": "180x180", "type": "image/png"}],
+    "shortcuts": [{"name": "Heute kochen", "url": "./#/heute"}, {"name": "Einkaufsliste", "url": "./#/einkauf"}],
+}
+
+if __name__ == "__main__":
+    if os.path.isdir(OUT):
+        shutil.rmtree(OUT)
+    os.makedirs(OUT)
+    for f in os.listdir(WEB):
+        shutil.copy(os.path.join(WEB, f), OUT)
+    open(f"{OUT}/.nojekyll", "w").write("")
+    open(f"{OUT}/index.html", "w", encoding="utf-8").write(startseite())
+    open(f"{OUT}/404.html", "w", encoding="utf-8").write(
+        kopf("Nicht gefunden", 0) + '</head><body><main><p class="kap">Familienkochbuch</p><h1>Diese Seite gibt es nicht.</h1>'
+        f'<p><a class="btn voll" href="{BASE}">Zum Kochbuch</a></p></main></body></html>')
+    open(f"{OUT}/manifest.webmanifest", "w", encoding="utf-8").write(json.dumps(MANIFEST, ensure_ascii=False, indent=1))
+    for r in REZEPTE:
+        os.makedirs(f"{OUT}/{r['id']}")
+        open(f"{OUT}/{r['id']}/index.html", "w", encoding="utf-8").write(rezeptseite(r))
+    print(f"{len(REZEPTE)} Rezepte -> {OUT}")

@@ -1,0 +1,159 @@
+/* Familienkochbuch – Web-App im Landhaus-Look des Buchs */
+:root{
+  --paper:#fbf5ea;--card:#fffdf8;--ink:#3a2e26;--soft:#7d6b5c;--line:#e3d3b8;--dash:#d9c6a8;
+  --acc:#b4572a;--acc-ink:#fff;--olive:#6f7f3e;--zettel:#f3e6cc;--bring:#3a9b6e;--heute:#f6e3d3;
+  --shadow:0 1px 0 #e0cda9;
+  --serif:Fraunces,Georgia,"Times New Roman",serif;--sans:Karla,-apple-system,system-ui,sans-serif;--hand:Caveat,"Segoe Print",cursive;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#1f1a16;--card:#2a231e;--ink:#f1e6d8;--soft:#b7a594;--line:#40362e;--dash:#4d4137;
+  --acc:#e0814f;--acc-ink:#1f1a16;--olive:#a7b872;--zettel:#3a3026;--bring:#4fb585;--heute:#3d2c22;--shadow:none}}
+:root[data-theme="dark"]{
+  --paper:#1f1a16;--card:#2a231e;--ink:#f1e6d8;--soft:#b7a594;--line:#40362e;--dash:#4d4137;
+  --acc:#e0814f;--acc-ink:#1f1a16;--olive:#a7b872;--zettel:#3a3026;--bring:#4fb585;--heute:#3d2c22;--shadow:none}
+
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.5 var(--serif)}
+main{max-width:760px;margin:0 auto;padding:22px 16px 110px}
+a{color:inherit}
+button{font:inherit;color:inherit}
+[hidden]{display:none!important}
+.kap{font:600 12px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--acc);margin:0}
+h1{font:600 clamp(30px,7.5vw,42px)/1.08 var(--serif);margin:6px 0 4px;text-wrap:balance}
+h2{font:700 26px/1.1 var(--hand);color:var(--acc);margin:26px 0 8px}
+.sub{font-style:italic;color:var(--soft);margin:0}
+.meta{font:14px var(--sans);color:var(--soft);margin:8px 0 16px;padding-bottom:12px;border-bottom:1px dashed var(--dash)}
+.muted{color:var(--soft)}
+.small{font:14px/1.4 var(--sans)}
+
+/* Knöpfe */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 16px;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:600 15px var(--sans);text-decoration:none;cursor:pointer}
+.btn.voll{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.btn.bring{background:var(--bring);border-color:var(--bring);color:#fff}
+.btn[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.btn.klein{min-height:36px;padding:6px 12px;font-size:14px}
+.ico{width:40px;height:40px;border-radius:50%;border:1.5px solid var(--line);background:var(--card);display:inline-grid;place-items:center;
+  font:600 20px/1 var(--sans);cursor:pointer;flex:none;color:var(--ink);padding:0;text-decoration:none}
+.ico.plus{color:var(--acc);border-color:var(--acc)}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 22px}
+
+/* Kopf der App */
+.kopf{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:6px}
+.kopf h1{margin-bottom:0}
+.hand{font:500 22px/1.2 var(--hand);color:var(--soft)}
+
+/* Heute-Karte */
+.heute{background:var(--heute);border-radius:18px;padding:16px 18px;margin:16px 0 8px;box-shadow:var(--shadow)}
+.heute .kap{margin-bottom:6px}
+.heute a.titel{display:block;font:600 24px/1.15 var(--serif);text-decoration:none;margin-bottom:12px}
+.heute .leer{font:500 22px/1.25 var(--hand);color:var(--soft);margin:2px 0 10px}
+.heute .reihe{display:flex;flex-wrap:wrap;gap:8px}
+
+/* Wochenleiste */
+.wnav{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:20px 0 6px}
+.wnav b{font:600 18px var(--serif);text-align:center;flex:1}
+.wnav .heute-link{font:600 13px var(--sans);color:var(--acc);background:none;border:0;cursor:pointer;padding:4px}
+
+.tag{border-bottom:1px dashed var(--dash);padding:12px 0}
+.tag:last-child{border-bottom:0}
+.tag .th{display:flex;align-items:baseline;gap:8px;margin-bottom:4px}
+.tag .th .wt{font:700 24px/1 var(--hand);color:var(--acc);min-width:96px}
+.tag .th .dt{font:13px var(--sans);color:var(--soft)}
+.tag.ist-heute{background:var(--heute);margin:0 -12px;padding:12px;border-radius:14px;border-bottom-color:transparent}
+.tag.ist-heute .th .dt:after{content:" · heute";font-weight:600;color:var(--acc)}
+.tag.vorbei .th .wt{opacity:.55}
+.eintrag{display:flex;align-items:center;gap:8px;padding:6px 0}
+.eintrag a{flex:1;min-width:0;text-decoration:none;font:600 18px/1.25 var(--serif)}
+.eintrag a small{display:block;font:13px var(--sans);color:var(--soft);font-weight:400}
+.port{display:flex;align-items:center;gap:2px;font:600 13px var(--sans);color:var(--soft);white-space:nowrap}
+.port button{width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:var(--card);cursor:pointer;font:600 16px/1 var(--sans);color:var(--ink);padding:0}
+.port span{min-width:44px;text-align:center}
+.weg{background:none;border:0;color:var(--soft);font:20px/1 var(--sans);width:32px;height:32px;cursor:pointer;padding:0}
+.addtag{background:none;border:1px dashed var(--dash);border-radius:999px;color:var(--soft);font:600 14px var(--sans);padding:6px 14px;cursor:pointer;margin-top:4px}
+.unten{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+
+/* Rezeptliste */
+.suche{position:sticky;top:0;z-index:5;background:var(--paper);padding:10px 0 8px;margin:6px 0 0}
+.suche input{width:100%;min-height:48px;border-radius:14px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);
+  font:17px var(--sans);padding:10px 14px}
+.suche input:focus{outline:2px solid var(--acc);outline-offset:1px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:10px 0 2px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:7px 13px;font:600 14px var(--sans);cursor:pointer;color:var(--ink)}
+.chip[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.wahl{background:var(--zettel);border-radius:14px;padding:12px 14px;margin:12px 0 0;font:15px/1.4 var(--sans);display:flex;gap:10px;align-items:center;justify-content:space-between}
+.gruppe h3{font:600 12px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--k,var(--acc));margin:24px 0 2px;display:flex;align-items:center;gap:8px}
+.gruppe h3:before{content:"";width:10px;height:10px;border-radius:50%;background:var(--k,var(--acc))}
+.zeile{display:flex;align-items:center;gap:10px;border-bottom:1px dotted var(--line)}
+.zeile a{flex:1;min-width:0;display:block;padding:12px 0;text-decoration:none;font:600 19px/1.25 var(--serif)}
+.zeile a span{display:block;font:13px var(--sans);color:var(--soft);font-weight:400;margin-top:2px}
+.zeile .ico.drin{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+.nix{font:500 22px var(--hand);color:var(--soft);margin:30px 0;text-align:center}
+
+/* Einkaufsliste */
+.einkauf li{list-style:none}
+.einkauf ul{margin:0;padding:0}
+.ek{display:flex;align-items:flex-start;gap:12px;padding:10px 0;border-bottom:1px dotted var(--line);cursor:pointer;user-select:none}
+.ek input{appearance:none;-webkit-appearance:none;width:24px;height:24px;border:2px solid var(--acc);border-radius:7px;margin:2px 0 0;flex:none;cursor:pointer;background:var(--card)}
+.ek input:checked{background:var(--acc) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/18px no-repeat}
+.ek .txt{flex:1;min-width:0}
+.ek .menge{font:600 16px var(--sans);margin-right:6px}
+.ek .name{font:17px/1.35 var(--serif)}
+.ek .woher{display:block;font:12.5px/1.35 var(--sans);color:var(--soft);margin-top:1px}
+.ek.erledigt .txt{opacity:.45;text-decoration:line-through}
+.ek .weg{margin-top:-4px}
+.eigen{display:flex;gap:8px;margin:12px 0 0}
+.eigen input{flex:1;min-width:0;min-height:44px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:16px var(--sans);padding:8px 12px}
+.bringliste{display:flex;flex-direction:column;gap:8px}
+.bringliste a{justify-content:space-between}
+.zettel{background:var(--zettel);border-radius:4px;padding:12px 16px;font:500 21px/1.3 var(--hand);transform:rotate(-.8deg);box-shadow:var(--shadow);margin:14px 0}
+
+/* Untere Navigation */
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);border-top:1px solid var(--line);display:flex;justify-content:center;padding:6px 8px calc(6px + env(safe-area-inset-bottom))}
+nav.tabs a{flex:1;max-width:180px;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 4px;text-decoration:none;color:var(--soft);
+  font:600 12.5px var(--sans);border-radius:12px;position:relative}
+nav.tabs a svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+nav.tabs a[aria-current=page]{color:var(--acc)}
+nav.tabs .zahl{position:absolute;top:2px;left:calc(50% + 8px);background:var(--acc);color:var(--acc-ink);border-radius:999px;font:700 11px/1 var(--sans);padding:3px 6px}
+
+/* Auswahlblatt (Tag wählen) */
+.blatt-hg{position:fixed;inset:0;background:#0006;z-index:40;display:flex;align-items:flex-end;justify-content:center}
+.blatt{background:var(--paper);width:100%;max-width:560px;border-radius:20px 20px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom));max-height:88vh;overflow:auto}
+@media (min-width:640px){.blatt-hg{align-items:center}.blatt{border-radius:20px}}
+.blatt h3{font:600 20px/1.2 var(--serif);margin:0 0 2px}
+.blatt .kap{margin:14px 0 8px}
+.tage{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.tage button{border:1.5px solid var(--line);background:var(--card);border-radius:12px;padding:8px 0 6px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:1px;color:var(--ink)}
+.tage button b{font:700 20px/1 var(--hand);color:var(--acc)}
+.tage button span{font:12px var(--sans);color:var(--soft)}
+.tage button i{font:normal 600 11px var(--sans);color:var(--olive);min-height:13px}
+.tage button.ist-heute{border-color:var(--acc);background:var(--heute)}
+.tage button.vorbei{opacity:.5}
+.blatt .zu{margin-top:16px;width:100%}
+
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--ink);color:var(--paper);
+  font:600 15px var(--sans);padding:12px 18px;border-radius:999px;z-index:50;box-shadow:0 6px 20px #0003;display:flex;gap:12px;align-items:center;max-width:calc(100% - 32px)}
+.toast a{color:var(--paper)}
+
+/* Rezeptseite (Kochansicht) */
+.rezept{position:relative}
+.rezept .motiv{position:absolute;top:22px;right:12px;width:84px;height:84px;opacity:.85}
+.rezept h1{padding-right:90px}
+a.zurueck{font:600 14px var(--sans);color:var(--soft);text-decoration:none;display:inline-block;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:minmax(220px,1fr) 1.6fr;gap:28px}
+@media (max-width:700px){.grid{grid-template-columns:1fr;gap:6px}}
+.grid h2{margin-top:6px}
+ul.zut{list-style:none;margin:0;padding:0}
+ul.zut li{display:flex;gap:12px;padding:7px 0;border-bottom:1px dotted var(--line)}
+ul.zut li b{font:600 15px/1.5 var(--sans);min-width:76px;flex:none}
+ul.zut li.grp{font:700 21px/1.1 var(--hand);color:var(--olive);border:0;padding-top:14px}
+ol.schritte{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.schritte li{counter-increment:s;position:relative;padding:10px 10px 10px 40px;border-radius:12px;cursor:pointer;margin-bottom:4px;font-size:19px;line-height:1.5}
+ol.schritte li:before{content:counter(s);position:absolute;left:8px;top:4px;font:700 28px/1.2 var(--hand);color:var(--acc)}
+ol.schritte li.done{opacity:.4;text-decoration:line-through}
+.note{font:500 22px/1.25 var(--hand);background:var(--zettel);padding:12px 16px;transform:rotate(-1deg);margin-top:18px;box-shadow:var(--shadow)}
+.hinweis{font:13.5px var(--sans);color:var(--soft);margin-top:8px}
+
+@media print{nav.tabs,.actions,.toast{display:none!important}body{background:#fff}}
