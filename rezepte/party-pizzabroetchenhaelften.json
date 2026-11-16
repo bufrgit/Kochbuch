@@ -2,7 +2,7 @@
   "id": "party-pizzabroetchenhaelften",
   "titel": "Party-Pizzabrötchenhälften",
   "untertitel": null,
-  "kapitel": "Snacks",
+  "kapitel": "Herzhaft gebacken",
   "portionen": "24 Brötchenhälften",
   "zeit": "30 Min",
   "merkmale": [],
@@ -50,8 +50,9 @@
   "aenderungen": [
     "Zeit geschätzt",
     "„beschmieren“ → „bestreichen“",
-    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“"
+    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“",
+    "Abgestimmt: von „Snacks“ ins neue Kapitel „Herzhaft gebacken“ verschoben"
   ],
   "freigegeben": false,
-  "oberkapitel": "Kleinigkeiten & Beilagen"
+  "oberkapitel": "Herzhaftes"
 }

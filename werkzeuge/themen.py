@@ -50,6 +50,9 @@ THEMEN.update({
         '<g transform="translate(70 72) rotate(-35)"><path d="M-24 -9 h44 M-20 9 h44"/>'
         '<ellipse cx="22" cy="0" rx="4" ry="9"/><path d="M-24 -9 q-6 9 4 18"/><path d="M-12 -6 h28 M-12 0 h28 M-12 6 h28" stroke-width="1.4"/></g>'
         '<g transform="translate(26 80) rotate(20)"><path d="M-14 -6 h28 M-14 6 h28"/><ellipse cx="14" cy="0" rx="3" ry="6"/><path d="M-14 -6 q-4 6 3 12"/></g>'),
+    "Herzhaft gebacken": _t("#a0442a", "#6f7f3e", "#fbf4ec", "#f1e0d4",
+        '<path d="M20 30 q35 -14 70 0 L55 96z"/><path d="M20 30 q35 -6 70 0" stroke-width="5"/>'
+        '<circle cx="42" cy="44" r="5"/><circle cx="66" cy="50" r="5"/><circle cx="53" cy="70" r="4.5"/><circle cx="56" cy="40" r="1.5" fill="currentColor"/><circle cx="45" cy="58" r="1.5"/><circle cx="62" cy="64" r="1.5"/>'),
     "Fisch": _t("#2f7a7a", "#b4572a", "#f5f6f0", "#dfece8",
         '<path d="M18 55 q30 -30 62 0 q-32 30 -62 0z M80 55 l18 -14 v28z"/><circle cx="32" cy="51" r="2.5"/><path d="M48 44 q6 11 0 22"/>'),
     "Snacks": _t("#6d5f9c", "#b4572a", "#f8f5f0", "#e7e3f0",

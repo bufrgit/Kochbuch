@@ -2,7 +2,7 @@
   "id": "pizzateig-mit-pizzasauce",
   "titel": "Pizzateig mit Pizzasauce",
   "untertitel": null,
-  "kapitel": "Kuchen & Backen",
+  "kapitel": "Herzhaft gebacken",
   "portionen": "2 Bleche",
   "zeit": "ca. 30 Minuten + 1 Stunde Gehzeit",
   "merkmale": [
@@ -90,8 +90,9 @@
     "Notiz von mir",
     "Menge „2 Bleche“ und Zeit geschätzt",
     "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“",
-    "Abgestimmt: Herkunfts-Notiz entfernt (überflüssig)"
+    "Abgestimmt: Herkunfts-Notiz entfernt (überflüssig)",
+    "Abgestimmt: von „Kuchen & Backen“ ins neue Kapitel „Herzhaft gebacken“ verschoben"
   ],
   "freigegeben": false,
-  "oberkapitel": "Süßes"
+  "oberkapitel": "Herzhaftes"
 }

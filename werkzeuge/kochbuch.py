@@ -8,7 +8,7 @@ TITEL = "Unser Familienkochbuch"
 UNTERTITEL = "Rezepte, die nach Zuhause schmecken"
 
 OBER = [  # Reihenfolge, Farbe, Spruch
-    ("Herzhaftes", "#b4572a", ["Pfanne & Co", "Aufläufe", "Pasta", "Suppen", "Fisch"], "Für hungrige Mägen"),
+    ("Herzhaftes", "#b4572a", ["Pfanne & Co", "Aufläufe", "Pasta", "Herzhaft gebacken", "Suppen", "Fisch"], "Für hungrige Mägen"),
     ("Kleinigkeiten & Beilagen", "#5e7d4f", ["Snacks", "Salate, Dips & Saucen", "Beilagen"], "Für nebenbei und dazu"),
     ("Süßes", "#b0566a", ["Kuchen & Backen", "Desserts", "Weihnachtsbäckerei"], "Für die süßen Momente"),
     ("Getränke", "#3f86a8", ["Getränke"], "Zum Anstoßen"),
