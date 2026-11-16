@@ -1,0 +1,72 @@
+{
+  "id": "cremiger-spinat-mit-reis",
+  "titel": "Cremiger Spinat mit Reis",
+  "untertitel": null,
+  "kapitel": "Aufläufe",
+  "portionen": "2",
+  "zeit": "ca. 40 Minuten",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "200 g",
+      "zutat": "frischer Blattspinat"
+    },
+    {
+      "menge": "140 g",
+      "zutat": "Frischkäse"
+    },
+    {
+      "menge": "60 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "1",
+      "zutat": "Porree"
+    },
+    {
+      "menge": "1 Tüte",
+      "zutat": "Reibe-Mozzarella"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "",
+      "zutat": "Rama oder Butter zum Braten"
+    },
+    {
+      "menge": "",
+      "zutat": "Muskatnuss"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Reis"
+    }
+  ],
+  "schritte": [
+    "Grillfunktion vom Backofen einschalten und vorheizen. Reis kochen.",
+    "Spinat waschen und abtropfen lassen. Porree waschen, putzen, längs halbieren und in Streifen schneiden. Knoblauch pressen.",
+    "Knoblauch mit Rama in einer Pfanne anbraten. Porree hinzugeben und 5 Minuten anschwitzen. Spinat mit in die Pfanne geben und kochen, bis er zusammenfällt.",
+    "Frischkäse und Sahne hinzugeben, mit Salz, Muskatnuss und Pfeffer abschmecken und 3 Minuten köcheln lassen.",
+    "Alles in eine Backform umfüllen, Mozzarella darüberstreuen und 10 Minuten in den Backofen geben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082746.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Reis in Zutatenliste ergänzt",
+    "Schritte zusammengefasst"
+  ],
+  "freigegeben": false
+}

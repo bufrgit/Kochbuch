@@ -1,0 +1,74 @@
+{
+  "id": "gruenkohl-mit-mettwuerstchen",
+  "titel": "Grünkohl mit Mettwürstchen und Kartoffeln",
+  "untertitel": "Am besten am nächsten Tag",
+  "kapitel": "Hauptgerichte",
+  "portionen": "4",
+  "zeit": "ca. 1 ¾ Stunden",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1 kg",
+      "zutat": "Grünkohl"
+    },
+    {
+      "menge": "4",
+      "zutat": "Mettenden"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Speckwürfel"
+    },
+    {
+      "menge": "2",
+      "zutat": "Zwiebeln"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Haferflocken"
+    },
+    {
+      "menge": "400 ml",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Senf"
+    },
+    {
+      "menge": "400 g",
+      "zutat": "Kartoffeln"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Muskat"
+    }
+  ],
+  "schritte": [
+    "Zwiebeln klein schneiden und im Bräter mit Speck zusammen anbraten. Grünkohl zufügen und etwas zusammenfallen lassen.",
+    "Mit der Hälfte der Brühe ablöschen. Salz, Pfeffer, Muskat und 1 EL Senf hinzufügen. 45 Minuten mit Deckel garen.",
+    "Danach die Mettenden dazugeben. Bei Bedarf etwas Brühe nachgießen und weitere 30 Minuten garen.",
+    "Kartoffeln 20 Minuten kochen und in etwas Butter schwenken.",
+    "Am besten einige Stunden oder über Nacht ziehen lassen, dann wieder erhitzen und servieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082850.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Untertitel von mir",
+    "Haferflocken stehen nur in der Zutatenliste, nicht in der Anleitung"
+  ],
+  "freigegeben": false
+}

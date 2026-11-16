@@ -1,0 +1,73 @@
+{
+  "id": "reis-mit-paprikagemuese-und-hackfleisch",
+  "titel": "Reis mit Paprikagemüse und Hackfleisch",
+  "untertitel": null,
+  "kapitel": "Hauptgerichte",
+  "portionen": "2",
+  "zeit": "ca. 30 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "200 g",
+      "zutat": "Rinderhack"
+    },
+    {
+      "menge": "1",
+      "zutat": "rote Paprika"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "30 g",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "gehackte Tomaten"
+    },
+    {
+      "menge": "500 ml",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "2 TL",
+      "zutat": "Paprikapulver"
+    },
+    {
+      "menge": "2 TL",
+      "zutat": "Kräuter der Provence"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Öl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "Reis"
+    }
+  ],
+  "schritte": [
+    "Reis kochen. Paprika und Zwiebel würfeln.",
+    "Hackfleisch in einer Pfanne anbraten und zur Seite stellen.",
+    "Zwiebeln in der Pfanne anschwitzen und Paprika hinzugeben. 3 Minuten köcheln lassen.",
+    "Hackfleisch wieder zugeben. Tomatenmark hinzugeben und 2 Minuten anbraten.",
+    "Mit der Gemüsebrühe ablöschen. Gehackte Tomaten und Gewürze hinzugeben und abschmecken."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082845.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Schneide-Schritte zusammengefasst"
+  ],
+  "freigegeben": false
+}

@@ -1,0 +1,73 @@
+{
+  "id": "jaegerschnitzel",
+  "titel": "Jägerschnitzel",
+  "untertitel": null,
+  "kapitel": "Hauptgerichte",
+  "portionen": "4",
+  "zeit": "ca. 40 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Panierte Schnitzel"
+    },
+    {
+      "menge": "400 g",
+      "zutat": "braune Champignons"
+    },
+    {
+      "menge": "20 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "75 g",
+      "zutat": "Speckwürfel"
+    },
+    {
+      "menge": "1",
+      "zutat": "große Zwiebel"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Thymian"
+    },
+    {
+      "menge": "200 ml",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "300 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Petersilie"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "20 g Butter erhitzen. Champignons hinzugeben und 4 Minuten anbraten. Zwiebeln klein schneiden. Champignons in einer Schüssel beiseitestellen.",
+    "Schinkenwürfel und Zwiebel andünsten (4 Minuten). In der Zwischenzeit Schnitzel klopfen und panieren.",
+    "Tomatenmark zu dem Speck-Zwiebelgemisch geben und danach mit der Gemüsebrühe ablöschen. Thymian hinzugeben und mit Sahne ablöschen.",
+    "Petersilie unterrühren, mit Salz und Pfeffer abschmecken und zum Schluss die Champignons hinzugeben.",
+    "Schnitzel anbraten und mit der Soße servieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082900.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "„mit der Soße servieren“ ergänzt"
+  ],
+  "freigegeben": false
+}
