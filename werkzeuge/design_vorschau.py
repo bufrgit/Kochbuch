@@ -51,10 +51,10 @@ def page(r, nr, variant):
 COMMON = """@page{size:148mm 210mm;margin:0}*{box-sizing:border-box}html,body{margin:0}
 .page{width:148mm;height:210mm;padding:14mm 13mm 12mm;position:relative;overflow:hidden;page-break-after:always}
 h1,h2{margin:0}ul,ol{margin:0;padding:0;list-style:none}
-.cols{display:grid;grid-template-columns:44mm 1fr;gap:7mm;margin-top:6mm}
-.zut li{display:flex;gap:2mm;padding:1.1mm 0;hyphens:auto}.dicht .zut li{padding:.45mm 0}.dicht{font-size:8.6pt!important}.dicht .steps li{margin-bottom:2mm}.zut .m{flex:0 0 15mm}.zut .grp{display:block;margin-top:2.5mm}
+.cols{position:relative;display:grid;grid-template-columns:44mm 1fr;gap:7mm;margin-top:6mm}
+.zut li{display:flex;gap:2mm;padding:1.1mm 0;hyphens:auto}.dicht .zut li{padding:.45mm 0}.dicht .steps li{margin-bottom:2mm}.zut .m{flex:0 0 15mm}.zut .grp{display:block;margin-top:2.5mm}
 .steps{counter-reset:s}.steps li{counter-increment:s;position:relative;padding-left:8mm;margin-bottom:2.8mm}
-.qr{position:absolute;bottom:13mm;right:13mm;width:50mm;display:flex;gap:2.5mm;align-items:center}
+.qr{margin-top:6mm;width:50mm;display:flex;gap:2.5mm;align-items:center}
 .qr svg{width:19mm;height:19mm;flex:none}.qrt{font-size:6.5pt;line-height:1.35}
 .nr{position:absolute;bottom:6mm;left:0;right:0;text-align:center;font-size:7pt}
 .meta span+span:before{content:"·";margin:0 2mm}
@@ -108,9 +108,21 @@ STYLES = {
 def build(variant, ids, out_dir):
     name, font, css = STYLES[variant]
     pages = "\n".join(page(load(i), n, variant) for n, i in enumerate(ids, 41))
-    doc = f'<!doctype html><html lang="de"><head><meta charset="utf-8"><link rel="stylesheet" href="{font}"><style>{COMMON}{css}</style></head><body>{pages}</body></html>'
+    doc = f'<!doctype html><html lang="de"><head><meta charset="utf-8"><link rel="stylesheet" href="{font}"><style>{COMMON}{css}</style></head><body>{pages}{FIT_JS}</body></html>'
     p = f"{out_dir}/{variant}.html"; open(p, "w", encoding="utf-8").write(doc); return p
 
 if __name__ == "__main__":
     out = sys.argv[1]; ids = sys.argv[2:]
     for v in STYLES: print(build(v, ids, out))
+
+FIT_JS = """<script>
+document.fonts.ready.then(()=>{for(const pg of document.querySelectorAll('.page')){
+ const L=pg.querySelector('.left'),R=pg.querySelector('.right'),q=pg.querySelector('.qr');
+ (R.scrollHeight<L.scrollHeight?R:L).appendChild(q);
+ const limit=pg.getBoundingClientRect().bottom-pg.querySelector('.nr').offsetHeight-28;
+ let fs=parseFloat(getComputedStyle(pg).fontSize);
+ const low=()=>Math.max(L.getBoundingClientRect().bottom,R.getBoundingClientRect().bottom);
+ while(low()>limit&&fs>9){fs-=.3;pg.style.fontSize=fs+'px';}
+ if(low()>limit)pg.classList.add('zu-lang');}
+ document.body.dataset.fertig=1;});
+</script>"""
