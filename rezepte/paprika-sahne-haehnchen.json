@@ -1,0 +1,81 @@
+{
+  "id": "paprika-sahne-haehnchen",
+  "titel": "Paprika-Sahne-Hähnchen",
+  "untertitel": "Überbacken aus dem Ofen, dazu Reis",
+  "kapitel": "Hauptgerichte",
+  "portionen": "4",
+  "zeit": "ca. 50 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "4",
+      "zutat": "Hähnchenbrustfilets"
+    },
+    {
+      "menge": "2",
+      "zutat": "rote Paprikaschoten"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "2",
+      "zutat": "Knoblauchzehen"
+    },
+    {
+      "menge": "",
+      "zutat": "etwas Chili"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Schmand"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "125 ml",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Paprika edelsüß"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Paprika scharf"
+    },
+    {
+      "menge": "1 Tüte",
+      "zutat": "Reibekäse"
+    },
+    {
+      "menge": "",
+      "zutat": "Reis"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz"
+    }
+  ],
+  "schritte": [
+    "Backofen auf 180 °C Umluft vorheizen. Hähnchenfilets waschen, trocken tupfen, mit Salz und Paprikapulver würzen und dicht nebeneinander in eine Auflaufform legen.",
+    "Paprikaschoten in Streifen schneiden und über die Filets geben.",
+    "Zwiebel in Ringe schneiden und in einer Pfanne andünsten. Knoblauch dazupressen und etwas Chili zugeben.",
+    "Paprika edelsüß, Paprika scharf und Tomatenmark unterrühren. Mit der Brühe ablöschen, kurz aufkochen, dann Sahne und Schmand unterrühren und mit Salz abschmecken.",
+    "Sauce in die Auflaufform geben, mit Käse bestreuen und 30 Minuten backen. Währenddessen den Reis kochen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082456.jpg",
+  "geschaetzt": [
+    "zeit",
+    "untertitel"
+  ]
+}

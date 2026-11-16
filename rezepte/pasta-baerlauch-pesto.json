@@ -1,0 +1,63 @@
+{
+  "id": "pasta-baerlauch-pesto",
+  "titel": "Pasta mit Bärlauch-Pesto",
+  "untertitel": "Frühlingsklassiker, wenn der Bärlauch sprießt",
+  "kapitel": "Pasta",
+  "portionen": "4",
+  "zeit": "ca. 25 Minuten",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "100 g",
+      "zutat": "frischer Bärlauch"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zitrone (Bio)"
+    },
+    {
+      "menge": "40 g",
+      "zutat": "Sonnenblumenkerne"
+    },
+    {
+      "menge": "40 g",
+      "zutat": "Pinienkerne"
+    },
+    {
+      "menge": "2 TL",
+      "zutat": "Honig"
+    },
+    {
+      "menge": "40 g",
+      "zutat": "Parmesan"
+    },
+    {
+      "menge": "360 g",
+      "zutat": "Nudeln"
+    },
+    {
+      "menge": "8 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Pasta nach Packungsanweisung kochen.",
+    "Sonnenblumen- und Pinienkerne ohne Fett rösten und zur Seite stellen.",
+    "Bärlauch entstielen und grob hacken, Parmesan reiben und die Schale der Zitrone abreiben.",
+    "Bärlauch, Parmesan, drei Viertel der Kerne, Zitronenabrieb, Honig, Öl, Salz und Pfeffer zu einem Pesto pürieren.",
+    "Pesto mit der Pasta mischen und die übrigen Kerne darüberstreuen."
+  ],
+  "notiz": "Das Pesto hält sich im Schraubglas etwa 5 Tage.",
+  "clipart": null,
+  "quelle": "IMG20261116082518.jpg",
+  "geschaetzt": [
+    "zeit",
+    "untertitel"
+  ]
+}

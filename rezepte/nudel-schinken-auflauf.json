@@ -1,0 +1,74 @@
+{
+  "id": "nudel-schinken-auflauf",
+  "titel": "Nudel-Schinken-Auflauf",
+  "untertitel": "Cremig, mit Käse überbacken",
+  "kapitel": "Aufläufe",
+  "portionen": "ca. 4",
+  "zeit": "ca. 50 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "250 g",
+      "zutat": "Penne"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Kochschinken"
+    },
+    {
+      "menge": "250 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "350 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "25 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "1",
+      "zutat": "Eigelb"
+    },
+    {
+      "menge": "1",
+      "zutat": "große Zwiebel"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "",
+      "zutat": "etwas Petersilie"
+    },
+    {
+      "menge": "",
+      "zutat": "Muskatnuss, Pfeffer, Salz"
+    },
+    {
+      "menge": "1 Tüte",
+      "zutat": "geriebener Käse"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Butter für die Form"
+    }
+  ],
+  "schritte": [
+    "Ofen auf 200 °C Ober-/Unterhitze vorheizen. Die Penne einige Minuten vorkochen und abgießen.",
+    "Zwiebel und Kochschinken würfeln, in 25 g Butter anbraten und das Mehl hinzugeben.",
+    "Mit Sahne und Milch ablöschen und aufkochen. Das Eigelb unterrühren, mit Salz, Pfeffer und Muskatnuss abschmecken und die gehackte Petersilie unterheben.",
+    "Die Nudeln in eine gebutterte Auflaufform geben, die Sauce darübergießen und mit Käse bestreuen.",
+    "30 Minuten im Ofen backen."
+  ],
+  "notiz": "„Penne etwas vorkochen“, so steht es handschriftlich auf unserem Zettel.",
+  "clipart": null,
+  "quelle": "IMG20261116082510.jpg",
+  "geschaetzt": [
+    "zeit",
+    "portionen",
+    "untertitel"
+  ]
+}
