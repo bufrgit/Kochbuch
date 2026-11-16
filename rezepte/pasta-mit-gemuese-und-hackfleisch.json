@@ -1,0 +1,89 @@
+{
+  "id": "pasta-mit-gemuese-und-hackfleisch",
+  "titel": "Pasta mit frischem Gemüse und Hackfleisch",
+  "untertitel": null,
+  "kapitel": "Pasta",
+  "portionen": 4,
+  "zeit": "35 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "2",
+      "zutat": "Zwiebeln"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zucchini"
+    },
+    {
+      "menge": "2",
+      "zutat": "rote Paprika"
+    },
+    {
+      "menge": "2",
+      "zutat": "Tomaten"
+    },
+    {
+      "menge": "2",
+      "zutat": "Knoblauchzehen"
+    },
+    {
+      "menge": "300 g",
+      "zutat": "Hackfleisch gemischt"
+    },
+    {
+      "menge": "120 g",
+      "zutat": "Frischkäse"
+    },
+    {
+      "menge": "350 g",
+      "zutat": "Penne"
+    },
+    {
+      "menge": "60 g",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "",
+      "zutat": "Muskatnuss"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz und Pfeffer"
+    },
+    {
+      "menge": "2 TL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "",
+      "zutat": "Oregano"
+    },
+    {
+      "menge": "½ l",
+      "zutat": "Gemüsebrühe"
+    }
+  ],
+  "schritte": [
+    "Zwiebeln und Knoblauch hacken. Paprika, Tomaten und Zucchini klein schneiden.",
+    "Hackfleisch mit Öl anbraten (5 Min.), Zwiebeln und Knoblauch hinzufügen. Paprika, Tomaten und Zucchini hinzugeben.",
+    "4 EL Tomatenmark hinzugeben und 3 Min. braten. Gemüsebrühe dazugeben. Alles mit Salz, Pfeffer und Zucker abschmecken und 5 Min. köcheln lassen.",
+    "Pasta kochen.",
+    "Zum Schluss den Frischkäse und Oregano nach Belieben hinzufügen. Mit Muskatnuss abschmecken."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083043.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Frage: Zutaten sagen 60 g Tomatenmark, Anleitung „4 EL“ – unverändert gelassen"
+  ],
+  "freigegeben": false
+}

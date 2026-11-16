@@ -1,0 +1,96 @@
+{
+  "id": "gefuellte-paprika-mit-kartoffelspalten",
+  "titel": "Gefüllte Paprikaschoten mit Kartoffelspalten",
+  "untertitel": null,
+  "kapitel": "Hauptgerichte",
+  "portionen": 2,
+  "zeit": "1 Std.",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "2",
+      "zutat": "Paprikaschoten"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Hack"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "TK Kräuter"
+    },
+    {
+      "menge": "150 g",
+      "zutat": "Ricotta"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Schafskäse"
+    },
+    {
+      "menge": "2",
+      "zutat": "Tomaten"
+    },
+    {
+      "menge": "",
+      "zutat": "Reibekäse"
+    },
+    {
+      "menge": "",
+      "zutat": "Kartoffelspalten:"
+    },
+    {
+      "menge": "",
+      "zutat": "Kartoffeln (Menge nach Bedarf)"
+    },
+    {
+      "menge": "",
+      "zutat": "Öl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "",
+      "zutat": "Paprikapulver"
+    }
+  ],
+  "schritte": [
+    "Backofen auf 200 °C Ober-/Unterhitze vorheizen.",
+    "Kartoffeln in Spalten schneiden, waschen und in eine Schüssel geben. Mit etwas Öl, Salz, gepresster Knoblauchzehe und Paprikapulver würzen.",
+    "Auf ein mit Backpapier ausgelegtes Blech geben. Für 35–40 Min. in den Backofen.",
+    "Zwiebeln kleinschneiden. Hack in einer Pfanne anbraten. Zwiebeln dazugeben.",
+    "Paprika halbieren und aushöhlen und mit Öl besprühen. 10–15 Min bei 200 °C im Ofen grillen.",
+    "Tomaten hacken. Ricotta, Schafskäse und Tomaten vermischen. Knoblauchzehe pressen und dazugeben. Salzen und pfeffern. Hack untermischen.",
+    "Schoten mit der Füllung befüllen, Käse drüberstreuen. Noch mal in den Ofen zum Überbacken."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083056.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Zutaten für die Kartoffelspalten als eigene Gruppe",
+    "TK-Kräuter stehen in den Zutaten, aber nicht in der Anleitung – unverändert gelassen"
+  ],
+  "freigegeben": false
+}

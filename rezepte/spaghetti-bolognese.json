@@ -1,0 +1,82 @@
+{
+  "id": "spaghetti-bolognese",
+  "titel": "Spaghetti Bolognese",
+  "untertitel": null,
+  "kapitel": "Pasta",
+  "portionen": 6,
+  "zeit": "3 Std.",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "1 kg",
+      "zutat": "Rinderhackfleisch"
+    },
+    {
+      "menge": "3",
+      "zutat": "Knoblauchzehen"
+    },
+    {
+      "menge": "3",
+      "zutat": "Möhren"
+    },
+    {
+      "menge": "3 Stangen",
+      "zutat": "Staudensellerie"
+    },
+    {
+      "menge": "2",
+      "zutat": "große Zwiebeln"
+    },
+    {
+      "menge": "2 Dosen",
+      "zutat": "gehackte Tomaten"
+    },
+    {
+      "menge": "600 g",
+      "zutat": "Spaghetti"
+    },
+    {
+      "menge": "125 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "500 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "3",
+      "zutat": "Peperoncini, gehackt"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz und Pfeffer"
+    },
+    {
+      "menge": "wenig",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "1 Schuss",
+      "zutat": "Weißwein"
+    }
+  ],
+  "schritte": [
+    "Zwiebeln, Möhren und Staudensellerie klein hacken. Knoblauch pressen und Peperoncini hacken.",
+    "125 g Butter mit etwas Olivenöl in einem Topf erhitzen. Das Gemüse mind. 30 Min. darin andünsten.",
+    "Hack scharf in einer Pfanne anbraten und mit einem Schuss Weißweinessig ablöschen. Milch zugeben. Aufkochen lassen und gehackte Tomaten hinzugeben.",
+    "Wenn alles aufgekocht ist, wird alles zum Gemüse in den Topf gegeben. Knoblauch und Peperoncini hinzugeben. Mit Pfeffer und Salz abschmecken.",
+    "Idealerweise 5 Stunden köcheln lassen, mindestens aber 2 Stunden. Bei Bedarf Gemüsebrühe nachkippen.",
+    "Nudeln kochen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083109.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt (mind. 2 Std. Köcheln, ideal 5 Std.)",
+    "Frage: Zutaten sagen „Weißwein“, Anleitung „Weißweinessig“ – unverändert gelassen"
+  ],
+  "freigegeben": false
+}

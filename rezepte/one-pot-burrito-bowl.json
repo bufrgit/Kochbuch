@@ -1,0 +1,85 @@
+{
+  "id": "one-pot-burrito-bowl",
+  "titel": "One Pot Burrito Bowl",
+  "untertitel": null,
+  "kapitel": "Hauptgerichte",
+  "portionen": 4,
+  "zeit": "40 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Hähnchenbrust"
+    },
+    {
+      "menge": "600 ml",
+      "zutat": "Hühnerbrühe"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Reis"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "Mais"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "Kidneybohnen"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "stückige Tomaten"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "saure Sahne"
+    },
+    {
+      "menge": "1 Tüte",
+      "zutat": "Reibekäse"
+    },
+    {
+      "menge": "1 Bund",
+      "zutat": "Frühlingszwiebeln"
+    },
+    {
+      "menge": "2",
+      "zutat": "Tomaten"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "",
+      "zutat": "Gewürzmischung, mexikanisch, z. B. Taco-Gewürz"
+    },
+    {
+      "menge": "",
+      "zutat": "Olivenöl"
+    }
+  ],
+  "schritte": [
+    "Zwiebel würfeln und in etwas Olivenöl in einem Wok anschwitzen.",
+    "Hähnchenbrust in kleine Stücke schneiden und mit den Zwiebeln anbraten.",
+    "Hühnerbrühe, gehackte Tomaten, Mais und Kidneybohnen hinzugeben und mit mexikanischem Gewürz nach Belieben würzen. Anschließend zum Kochen bringen.",
+    "Reis so hinzugeben, dass er komplett mit der Brühe bedeckt ist, und köcheln lassen, bis er die Flüssigkeit aufgesogen hat.",
+    "Von der Kochstelle nehmen und mit dem Reibekäse bestreuen. Den Deckel auflegen und warten, bis der Käse zerlaufen ist.",
+    "Die saure Sahne durchrühren und in Klecksen auf den Käse geben.",
+    "Die Tomaten waschen, würfeln und über die saure Sahne geben.",
+    "Die Frühlingszwiebeln putzen und in dünne Ringe schneiden und über die saure Sahne geben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083033.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Tippfehler korrigiert: „in einem einem Wok“, „durchrühren“",
+    "„bis der Gouda zerlaufen ist“ → „Käse“ (Zutat heißt Reibekäse)"
+  ],
+  "freigegeben": false
+}

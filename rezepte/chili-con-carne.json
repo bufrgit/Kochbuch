@@ -1,0 +1,86 @@
+{
+  "id": "chili-con-carne",
+  "titel": "Chili con Carne",
+  "untertitel": null,
+  "kapitel": "Hauptgerichte",
+  "portionen": 4,
+  "zeit": "2 Std. 20 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Hack"
+    },
+    {
+      "menge": "2 kl. Dosen",
+      "zutat": "Kidneybohnen"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "geschälte Tomaten"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "Mais"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "500 ml",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Majoran"
+    },
+    {
+      "menge": "1 Prise",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Paprikapulver edelsüß"
+    },
+    {
+      "menge": "",
+      "zutat": "Chilipulver"
+    },
+    {
+      "menge": "1",
+      "zutat": "Chilischote"
+    },
+    {
+      "menge": "2",
+      "zutat": "Zwiebeln"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Crème fraîche"
+    }
+  ],
+  "schritte": [
+    "Zwiebeln hacken und Knoblauch pressen. Hack mit den Zwiebeln und dem Knoblauch anbraten.",
+    "Alle anderen Zutaten dazugeben und 2 Std. bei schwacher Hitze köcheln lassen. Ab und an umrühren.",
+    "Mit Baguette servieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083103.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt (2 Std. Köcheln laut Rezept)"
+  ],
+  "freigegeben": false
+}

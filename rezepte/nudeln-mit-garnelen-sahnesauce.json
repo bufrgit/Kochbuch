@@ -1,0 +1,69 @@
+{
+  "id": "nudeln-mit-garnelen-sahnesauce",
+  "titel": "Nudeln mit Garnelen-Sahnesauce",
+  "untertitel": null,
+  "kapitel": "Pasta",
+  "portionen": 2,
+  "zeit": "20 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "250 g",
+      "zutat": "Nudeln"
+    },
+    {
+      "menge": "2",
+      "zutat": "Knoblauchzehen"
+    },
+    {
+      "menge": "1",
+      "zutat": "Chilischote"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "TK Scampis"
+    },
+    {
+      "menge": "100 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "85 ml",
+      "zutat": "trockener Weißwein"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Nudeln kochen.",
+    "Knoblauch pressen. Chili und Zwiebel klein hacken.",
+    "2 EL Olivenöl erhitzen und Scampi 1 Minute anbraten. Wenden und alle weiteren Zutaten hinzugeben und mit Salz & Pfeffer abschmecken. Kochen lassen.",
+    "Mit den Nudeln servieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083050.jpg",
+  "geschaetzt": [
+    "portionen",
+    "zeit"
+  ],
+  "aenderungen": [
+    "Portionen fehlen im Original – 2 geschätzt (250 g Nudeln)",
+    "Zeit geschätzt"
+  ],
+  "freigegeben": false
+}
