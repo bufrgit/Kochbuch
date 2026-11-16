@@ -1,0 +1,1 @@
+https://kochbuch-a66ac-default-rtdb.europe-west1.firebasedatabase.app/wochenplan.json
