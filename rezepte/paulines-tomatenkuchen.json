@@ -1,11 +1,13 @@
 {
   "id": "paulines-tomatenkuchen",
   "titel": "Paulines Tomatenkuchen!",
-  "untertitel": null,
+  "untertitel": "Eine Tomaten-Aprikosen-Suppe",
   "kapitel": "Suppen",
-  "portionen": null,
-  "zeit": null,
-  "merkmale": [],
+  "portionen": "6",
+  "zeit": "ca. 30 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
   "zutaten": [
     {
       "menge": "2 große Dosen",
@@ -48,16 +50,24 @@
       "zutat": "Thymian, Basilikum (8 gefrorene Kräuter)"
     }
   ],
-  "schritte": [],
+  "schritte": [
+    "Zwiebeln und Knoblauch schälen und grob würfeln. (von mir ergänzt)",
+    "Tomaten, Aprikosen, Zwiebeln, Knoblauch, Gemüsebrühe und Gewürze in einen großen Topf geben, aufkochen und ca. 15 Min. köcheln lassen, bis die Zwiebeln weich sind. (von mir ergänzt)",
+    "Crème fraîche und Sahne einrühren, alles fein pürieren und mit Salz und Pfeffer abschmecken. (von mir ergänzt)"
+  ],
   "notiz": null,
   "clipart": null,
   "quelle": "IMG20261116083747.jpg",
-  "geschaetzt": [],
+  "geschaetzt": [
+    "portionen",
+    "zeit"
+  ],
   "aenderungen": [
     "Persönliches Rezept, handschriftlich überschrieben „Paulines Tomatenkuchen!“",
     "Frage: Die Zutaten sind eindeutig eine Suppe (Tomaten-Aprikosen-Suppe), der Titel sagt „Tomatenkuchen“ – Insider-Witz oder als „Tomatensuppe“ benennen?",
     "Original hat nur Zutaten (schwer lesbar), keine Anleitung und keine Portionen",
-    "Abgestimmt: Titel bleibt"
+    "Abgestimmt: Titel bleibt",
+    "Abgestimmt: Anleitung ergänzt: alles zusammen kochen und pürieren; Untertitel erklärt, dass es eine Suppe ist"
   ],
   "freigegeben": false,
   "oberkapitel": "Herzhaftes"

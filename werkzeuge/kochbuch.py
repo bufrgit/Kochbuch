@@ -60,6 +60,7 @@ BUCH_CSS = """
 .trenn .mv{width:11mm;height:11mm;background:#fbf5ea;border-radius:50%;padding:1mm;flex:none}
 .trenn .mv svg{width:100%;height:100%}
 .landhaus .kap .ok{opacity:.65}
+.page.landhaus .note{background:none!important;transform:none;box-shadow:none;font:inherit;font-style:italic;color:#5a4a3e;padding:3mm 0 0;margin-top:4mm;border-top:1px dashed #d9c6a8}
 .hinweis{background:#fbf5ea;color:#3a2e26;font:10pt/1.5 Fraunces,serif;padding:40mm 22mm;text-align:center}
 .hinweis h1{font:600 18pt Fraunces,serif;margin-bottom:10mm}.hinweis svg{width:30mm;height:30mm;margin-bottom:8mm}
 .hinweis .hand{font:500 17pt Caveat,cursive;color:#b4572a;margin-top:8mm}

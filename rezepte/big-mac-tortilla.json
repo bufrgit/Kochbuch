@@ -67,7 +67,7 @@
     "Umdrehen, Käse darauflegen, salzen und pfeffern.",
     "Mit Eisbergsalat, Zwiebelwürfeln, geschnittenen Gurken und der Sauce garnieren."
   ],
-  "notiz": "Handgeschrieben auf unserer Rezeptkarte.",
+  "notiz": null,
   "clipart": null,
   "quelle": "IMG20261116082547.jpg",
   "geschaetzt": [
@@ -78,7 +78,8 @@
     "Zeit geschätzt",
     "Eisbergsalat und Gewürzgurken zum Belegen in Zutatenliste ergänzt",
     "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“",
-    "Zutaten-Zusätze wie „(Marinade)“ als Zwischenüberschriften gruppiert"
+    "Zutaten-Zusätze wie „(Marinade)“ als Zwischenüberschriften gruppiert",
+    "Abgestimmt: Herkunfts-Notiz entfernt (überflüssig)"
   ],
   "freigegeben": false,
   "oberkapitel": "Kleinigkeiten & Beilagen"

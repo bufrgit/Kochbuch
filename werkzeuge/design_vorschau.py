@@ -32,7 +32,7 @@ def meta(r):
 
 def page(r, nr, variant):
     url = f"{BASE}/{r['id']}/"
-    steps = "\n".join(f"<li>{e(s)}</li>" for s in r["schritte"])
+    steps = "\n".join(f"<li>{e(s.replace(' (von mir ergänzt)', ''))}</li>" for s in r["schritte"])
     note = f'<div class="note">{e(r["notiz"])}</div>' if r.get("notiz") else ""
     sub = f'<div class="sub">{e(r["untertitel"])}</div>' if r.get("untertitel") else ""
     m = "".join(f"<span>{e(x)}</span>" for x in meta(r))
