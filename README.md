@@ -19,5 +19,9 @@ https://bufrgit.github.io/Kochbuch/ – geänderte Rezepte sind also automatisch
 - **QR-Code neben einem Rezept scannen:** Kochansicht mit Bring!-Knopf; das Rezept steht damit auch auf dem Wochenplan.
 - **QR-Code auf Seite 2 (bzw. die Startseite):** der Wochenplan mit allen gescannten Rezepten. Per Tipp auf Mo–So einem Tag zuordnen, mit × löschen. Oben steht, was es heute gibt.
 
-Der Plan wird nur im Browser des jeweiligen Geräts gespeichert (kein Konto, kein Server) – also im selben Browser (iPhone: Safari) scannen und den Plan öffnen.
+Der Plan liegt in einem kostenlosen Online-Speicher bei jsonblob.com (ohne Konto) und ist dadurch auf allen Handys und PCs gleich.
+Die Adresse steht in `werkzeuge/speicher.txt` und wird beim ersten Veröffentlichen automatisch angelegt. Wer die Adresse kennt,
+kann den Plan lesen und ändern – drin stehen aber nur Rezeptnamen und Wochentage. Ohne Verbindung merkt sich jedes Gerät
+die Änderungen und überträgt sie später. Zeigt der Plan dauerhaft „keine Verbindung“ (z. B. weil jsonblob einen lange unbenutzten Speicher gelöscht hat):
+`werkzeuge/speicher.txt` löschen – beim nächsten Veröffentlichen wird ein neuer, leerer Speicher angelegt.
 Lokal ansehen: `python3 werkzeuge/webseite.py _site && python3 -m http.server -d _site`

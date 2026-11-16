@@ -1,15 +1,18 @@
 # Baut die Webseite (Wochenplan + Rezeptseiten) aus rezepte/ und veröffentlicht sie auf GitHub Pages.
+# Beim ersten Lauf wird außerdem der gemeinsame Online-Speicher für den Wochenplan angelegt
+# (kostenlos, ohne Konto, bei jsonblob.com) und seine Adresse in werkzeuge/speicher.txt eingetragen.
 name: Webseite veröffentlichen
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 jobs:
   bauen:
@@ -20,11 +23,40 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install reportlab
+      - name: Online-Speicher prüfen (Pull Request) bzw. beim ersten Mal anlegen
+        run: |
+          set -euo pipefail
+          if [ -s werkzeuge/speicher.txt ] && [ "${{ github.event_name }}" != "pull_request" ]; then
+            echo "Online-Speicher vorhanden: $(cat werkzeuge/speicher.txt)"; exit 0
+          fi
+          loc=$(curl -sS -f -X POST -H 'Content-Type: application/json' -H 'Accept: application/json' \
+                -d '{"liste":[]}' -D - -o /dev/null https://jsonblob.com/api/jsonBlob \
+                | tr -d '\r' | awk 'tolower($1)=="location:"{print $2}')
+          case "$loc" in /*) loc="https://jsonblob.com$loc";; esac
+          loc="${loc/http:/https:}"
+          echo "Speicher: $loc"
+          # Lesen, Schreiben und CORS (Zugriff von bufrgit.github.io) prüfen
+          curl -sS -f "$loc" -H 'Accept: application/json'
+          curl -sS -f -X PUT "$loc" -H 'Content-Type: application/json' -H 'Accept: application/json' -d '{"liste":[{"id":"test","am":"2026-01-01","tag":null}]}'
+          curl -sS -f "$loc" -H 'Accept: application/json' | grep -q '"test"'
+          curl -sS -i -X OPTIONS "$loc" -H 'Origin: https://bufrgit.github.io' -H 'Access-Control-Request-Method: PUT' \
+               -H 'Access-Control-Request-Headers: content-type,accept' | tr -d '\r' | grep -i '^access-control-allow-origin'
+          curl -sS -f -X PUT "$loc" -H 'Content-Type: application/json' -d '{"liste":[]}' >/dev/null
+          if [ "${{ github.event_name }}" != "pull_request" ]; then
+            echo "$loc" > werkzeuge/speicher.txt
+            git config user.name "github-actions[bot]"
+            git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+            git add werkzeuge/speicher.txt
+            git commit -m "Online-Speicher für den gemeinsamen Wochenplan angelegt"
+            git push
+          fi
       - run: python3 werkzeuge/webseite.py _site
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
         with:
           path: _site
   veroeffentlichen:
+    if: github.event_name != 'pull_request'
     needs: bauen
     runs-on: ubuntu-latest
     environment:

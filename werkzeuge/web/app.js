@@ -1,14 +1,69 @@
 /* Familienkochbuch – Wochenplan.
    Jedes Rezept, dessen QR-Code im Buch gescannt wird, landet auf dem Wochenplan (Startseite).
    Dort teilt man es mit einem Tipp einem Wochentag zu; mit × wird es wieder gelöscht.
-   Gespeichert wird nur im Browser (localStorage), es gibt keinen Server. */
+
+   Gemeinsamer Plan: Ist ein Online-Speicher eingetragen (data-speicher, siehe werkzeuge/speicher.txt),
+   teilen sich alle Handys und PCs denselben Plan. Jede Änderung wird als kleiner Schritt gemerkt
+   („hinzufügen“, „Tag setzen“, „löschen“), auf den neuesten Stand im Netz angewendet und zurückgeschrieben.
+   Ohne Netz bleiben die Schritte im Browser liegen und werden beim nächsten Mal nachgeholt. */
 (function () {
   "use strict";
-  const KEY = "kochbuch.plan";
+  const KEY = "kochbuch.plan", KEY_OFFEN = "kochbuch.ausstehend", KEY_VERBUNDEN = "kochbuch.verbunden";
+  const SPEICHER = document.body.dataset.speicher || "";
 
   // Liste: [{ id: "chili-con-carne", am: "2026-11-16", tag: 0–6 (Mo–So) oder null }, …] – neueste zuerst
-  function laden() { try { const l = JSON.parse(localStorage.getItem(KEY)); if (Array.isArray(l)) return l; } catch (e) {} return []; }
-  function speichern(l) { try { localStorage.setItem(KEY, JSON.stringify(l)); } catch (e) {} }
+  const lesen = (k, n) => { try { const v = JSON.parse(localStorage.getItem(k)); return v == null ? n : v; } catch (e) { return n; } };
+  const schreiben = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
+  const laden = () => { const l = lesen(KEY, []); return Array.isArray(l) ? l : []; };
+  const speichern = (l) => schreiben(KEY, l);
+
+  /* Ein Schritt auf eine Liste anwenden */
+  function anwenden(l, s) {
+    l = l.slice();
+    if (s.art === "neu") { if (!l.some((x) => x.id === s.id)) l.unshift({ id: s.id, am: s.am, tag: null }); }
+    else if (s.art === "tag") l = l.map((x) => (x.id === s.id ? Object.assign({}, x, { tag: s.tag }) : x));
+    else if (s.art === "weg") l = l.filter((x) => x.id !== s.id);
+    else if (s.art === "alle") l = [];
+    else if (s.art === "setzen") l = s.liste;
+    return l;
+  }
+
+  /* ---------- Abgleich mit dem Online-Speicher ---------- */
+  let status = SPEICHER ? "lädt" : "lokal", lauf = null, beiAenderung = () => {};
+  function aendern(s) {
+    speichern(anwenden(laden(), s));
+    if (SPEICHER) { const o = lesen(KEY_OFFEN, []); o.push(s); schreiben(KEY_OFFEN, o); }
+    beiAenderung();
+    return abgleichen();
+  }
+  function abgleichen() {
+    if (!SPEICHER) return Promise.resolve();
+    if (lauf) return lauf.then(() => (lesen(KEY_OFFEN, []).length ? abgleichen() : null));
+    lauf = (async () => {
+      // Beim allerersten Verbinden: was schon auf diesem Gerät stand, mit hochladen
+      if (lesen(KEY_VERBUNDEN, "") !== SPEICHER) {
+        const o = laden().slice().reverse().map((x) => [{ art: "neu", id: x.id, am: x.am }].concat(x.tag != null ? [{ art: "tag", id: x.id, tag: x.tag }] : [])).flat();
+        schreiben(KEY_OFFEN, o.concat(lesen(KEY_OFFEN, [])));
+        schreiben(KEY_VERBUNDEN, SPEICHER);
+      }
+      const r = await fetch(SPEICHER, { cache: "no-store", headers: { Accept: "application/json" } });
+      if (!r.ok) throw new Error("Speicher " + r.status);
+      const d = await r.json();
+      let l = Array.isArray(d && d.liste) ? d.liste : [];
+      const offen = lesen(KEY_OFFEN, []);
+      if (offen.length) {
+        offen.forEach((s) => (l = anwenden(l, s)));
+        const p = await fetch(SPEICHER, { method: "PUT", keepalive: true, headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify({ liste: l, geaendert: new Date().toISOString() }) });
+        if (!p.ok) throw new Error("Speichern " + p.status);
+        schreiben(KEY_OFFEN, lesen(KEY_OFFEN, []).slice(offen.length));   // nur die übertragenen Schritte streichen
+        l = lesen(KEY_OFFEN, []).reduce(anwenden, l);
+      }
+      speichern(l);
+      status = "ok";
+    })().catch(() => { status = "offline"; }).finally(() => { lauf = null; beiAenderung(); });
+    return lauf;
+  }
 
   const pad = (n) => String(n).padStart(2, "0");
   const heute = () => { const d = new Date(); return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()); };
@@ -25,8 +80,9 @@
 
   /* ---------- Rezeptseite: Aufruf über den QR-Code = auf den Wochenplan ---------- */
   function rezeptseite() {
-    const id = document.body.dataset.id, l = laden();
-    if (!l.some((x) => x.id === id)) { l.unshift({ id: id, am: heute(), tag: null }); speichern(l); }
+    const id = document.body.dataset.id;
+    if (!laden().some((x) => x.id === id)) aendern({ art: "neu", id: id, am: heute() });
+    else abgleichen();
     document.querySelectorAll("ol.schritte li").forEach((li) => li.addEventListener("click", () => li.classList.toggle("done")));
     const w = $("#wach"); let lock = null;
     if (!("wakeLock" in navigator)) w.hidden = true;
@@ -61,11 +117,15 @@
         "</div></div>";
     };
 
+    const statusZeile = () => '<p class="sync">' + ({ lokal: "Nur auf diesem Gerät gespeichert", "lädt": "Wird abgeglichen …",
+      ok: "✓ Gemeinsamer Plan – auf allen Geräten gleich", offline: "Gerade keine Verbindung – Änderungen werden später übertragen" }[status]) + "</p>";
+
     function zeichne() {
       const l = laden().filter((x) => R[x.id]);
       let html = '<p class="kap">Familienkochbuch</p><h1>Unser Wochenplan</h1>';
       if (!l.length) {
-        el.innerHTML = html + '<div class="leer-plan"><p>Noch nichts geplant.</p><p class="small muted">Scanne im Buch den QR-Code neben einem Rezept – dann steht es hier.</p></div>';
+        el.innerHTML = html + '<div class="leer-plan"><p>' + (status === "lädt" ? "Plan wird geladen …" : "Noch nichts geplant.") +
+          '</p><p class="small muted">Scanne im Buch den QR-Code neben einem Rezept – dann steht es hier.</p></div>' + statusZeile();
         return;
       }
       const h = l.filter((x) => x.tag === hIdx());
@@ -79,30 +139,33 @@
         if (t.length) html += '<section class="tagblock' + (i === hIdx() ? " ist-heute" : "") + '"><h2>' + name + "</h2>" + t.map(karte).join("") + "</section>";
       });
       if (l.length > 1) html += '<div class="unten"><button class="btn" data-alle>Alle löschen</button></div>';
-      el.innerHTML = html;
+      el.innerHTML = html + statusZeile();
     }
 
     el.addEventListener("click", (e) => {
       const d = e.target.closest("[data-tag]");
       if (d) {   // Tag antippen = einteilen, nochmal antippen = wieder „ohne Tag“
-        const l = laden(), x = l.find((y) => y.id === d.dataset.id), t = +d.dataset.tag;
-        x.tag = x.tag === t ? null : t;
-        speichern(l); zeichne();
-        if (x.tag != null) toast(esc(R[x.id].titel) + " → " + WT[t]);
+        const x = laden().find((y) => y.id === d.dataset.id), t = +d.dataset.tag;
+        if (!x) return;
+        const neu = x.tag === t ? null : t;
+        aendern({ art: "tag", id: x.id, tag: neu });
+        if (neu != null) toast(esc(R[x.id].titel) + " → " + WT[t]);
         return;
       }
       const b = e.target.closest("[data-weg],[data-alle]"); if (!b) return;
       const vorher = laden();
       const titel = b.dataset.weg ? R[b.dataset.weg].titel : "Alle Rezepte";
-      speichern(b.dataset.weg ? vorher.filter((x) => x.id !== b.dataset.weg) : []);
-      zeichne();
+      aendern(b.dataset.weg ? { art: "weg", id: b.dataset.weg } : { art: "alle" });
       toast(esc(titel) + ' gelöscht · <a href="#" id="rueck">Rückgängig</a>');
-      $("#rueck").addEventListener("click", (ev) => { ev.preventDefault(); speichern(vorher); zeichne(); $(".toast").hidden = true; });
+      $("#rueck").addEventListener("click", (ev) => { ev.preventDefault(); aendern({ art: "setzen", liste: vorher }); $(".toast").hidden = true; });
     });
-    // Neu laden, wenn man aus einem anderen Tab (frisch gescanntes Rezept) zurückkommt
+    // Neu laden: aus anderem Tab zurück, App wieder im Vordergrund, und alle 20 Sekunden (Änderungen der anderen)
+    beiAenderung = zeichne;
     window.addEventListener("storage", (ev) => { if (ev.key === KEY) zeichne(); });
-    document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") zeichne(); });
-    window.addEventListener("pageshow", zeichne);
+    document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") { zeichne(); abgleichen(); } });
+    window.addEventListener("pageshow", () => { zeichne(); abgleichen(); });
+    window.addEventListener("online", () => abgleichen());
+    setInterval(() => { if (document.visibilityState === "visible") abgleichen(); }, 20000);
     zeichne();
   }
 
