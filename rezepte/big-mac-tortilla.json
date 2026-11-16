@@ -1,0 +1,72 @@
+{
+  "id": "big-mac-tortilla",
+  "titel": "Big-Mac-Tortilla",
+  "untertitel": "Der Burgerklassiker als Wrap",
+  "kapitel": "Snacks & Kleinigkeiten",
+  "portionen": "6 Wraps",
+  "zeit": "ca. 25 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "6",
+      "zutat": "Wraps"
+    },
+    {
+      "menge": "600 g",
+      "zutat": "Rinderhack"
+    },
+    {
+      "menge": "",
+      "zutat": "Scheiben-Schmelzkäse"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "",
+      "zutat": "Eisbergsalat"
+    },
+    {
+      "menge": "",
+      "zutat": "Gewürzgurken zum Belegen"
+    },
+    {
+      "menge": "150 g",
+      "zutat": "Mayonnaise (Sauce)"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Ketchup (Sauce)"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Essig (Sauce)"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Paprika-, Knoblauch- & Zwiebelpulver (Sauce)"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "fein gehackte Gewürzgurken (Sauce)"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Für die Sauce Mayonnaise, Ketchup, Essig, Gewürzpulver und fein gehackte Gurken verrühren und mit Salz und Pfeffer abschmecken.",
+    "Rinderhack dünn auf die Wraps streichen.",
+    "Wraps mit der Fleischseite nach unten etwa 2 Minuten in der Pfanne braten.",
+    "Umdrehen, Käse darauflegen, salzen und pfeffern.",
+    "Mit Eisbergsalat, Zwiebelwürfeln, geschnittenen Gurken und der Sauce garnieren."
+  ],
+  "notiz": "Handgeschrieben auf unserer Rezeptkarte.",
+  "clipart": null,
+  "quelle": "IMG20261116082547.jpg",
+  "geschaetzt": [
+    "zeit"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "spinat-lasagne",
+  "titel": "Spinat-Lasagne",
+  "untertitel": null,
+  "kapitel": "Aufläufe",
+  "portionen": "4",
+  "zeit": "ca. 60 Minuten",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "etwas",
+      "zutat": "Pflanzencreme oder Sonnenblumenöl"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "TK-Rahmspinat"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Schmand"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "1 Tüte",
+      "zutat": "Reibe-Mozzarella"
+    },
+    {
+      "menge": "",
+      "zutat": "Lasagneplatten"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "passierte Tomaten"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "gehackte Tomaten"
+    },
+    {
+      "menge": "2 TL",
+      "zutat": "TK italienische Kräuter"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Salz"
+    }
+  ],
+  "schritte": [
+    "Spinat in einem Topf bei niedriger Stufe auftauen lassen.",
+    "In einer Pfanne Zwiebel und Knoblauch gewürfelt bzw. gepresst in etwas Pflanzencreme oder Öl dünsten. Passierte und gehackte Tomaten sowie Sahne zugeben und leicht köcheln lassen. Kräuter, Gemüsebrühe und Salz unterrühren.",
+    "In der Auflaufform schichten: Tomatensauce, Lasagneplatten, Spinat, Tomatensauce, Lasagneplatten, Spinat und so weiter. Mit Lasagneplatten, Spinat und Tomatensauce abschließen.",
+    "Schmand in Klecksen auf der letzten Saucenschicht verteilen und Mozzarella darüberstreuen.",
+    "Bei 180 °C Umluft 20 Minuten backen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082538.jpg",
+  "geschaetzt": [
+    "zeit",
+    "portionen"
+  ]
+}

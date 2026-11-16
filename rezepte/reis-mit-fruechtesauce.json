@@ -1,0 +1,68 @@
+{
+  "id": "reis-mit-fruechtesauce",
+  "titel": "Reis mit Früchtesauce",
+  "untertitel": "Hähnchen in fruchtiger Curry-Sahne",
+  "kapitel": "Hauptgerichte",
+  "portionen": "3",
+  "zeit": "ca. 35 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Hähnchen"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "Pfirsiche"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "TK-Mango"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Öl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "",
+      "zutat": "Paprikapulver"
+    },
+    {
+      "menge": "",
+      "zutat": "Currypulver"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Speisestärke"
+    },
+    {
+      "menge": "",
+      "zutat": "Reis"
+    }
+  ],
+  "schritte": [
+    "Reis kochen.",
+    "Hähnchen in Würfel schneiden und mit Salz, Paprika- und Currypulver und Öl marinieren.",
+    "In einer heißen Pfanne anbraten, anschließend herausnehmen und beiseitestellen.",
+    "Pfirsiche kleinschneiden und mit dem Saft, den Mangostücken und der Sahne 5 Minuten in der Pfanne köcheln lassen.",
+    "Ein halbes Glas Wasser mit der Speisestärke mischen und mit der Gemüsebrühe unterrühren. Mit Curry, Paprikapulver und Salz abschmecken und das Fleisch zur Sauce geben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082555.jpg",
+  "geschaetzt": [
+    "zeit"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "philadelphia-haehnchen",
+  "titel": "Philadelphia-Hähnchen mit Reis",
+  "untertitel": "Im Speckmantel mit cremiger Kräutersoße",
+  "kapitel": "Hauptgerichte",
+  "portionen": "3",
+  "zeit": "ca. 50 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Hähnchenbrustfilets"
+    },
+    {
+      "menge": "150 g",
+      "zutat": "Kräuter-Frischkäse (Philadelphia)"
+    },
+    {
+      "menge": "200 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "100 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "gekörnte Brühe"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "geräucherter Schinkenspeck in Scheiben"
+    },
+    {
+      "menge": "",
+      "zutat": "mittelscharfer Senf"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz und Pfeffer"
+    },
+    {
+      "menge": "",
+      "zutat": "TK-Kräuter"
+    },
+    {
+      "menge": "",
+      "zutat": "Reis"
+    }
+  ],
+  "schritte": [
+    "Ofen auf 160 °C Umluft vorheizen.",
+    "Jede Filethälfte einmal teilen und großzügig mit Senf bestreichen.",
+    "Die Fleischstücke in Schinkenspeck wickeln, in eine feuerfeste Form legen und ca. 25 Minuten im Ofen garen.",
+    "Aus Sahne, Milch, gekörnter Brühe und Frischkäse eine Soße anrühren, mit Salz, Pfeffer und TK-Kräutern würzen.",
+    "Soße über die Filets geben und weitere 15 Minuten in den Ofen geben. Dazu Reis servieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082504.jpg",
+  "geschaetzt": [
+    "zeit"
+  ]
+}

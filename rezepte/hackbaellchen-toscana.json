@@ -1,0 +1,68 @@
+{
+  "id": "hackbaellchen-toscana",
+  "titel": "Hackbällchen Toscana mit Reis",
+  "untertitel": "Mit Tomaten-Sahne-Soße und Mozzarella überbacken",
+  "kapitel": "Hauptgerichte",
+  "portionen": "3",
+  "zeit": "ca. 50 Minuten",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Hackfleisch"
+    },
+    {
+      "menge": "",
+      "zutat": "Kräuter (Oregano, Thymian, Basilikum)"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "1 Dose",
+      "zutat": "gestückelte Tomaten"
+    },
+    {
+      "menge": "100 ml",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "italienische Kräuter (TK)"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz und Pfeffer"
+    },
+    {
+      "menge": "1 Tüte",
+      "zutat": "Reibe-Mozzarella"
+    },
+    {
+      "menge": "",
+      "zutat": "Reis"
+    }
+  ],
+  "schritte": [
+    "Hackfleisch mit Salz und Pfeffer würzen. Oregano, Thymian, Basilikum und die gepresste Knoblauchzehe dazugeben.",
+    "12 bis 15 kleine Bällchen formen und in eine Auflaufform legen.",
+    "Gehackte Tomaten mit Sahne, italienischen Kräutern, Tomatenmark und Zucker verrühren, mit Salz und Pfeffer abschmecken und über die Hackbällchen geben.",
+    "Mozzarella darüber verteilen.",
+    "Bei 175 °C Umluft ca. 30 bis 40 Minuten garen. Dazu Reis servieren."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082533.jpg",
+  "geschaetzt": [
+    "zeit"
+  ]
+}

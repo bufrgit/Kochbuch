@@ -1,0 +1,45 @@
+{
+  "id": "toastie-mit-camembert",
+  "titel": "Toastie mit Camembert",
+  "untertitel": null,
+  "kapitel": "Snacks & Kleinigkeiten",
+  "portionen": "4",
+  "zeit": "ca. 20 Minuten",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "4",
+      "zutat": "Back-Camembert"
+    },
+    {
+      "menge": "4",
+      "zutat": "Toasties"
+    },
+    {
+      "menge": "",
+      "zutat": "Johannisbeergelee oder beliebige Marmelade"
+    },
+    {
+      "menge": "",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "",
+      "zutat": "Feldsalat"
+    }
+  ],
+  "schritte": [
+    "Camembert nach Packungsanweisung backen.",
+    "Toasties mit Butter bestreichen.",
+    "Mit dem Käse belegen, Johannisbeergelee darüberstreichen, Feldsalat darauf und fertig."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116082606.jpg",
+  "geschaetzt": [
+    "zeit",
+    "portionen"
+  ]
+}
