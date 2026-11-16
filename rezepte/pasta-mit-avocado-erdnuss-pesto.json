@@ -1,0 +1,61 @@
+{
+  "id": "pasta-mit-avocado-erdnuss-pesto",
+  "titel": "Pasta mit Avocado-Erdnuss-Pesto",
+  "untertitel": null,
+  "kapitel": "Pasta",
+  "portionen": 2,
+  "zeit": "20 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "1",
+      "zutat": "Avocado"
+    },
+    {
+      "menge": "10 g",
+      "zutat": "frischer Basilikum"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Spaghetti"
+    },
+    {
+      "menge": "40 g",
+      "zutat": "Erdnüsse (geröstet und ungesalzen)"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "30 g",
+      "zutat": "Parmesan"
+    }
+  ],
+  "schritte": [
+    "Pasta kochen.",
+    "Fruchtfleisch der Avocado herausnehmen.",
+    "Avocado, Erdnüsse, Basilikum, Knoblauch, Parmesan und 2 EL Öl in den Mixer geben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083623.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Anleitung endet im Original nach dem Mixen – evtl. ergänzen: „Pesto mit Salz & Pfeffer abschmecken und mit der Pasta vermischen“?"
+  ],
+  "freigegeben": false
+}

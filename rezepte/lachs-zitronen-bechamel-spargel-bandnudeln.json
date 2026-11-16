@@ -1,0 +1,72 @@
+{
+  "id": "lachs-zitronen-bechamel-spargel-bandnudeln",
+  "titel": "Lachs in Zitronen-Béchamel & grüner Spargel auf grünen Bandnudeln",
+  "untertitel": null,
+  "kapitel": "Fisch",
+  "portionen": 4,
+  "zeit": "35 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "400 g",
+      "zutat": "Lachs"
+    },
+    {
+      "menge": "1 Bund",
+      "zutat": "grüner Spargel"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "500 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "100 ml",
+      "zutat": "Zitronensaft"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    },
+    {
+      "menge": "",
+      "zutat": "TK Schnittlauchröllchen"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz, Pfeffer und Muskatnuss"
+    },
+    {
+      "menge": "",
+      "zutat": "grüne Bandnudeln"
+    }
+  ],
+  "schritte": [
+    "Lachs in grobe Stücke schneiden.",
+    "Holzige Enden vom Spargel entfernen und den Rest in grobe Stücke schneiden.",
+    "In einer großen Pfanne 2 EL Butter erhitzen. Knoblauchzehe hineinpressen.",
+    "2 EL Mehl hinzugeben. Alles gut verrühren. Währenddessen die Milch hinzugeben.",
+    "Zitronensaft unterrühren und mit Salz, Pfeffer und Muskatnuss würzen.",
+    "Nudeln in Salzwasser kochen.",
+    "Jetzt Lachs- und Spargelstücke in die Soße geben und für 10 Min. ziehen lassen.",
+    "Zum Schluss den Schnittlauch über das Gericht geben."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083546.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt",
+    "Titel: „grünes Spargel“ → „grüner Spargel“, „Zitronen Béchamel“ mit Bindestrich"
+  ],
+  "freigegeben": false
+}

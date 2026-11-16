@@ -1,0 +1,113 @@
+{
+  "id": "zigarrenboerek",
+  "titel": "Zigarrenbörek",
+  "untertitel": null,
+  "kapitel": "Snacks & Kleinigkeiten",
+  "portionen": 4,
+  "zeit": "45 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "",
+      "zutat": "Gewürzmischung:"
+    },
+    {
+      "menge": "5 EL",
+      "zutat": "Paprikapulver"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Kreuzkümmel"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Thymian"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Chilipulver"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Oregano"
+    },
+    {
+      "menge": "1 EL",
+      "zutat": "Pfeffer"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "getrocknete Minze"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Muskatnuss"
+    },
+    {
+      "menge": "½ TL",
+      "zutat": "Zimt"
+    },
+    {
+      "menge": "1½ EL",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "",
+      "zutat": "Börek:"
+    },
+    {
+      "menge": "",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Feta"
+    },
+    {
+      "menge": "500 g",
+      "zutat": "Rinderhack"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Tomatenmark"
+    },
+    {
+      "menge": "2",
+      "zutat": "Knoblauchzehen"
+    },
+    {
+      "menge": "150 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "3",
+      "zutat": "Eier"
+    },
+    {
+      "menge": "",
+      "zutat": "Filo-/Yufka-/Strudelteig"
+    }
+  ],
+  "schritte": [
+    "Gewürzmischung zubereiten.",
+    "Backofen auf 200 °C Ober-/Unterhitze vorheizen.",
+    "Hackfleisch anbraten. Knoblauch pressen und hinzugeben. 2 EL Gewürzmischung und 2 EL Tomatenmark hinzugeben.",
+    "3 Eier und 150 ml Milch miteinander verquirlen.",
+    "Teig halbieren und mit der Ei-Mischung bestreichen. Etwas Hack und Feta an den Rand des Teiges bringen und einrollen.",
+    "Röllchen mit dem Olivenöl bestreichen.",
+    "20 Min in den Backofen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083637.jpg",
+  "geschaetzt": [
+    "portionen",
+    "zeit"
+  ],
+  "aenderungen": [
+    "Portionen fehlen im Original („[ Portionen]“ leer) – 4 geschätzt",
+    "Zeit geschätzt",
+    "Gewürzmischung ergibt mehr als benötigt (nur 2 EL werden verwendet) – unverändert"
+  ],
+  "freigegeben": false
+}

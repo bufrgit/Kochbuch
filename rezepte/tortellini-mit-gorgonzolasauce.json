@@ -1,0 +1,59 @@
+{
+  "id": "tortellini-mit-gorgonzolasauce",
+  "titel": "Tortellini mit Gorgonzolasauce",
+  "untertitel": null,
+  "kapitel": "Pasta",
+  "portionen": 2,
+  "zeit": "20 Min",
+  "merkmale": [],
+  "zutaten": [
+    {
+      "menge": "500 g",
+      "zutat": "Tortellini"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "1 Becher",
+      "zutat": "Sahne"
+    },
+    {
+      "menge": "1 Packung",
+      "zutat": "Schinkenwürfel"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Gorgonzola (Menge nach Belieben)"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "100 ml",
+      "zutat": "Gemüsebrühe"
+    },
+    {
+      "menge": "1",
+      "zutat": "Knoblauchzehe"
+    }
+  ],
+  "schritte": [
+    "Zwiebel würfeln und Knoblauch pressen. Schinkenwürfel, Zwiebel und Knoblauch anbraten.",
+    "Sahne und Gemüsebrühe hinzugeben. Salzen und pfeffern.",
+    "Tortellini kochen.",
+    "Gorgonzola in der Sauce schmelzen."
+  ],
+  "notiz": null,
+  "clipart": null,
+  "quelle": "IMG20261116083647.jpg",
+  "geschaetzt": [
+    "zeit"
+  ],
+  "aenderungen": [
+    "Zeit geschätzt"
+  ],
+  "freigegeben": false
+}
