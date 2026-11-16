@@ -32,6 +32,12 @@ def motiv(kap):
 
 
 BUCH_CSS = """
+@page{size:210mm 297mm;margin:0}
+/* DIN A4: A5-Layout mit 25 % Zoom auf etwas größerer Grundfläche (168 x 237,6 mm -> 210 x 297 mm) */
+.page{width:168mm;height:237.6mm;zoom:1.25}.page:last-of-type{page-break-after:auto}
+/* Bindungsrand (Ringbindung): rechte Seiten innen links, linke Seiten innen rechts */
+.rz:nth-of-type(odd),.toc:nth-of-type(odd){padding-left:21mm}.rz:nth-of-type(even),.toc:nth-of-type(even){padding-right:21mm}
+.rz:nth-of-type(even) .motiv{right:22mm}
 .titel{background:#fbf5ea;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#3a2e26}
 .titel .kranz{display:grid;grid-template-columns:repeat(4,16mm);gap:3mm 5mm;margin-bottom:12mm;opacity:.85}
 .titel .kranz svg{width:16mm;height:16mm}
