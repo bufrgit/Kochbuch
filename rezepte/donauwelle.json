@@ -2,7 +2,7 @@
   "id": "donauwelle",
   "titel": "Donauwelle",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 Blech",
   "zeit": "ca. 1 Std. 15 Min + Kühlzeit",
   "merkmale": [
@@ -106,7 +106,9 @@
     "Zeit geschätzt",
     "„175 ml zum Teig“ → „175 ml Milch“",
     "„(und 1 EL Milch)“ ergänzt – steht in den Zutaten, fehlte in der Anleitung",
-    "Tippfehler „Kakopulver“, „250g g“ korrigiert"
+    "Tippfehler „Kakopulver“, „250g g“ korrigiert",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

@@ -2,7 +2,7 @@
   "id": "regenbogenfisch-kuchen",
   "titel": "Regenbogenfisch-Kuchen",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 Springform (26 cm)",
   "zeit": "ca. 1 Std. 40 Min",
   "merkmale": [
@@ -91,7 +91,9 @@
   "geschaetzt": [],
   "aenderungen": [
     "Quelle: Familienkost.de-Ausdruck (© Jenny Böhme), 2 Seiten zusammengeführt – Foto weggelassen",
-    "Du-Form in neutrale Form umgeschrieben; „wie abgebildet“ → „als Fisch“"
+    "Du-Form in neutrale Form umgeschrieben; „wie abgebildet“ → „als Fisch“",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

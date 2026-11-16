@@ -2,7 +2,7 @@
   "id": "marienkaeferkuchen",
   "titel": "Marienkäferkuchen",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 Springform (26 cm)",
   "zeit": "ca. 45 Min",
   "merkmale": [
@@ -96,7 +96,9 @@
     "Quelle: Familienkost.de-Ausdruck (© Jenny Böhme), 2 Seiten zusammengeführt – Foto weggelassen",
     "Du-Form der Anleitung („Heize…“, „Rühre…“) in neutrale Form umgeschrieben",
     "„wie auf unserem Bild abgebildet“ → „als Marienkäfer dekorieren“ (Bild fällt weg)",
-    "Einleitungstext gekürzt als Notiz"
+    "Einleitungstext gekürzt als Notiz",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

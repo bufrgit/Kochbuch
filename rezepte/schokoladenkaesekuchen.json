@@ -2,7 +2,7 @@
   "id": "schokoladenkaesekuchen",
   "titel": "Schokoladenkäsekuchen",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 Springform",
   "zeit": "ca. 1 Std. 30 Min",
   "merkmale": [
@@ -101,7 +101,9 @@
   "aenderungen": [
     "Zeit geschätzt",
     "Frage: Zitronensaft beim Belag steht in den Zutaten, aber nicht in der Anleitung",
-    "Abgestimmt: Zitronensaft in den Belag"
+    "Abgestimmt: Zitronensaft in den Belag",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

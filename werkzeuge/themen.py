@@ -20,7 +20,7 @@ TANNE = ('<g stroke="#2f5d3a" stroke-width="2.2" fill="none" stroke-linecap="rou
 THEMEN = {
     "Weihnachtsbäckerei": dict(a="#a8322d", b="#2f5d3a", papier="#fbf3e8", zettel="#f6e2d6",
         motiv=_svg(TANNE + stern(90, 60, 7, "#c9a23a") + stern(70, 30, 5, "#c9a23a") + stern(30, 40, 4, "#c9a23a", .7))),
-    "Backen": dict(a="#b0566a", b="#7a5a3a", papier="#fbf5f0", zettel="#f3e2e2",
+    "Kuchen & Backen": dict(a="#b0566a", b="#7a5a3a", papier="#fbf5f0", zettel="#f3e2e2",
         motiv=_svg('<g fill="none" stroke="#b0566a" stroke-width="2.2" stroke-linecap="round"><path d="M20 70 h70 l-6 22 h-58 z"/>'
                    '<path d="M24 70 q8 -28 32 -30 q24 2 30 30"/><path d="M40 62 q6 -10 14 -12 M62 52 q8 4 10 14"/></g>'
                    '<circle cx="56" cy="34" r="5" fill="#a8322d"/><path d="M56 29 q4 -8 10 -9" stroke="#2f5d3a" stroke-width="2" fill="none"/>')),
@@ -39,7 +39,7 @@ def _t(a, b, papier, zettel, d, extra=""):
     return dict(a=a, b=b, papier=papier, zettel=zettel, motiv=_linie(a, d), extra=extra)
 
 THEMEN.update({
-    "Hauptgerichte": _t("#b4572a", "#6f7f3e", "#fbf5ea", "#f3e6cc",
+    "Pfanne & Co": _t("#b4572a", "#6f7f3e", "#fbf5ea", "#f3e6cc",
         '<ellipse cx="48" cy="62" rx="32" ry="14"/><path d="M16 62 q0 18 32 18 q32 0 32 -18 M80 60 l24 -8"/><path d="M38 44 q-4 -8 2 -14 M52 42 q-4 -8 2 -14"/>'),
     "Aufläufe": _t("#8c5a3c", "#6f7f3e", "#faf4ec", "#efe0cf",
         '<rect x="18" y="52" width="74" height="30" rx="6"/><path d="M10 58 h8 M92 58 h8"/><path d="M24 52 q10 -10 20 0 q10 -10 20 0 q10 -10 20 0"/><path d="M40 36 q-4 -8 2 -14 M60 36 q-4 -8 2 -14"/>'),
@@ -47,7 +47,7 @@ THEMEN.update({
         '<path d="M55 95 v-40 M45 55 v-25 M55 55 v-25 M65 55 v-25 M45 55 q10 8 20 0"/><path d="M30 40 q25 -25 50 0 M28 52 q27 -22 54 0 M34 30 q21 -18 42 0"/>'),
     "Fisch": _t("#2f7a7a", "#b4572a", "#f5f6f0", "#dfece8",
         '<path d="M18 55 q30 -30 62 0 q-32 30 -62 0z M80 55 l18 -14 v28z"/><circle cx="32" cy="51" r="2.5"/><path d="M48 44 q6 11 0 22"/>'),
-    "Snacks & Kleinigkeiten": _t("#6d5f9c", "#b4572a", "#f8f5f0", "#e7e3f0",
+    "Snacks": _t("#6d5f9c", "#b4572a", "#f8f5f0", "#e7e3f0",
         '<path d="M20 90 L90 20"/><circle cx="40" cy="70" r="9"/><circle cx="56" cy="54" r="9"/><circle cx="72" cy="38" r="9"/>'),
     "Beilagen": _t("#7a7a35", "#b4572a", "#f9f7ec", "#ebebd3",
         '<ellipse cx="40" cy="62" rx="22" ry="16" transform="rotate(-20 40 62)"/><ellipse cx="72" cy="56" rx="18" ry="13" transform="rotate(15 72 56)"/><path d="M34 58 h2 M46 66 h2 M70 52 h2"/>'),

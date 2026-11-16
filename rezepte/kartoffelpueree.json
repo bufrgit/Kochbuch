@@ -1,0 +1,48 @@
+{
+  "id": "kartoffelpueree",
+  "titel": "Kartoffelpüree",
+  "kapitel": "Beilagen",
+  "portionen": "4",
+  "zeit": "ca. 30 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "1 kg",
+      "zutat": "mehligkochende Kartoffeln"
+    },
+    {
+      "menge": "200 ml",
+      "zutat": "Milch"
+    },
+    {
+      "menge": "50 g",
+      "zutat": "Butter"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "1 Prise",
+      "zutat": "Muskat"
+    }
+  ],
+  "schritte": [
+    "Kartoffeln schälen, vierteln und in Salzwasser ca. 20 Min. weich kochen. Abgießen und kurz ausdampfen lassen.",
+    "Milch mit der Butter erwärmen.",
+    "Kartoffeln stampfen und die warme Milch nach und nach unterrühren, bis das Püree cremig ist. Mit Salz und Muskat abschmecken."
+  ],
+  "notiz": null,
+  "untertitel": null,
+  "clipart": null,
+  "quelle": "von Claude ergänzt",
+  "geschaetzt": [],
+  "freigegeben": false,
+  "ergaenzt": true,
+  "aenderungen": [
+    "Neu ergänzt, damit jedes Unterkapitel mindestens 5 Rezepte hat"
+  ],
+  "oberkapitel": "Kleinigkeiten & Beilagen"
+}

@@ -2,7 +2,7 @@
   "id": "russischer-zupfkuchen",
   "titel": "Russischer Zupfkuchen",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 Blech",
   "zeit": "ca. 1 Std. 30 Min",
   "merkmale": [
@@ -86,7 +86,9 @@
     "Zeit geschätzt",
     "Frage: „Teig 3 Min. kühl stellen“ – vielleicht 30 Min. gemeint? Unverändert",
     "Steht mit der Schwarzwälder Kirschtorte auf einem Blatt",
-    "Abgestimmt: 30 Min. kühl stellen"
+    "Abgestimmt: 30 Min. kühl stellen",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

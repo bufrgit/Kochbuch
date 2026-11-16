@@ -2,7 +2,7 @@
   "id": "joghurtkuchen-oma-idas-rezept",
   "titel": "Joghurtkuchen (Oma Idas Rezept)",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 Kastenform",
   "zeit": "ca. 1 Std. 5 Min",
   "merkmale": [
@@ -61,7 +61,9 @@
   "aenderungen": [
     "Persönliches Rezept (von Oma Ida)",
     "Frage: Backzeit und Form fehlen im Original – weißt du die?",
-    "Abgestimmt: Form und Backzeit geschätzt (Kastenform, ca. 50 Min.)"
+    "Abgestimmt: Form und Backzeit geschätzt (Kastenform, ca. 50 Min.)",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

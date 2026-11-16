@@ -2,7 +2,7 @@
   "id": "jaegerschnitzel",
   "titel": "Jägerschnitzel",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": "4",
   "zeit": "ca. 40 Minuten",
   "merkmale": [],
@@ -67,7 +67,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "„mit der Soße servieren“ ergänzt"
+    "„mit der Soße servieren“ ergänzt",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

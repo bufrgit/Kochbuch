@@ -2,7 +2,7 @@
   "id": "pizzateig-mit-pizzasauce",
   "titel": "Pizzateig mit Pizzasauce",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "2 Bleche",
   "zeit": "ca. 30 Minuten + 1 Stunde Gehzeit",
   "merkmale": [
@@ -88,7 +88,9 @@
     "Titel geändert (Original „Einfaches Pizzateigrezept“)",
     "Zubereitung der Sauce als Schritt ergänzt (stand nur als Zutatenliste da)",
     "Notiz von mir",
-    "Menge „2 Bleche“ und Zeit geschätzt"
+    "Menge „2 Bleche“ und Zeit geschätzt",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

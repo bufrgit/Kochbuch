@@ -2,7 +2,7 @@
   "id": "gefuellte-paprika-mit-kartoffelspalten",
   "titel": "Gefüllte Paprikaschoten mit Kartoffelspalten",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": 2,
   "zeit": "1 Std.",
   "merkmale": [],
@@ -91,7 +91,9 @@
     "Zeit geschätzt",
     "Zutaten für die Kartoffelspalten als eigene Gruppe",
     "TK-Kräuter stehen in den Zutaten, aber nicht in der Anleitung – unverändert gelassen",
-    "Abgestimmt: TK-Kräuter in die Füllung"
+    "Abgestimmt: TK-Kräuter in die Füllung",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

@@ -1,0 +1,69 @@
+{
+  "id": "butterplaetzchen",
+  "titel": "Butterplätzchen zum Ausstechen",
+  "kapitel": "Weihnachtsbäckerei",
+  "portionen": "ca. 60 Stück",
+  "zeit": "ca. 1 ½ Std.",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "300 g",
+      "zutat": "Mehl"
+    },
+    {
+      "menge": "100 g",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "1 Päckchen",
+      "zutat": "Vanillezucker"
+    },
+    {
+      "menge": "1 Prise",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "1",
+      "zutat": "Ei"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "kalte Butter"
+    },
+    {
+      "menge": "",
+      "zutat": "Zum Verzieren:"
+    },
+    {
+      "menge": "200 g",
+      "zutat": "Puderzucker"
+    },
+    {
+      "menge": "2–3 EL",
+      "zutat": "Zitronensaft"
+    },
+    {
+      "menge": "",
+      "zutat": "bunte Streusel"
+    }
+  ],
+  "schritte": [
+    "Mehl, Zucker, Vanillezucker, Salz, Ei und Butter in Stückchen rasch zu einem glatten Teig verkneten. In Folie gewickelt 1 Std. kalt stellen.",
+    "Teig auf wenig Mehl ca. 3 mm dick ausrollen, Plätzchen ausstechen und auf ein mit Backpapier belegtes Blech legen.",
+    "Bei 180 °C (Ober-/Unterhitze) ca. 8–10 Min. hell backen und auskühlen lassen.",
+    "Puderzucker mit Zitronensaft glatt rühren, die Plätzchen damit bestreichen und mit Streuseln verzieren."
+  ],
+  "notiz": "Ideal zum Backen mit Kindern.",
+  "untertitel": null,
+  "clipart": null,
+  "quelle": "von Claude ergänzt",
+  "geschaetzt": [],
+  "freigegeben": false,
+  "ergaenzt": true,
+  "aenderungen": [
+    "Neu ergänzt, damit jedes Unterkapitel mindestens 5 Rezepte hat"
+  ],
+  "oberkapitel": "Süßes"
+}

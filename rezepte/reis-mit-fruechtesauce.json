@@ -2,7 +2,7 @@
   "id": "reis-mit-fruechtesauce",
   "titel": "Reis mit Früchtesauce",
   "untertitel": "Hähnchen in fruchtiger Curry-Sahne",
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": "3",
   "zeit": "ca. 35 Minuten",
   "merkmale": [],
@@ -67,7 +67,9 @@
   ],
   "aenderungen": [
     "Untertitel von mir",
-    "Zeit geschätzt"
+    "Zeit geschätzt",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

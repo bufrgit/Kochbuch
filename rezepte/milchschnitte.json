@@ -2,7 +2,7 @@
   "id": "milchschnitte",
   "titel": "Milchschnitte",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "10 Stück",
   "zeit": "ca. 27 Min + 3 Std. Kühlzeit",
   "merkmale": [
@@ -87,7 +87,9 @@
   "geschaetzt": [],
   "aenderungen": [
     "Quelle: Familienkost.de-Ausdruck (© Jenny Böhme), 2 Seiten zusammengeführt – Foto/„Kauftipp“-Link weggelassen",
-    "Du-Form in neutrale Form umgeschrieben; „Sahnefest“ → „Sahnesteif“"
+    "Du-Form in neutrale Form umgeschrieben; „Sahnefest“ → „Sahnesteif“",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

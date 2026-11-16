@@ -1,0 +1,48 @@
+{
+  "id": "bratkartoffeln",
+  "titel": "Bratkartoffeln",
+  "kapitel": "Beilagen",
+  "portionen": "4",
+  "zeit": "ca. 40 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "1 kg",
+      "zutat": "festkochende Kartoffeln"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "3 EL",
+      "zutat": "Butterschmalz oder Öl"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Petersilie"
+    }
+  ],
+  "schritte": [
+    "Kartoffeln mit Schale ca. 20 Min. kochen, abgießen und gut ausdampfen lassen. Pellen und in Scheiben schneiden (am besten schon am Vortag).",
+    "Fett in einer großen Pfanne erhitzen. Kartoffelscheiben darin bei mittlerer bis hoher Hitze ca. 10 Min. goldbraun braten, dabei erst wenden, wenn sie unten Farbe haben.",
+    "Zwiebel würfeln, dazugeben und weitere 5 Min. mitbraten. Mit Salz und Pfeffer würzen und mit Petersilie bestreuen."
+  ],
+  "notiz": "Passt zu Frikadellen und Jägerschnitzel.",
+  "untertitel": null,
+  "clipart": null,
+  "quelle": "von Claude ergänzt",
+  "geschaetzt": [],
+  "freigegeben": false,
+  "ergaenzt": true,
+  "aenderungen": [
+    "Neu ergänzt, damit jedes Unterkapitel mindestens 5 Rezepte hat"
+  ],
+  "oberkapitel": "Kleinigkeiten & Beilagen"
+}

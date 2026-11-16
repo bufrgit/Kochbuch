@@ -2,7 +2,7 @@
   "id": "gedeckter-apfelkuchen",
   "titel": "Gedeckter Apfelkuchen",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 Springform (26 cm)",
   "zeit": "ca. 1 Std. 30 Min",
   "merkmale": [
@@ -91,7 +91,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "Kleine Ergänzungen zur Verständlichkeit: „(mit dem Teigdeckel)“, „und auf den Kuchen streichen“"
+    "Kleine Ergänzungen zur Verständlichkeit: „(mit dem Teigdeckel)“, „und auf den Kuchen streichen“",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

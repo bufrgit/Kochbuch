@@ -2,7 +2,7 @@
   "id": "crispy-chicken-nuggets",
   "titel": "Crispy Chicken Nuggets",
   "untertitel": null,
-  "kapitel": "Snacks & Kleinigkeiten",
+  "kapitel": "Snacks",
   "portionen": 2,
   "zeit": "25 Min",
   "merkmale": [],
@@ -59,7 +59,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "„Hähnchenfilets“ → „Hähnchenstücke“ (sind vorher klein geschnitten)"
+    "„Hähnchenfilets“ → „Hähnchenstücke“ (sind vorher klein geschnitten)",
+    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Kleinigkeiten & Beilagen"
 }

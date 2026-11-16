@@ -2,7 +2,7 @@
   "id": "reis-mit-paprikagemuese-und-hackfleisch",
   "titel": "Reis mit Paprikagemüse und Hackfleisch",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": "2",
   "zeit": "ca. 30 Minuten",
   "merkmale": [],
@@ -67,7 +67,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "Schneide-Schritte zusammengefasst"
+    "Schneide-Schritte zusammengefasst",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

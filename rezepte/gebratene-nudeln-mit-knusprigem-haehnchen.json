@@ -2,7 +2,7 @@
   "id": "gebratene-nudeln-mit-knusprigem-haehnchen",
   "titel": "Gebratene Nudeln mit knusprigem Hähnchen",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": "2–3",
   "zeit": "ca. 1 Stunde + 30 Minuten Marinieren",
   "merkmale": [],
@@ -138,7 +138,9 @@
     "Zwei Fotos zu einem Rezept zusammengeführt",
     "Handschriftliche Änderungen übernommen: gekörnte Brühe statt Fondor, weißer Pfeffer",
     "„feddich“ aus dem Original bewusst behalten",
-    "Öl zum Frittieren ergänzt"
+    "Öl zum Frittieren ergänzt",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

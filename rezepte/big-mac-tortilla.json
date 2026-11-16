@@ -2,7 +2,7 @@
   "id": "big-mac-tortilla",
   "titel": "Big-Mac-Tortilla",
   "untertitel": "Der Burgerklassiker als Wrap",
-  "kapitel": "Snacks & Kleinigkeiten",
+  "kapitel": "Snacks",
   "portionen": "6 Wraps",
   "zeit": "ca. 25 Minuten",
   "merkmale": [],
@@ -72,7 +72,9 @@
   "aenderungen": [
     "Untertitel und Notiz von mir",
     "Zeit geschätzt",
-    "Eisbergsalat und Gewürzgurken zum Belegen in Zutatenliste ergänzt"
+    "Eisbergsalat und Gewürzgurken zum Belegen in Zutatenliste ergänzt",
+    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Kleinigkeiten & Beilagen"
 }

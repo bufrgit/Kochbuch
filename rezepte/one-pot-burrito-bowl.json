@@ -2,7 +2,7 @@
   "id": "one-pot-burrito-bowl",
   "titel": "One Pot Burrito Bowl",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": 4,
   "zeit": "40 Min",
   "merkmale": [],
@@ -79,7 +79,9 @@
   "aenderungen": [
     "Zeit geschätzt",
     "Tippfehler korrigiert: „in einem einem Wok“, „durchrühren“",
-    "„bis der Gouda zerlaufen ist“ → „Käse“ (Zutat heißt Reibekäse)"
+    "„bis der Gouda zerlaufen ist“ → „Käse“ (Zutat heißt Reibekäse)",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

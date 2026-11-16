@@ -2,7 +2,7 @@
   "id": "party-pizzabroetchenhaelften",
   "titel": "Party-Pizzabrötchenhälften",
   "untertitel": null,
-  "kapitel": "Snacks & Kleinigkeiten",
+  "kapitel": "Snacks",
   "portionen": "24 Brötchenhälften",
   "zeit": "30 Min",
   "merkmale": [],
@@ -49,7 +49,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "„beschmieren“ → „bestreichen“"
+    "„beschmieren“ → „bestreichen“",
+    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Kleinigkeiten & Beilagen"
 }

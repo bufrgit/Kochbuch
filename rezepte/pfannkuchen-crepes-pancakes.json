@@ -2,7 +2,7 @@
   "id": "pfannkuchen-crepes-pancakes",
   "titel": "Pfannkuchen, Crêpes & Pancakes",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": null,
   "zeit": null,
   "merkmale": [],
@@ -113,7 +113,9 @@
   "aenderungen": [
     "Drei Grundteige von einer Seite zu einem Rezept zusammengefasst",
     "Original hat nur Zutaten, keine Anleitung und keine Portionen – Anleitung ergänzen oder so lassen?",
-    "Abgestimmt: Grundanleitung (von mir ergänzt)"
+    "Abgestimmt: Grundanleitung (von mir ergänzt)",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

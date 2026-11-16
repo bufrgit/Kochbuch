@@ -2,7 +2,7 @@
   "id": "saftiger-schokokuchen",
   "titel": "Saftiger Schokokuchen",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 große Springform",
   "zeit": "ca. 1 Std.",
   "merkmale": [
@@ -68,7 +68,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "„(Große Springform)“ aus dem Titel in die Mengenangabe verschoben"
+    "„(Große Springform)“ aus dem Titel in die Mengenangabe verschoben",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

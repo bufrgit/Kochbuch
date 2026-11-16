@@ -2,7 +2,7 @@
   "id": "frikadellen",
   "titel": "Frikadellen",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": 4,
   "zeit": "30 Min",
   "merkmale": [],
@@ -69,7 +69,9 @@
     "zeit"
   ],
   "aenderungen": [
-    "Zeit geschätzt"
+    "Zeit geschätzt",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

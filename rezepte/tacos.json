@@ -2,7 +2,7 @@
   "id": "tacos",
   "titel": "Tacos",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": 2,
   "zeit": "30 Min",
   "merkmale": [],
@@ -91,7 +91,9 @@
     "Portionen fehlen im Original („[Portionen]“ leer) – 2 geschätzt (200 g Hack)",
     "Zeit geschätzt",
     "Frage: Anleitung nennt „1 TL Koriander“, Zutaten aber Kreuzkümmel/Oregano/Chili – vermutlich sind die Gewürze gemeint; unverändert gelassen",
-    "Abgestimmt: „die Gewürze“ statt Koriander"
+    "Abgestimmt: „die Gewürze“ statt Koriander",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

@@ -2,7 +2,7 @@
   "id": "blaetterteigtaschen-mit-hack-und-cheddar",
   "titel": "Blätterteigtaschen mit Hack und Cheddar",
   "untertitel": null,
-  "kapitel": "Snacks & Kleinigkeiten",
+  "kapitel": "Snacks",
   "portionen": 6,
   "zeit": "50 Min",
   "merkmale": [],
@@ -71,7 +71,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "Tippfehler „und der längs halbieren“ korrigiert"
+    "Tippfehler „und der längs halbieren“ korrigiert",
+    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Kleinigkeiten & Beilagen"
 }

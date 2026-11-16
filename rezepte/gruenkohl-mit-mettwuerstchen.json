@@ -2,7 +2,7 @@
   "id": "gruenkohl-mit-mettwuerstchen",
   "titel": "Grünkohl mit Mettwürstchen und Kartoffeln",
   "untertitel": "Am besten am nächsten Tag",
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": "4",
   "zeit": "ca. 1 ¾ Stunden",
   "merkmale": [],
@@ -68,7 +68,9 @@
   "aenderungen": [
     "Zeit geschätzt",
     "Untertitel von mir",
-    "Haferflocken stehen nur in der Zutatenliste, nicht in der Anleitung"
+    "Haferflocken stehen nur in der Zutatenliste, nicht in der Anleitung",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

@@ -2,7 +2,7 @@
   "id": "cream-cheese-muffins",
   "titel": "Cream Cheese Muffins",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "15 Stück",
   "zeit": "35 Min",
   "merkmale": [
@@ -56,7 +56,9 @@
     "zeit"
   ],
   "aenderungen": [
-    "Zeit geschätzt"
+    "Zeit geschätzt",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

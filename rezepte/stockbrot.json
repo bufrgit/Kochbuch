@@ -2,7 +2,7 @@
   "id": "stockbrot",
   "titel": "Stockbrot",
   "untertitel": null,
-  "kapitel": "Snacks & Kleinigkeiten",
+  "kapitel": "Snacks",
   "portionen": 12,
   "zeit": "25 Min",
   "merkmale": [
@@ -48,7 +48,9 @@
   "aenderungen": [
     "Zeit geschätzt",
     "Frage: „Teig um Stöcke wickeln und über dem Feuer backen“ ergänzen?",
-    "Abgestimmt: Backen am Feuer (von mir ergänzt)"
+    "Abgestimmt: Backen am Feuer (von mir ergänzt)",
+    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Kleinigkeiten & Beilagen"
 }

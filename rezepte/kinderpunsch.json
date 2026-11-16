@@ -1,0 +1,60 @@
+{
+  "id": "kinderpunsch",
+  "titel": "Kinderpunsch",
+  "kapitel": "Getränke",
+  "portionen": "6 Gläser",
+  "zeit": "ca. 20 Min",
+  "merkmale": [
+    "alkoholfrei"
+  ],
+  "zutaten": [
+    {
+      "menge": "1 l",
+      "zutat": "Früchtetee"
+    },
+    {
+      "menge": "500 ml",
+      "zutat": "roter Traubensaft"
+    },
+    {
+      "menge": "250 ml",
+      "zutat": "Orangensaft"
+    },
+    {
+      "menge": "1",
+      "zutat": "Bio-Orange"
+    },
+    {
+      "menge": "2",
+      "zutat": "Zimtstangen"
+    },
+    {
+      "menge": "3",
+      "zutat": "Nelken"
+    },
+    {
+      "menge": "2",
+      "zutat": "Sternanis"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Honig"
+    }
+  ],
+  "schritte": [
+    "Tee kochen und 5 Min. ziehen lassen.",
+    "Orange in Scheiben schneiden. Mit Tee, Säften und Gewürzen in einen Topf geben und ca. 10 Min. heiß ziehen lassen, nicht kochen.",
+    "Mit Honig abschmecken, Gewürze entfernen und heiß servieren."
+  ],
+  "notiz": "Für die Großen mit einem Schuss Rum.",
+  "untertitel": null,
+  "clipart": null,
+  "quelle": "von Claude ergänzt",
+  "geschaetzt": [],
+  "freigegeben": false,
+  "ergaenzt": true,
+  "aenderungen": [
+    "Neu ergänzt, damit jedes Unterkapitel mindestens 5 Rezepte hat"
+  ],
+  "oberkapitel": "Getränke"
+}

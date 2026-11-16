@@ -2,7 +2,7 @@
   "id": "kaesekuchen-mit-mandarinen-vom-blech",
   "titel": "Käsekuchen mit Mandarinen vom Blech",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 Blech",
   "zeit": "ca. 1 Std.",
   "merkmale": [
@@ -85,7 +85,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "„1x Vanillezucker“ → „1 Päckchen“"
+    "„1x Vanillezucker“ → „1 Päckchen“",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

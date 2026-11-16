@@ -2,7 +2,7 @@
   "id": "schokokuchen-mit-glasur",
   "titel": "Schokokuchen mit Glasur",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 Ring (20 cm)",
   "zeit": "45 Min",
   "merkmale": [
@@ -70,7 +70,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "„(20 cm Ring)“ aus dem Titel in die Mengenangabe verschoben"
+    "„(20 cm Ring)“ aus dem Titel in die Mengenangabe verschoben",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

@@ -1,0 +1,60 @@
+{
+  "id": "ofengemuese",
+  "titel": "Ofengemüse vom Blech",
+  "kapitel": "Beilagen",
+  "portionen": "4",
+  "zeit": "ca. 45 Min",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "2",
+      "zutat": "Paprika"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zucchini"
+    },
+    {
+      "menge": "2",
+      "zutat": "Karotten"
+    },
+    {
+      "menge": "1",
+      "zutat": "rote Zwiebel"
+    },
+    {
+      "menge": "400 g",
+      "zutat": "Kartoffeln"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Olivenöl"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "getrockneter Rosmarin oder Thymian"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Backofen auf 200 °C Umluft vorheizen.",
+    "Gemüse und Kartoffeln waschen bzw. schälen und in mundgerechte Stücke schneiden, die Zwiebel in Spalten.",
+    "Alles auf einem Backblech mit Öl, Kräutern, Salz und Pfeffer mischen und ca. 30–35 Min. backen, nach der Hälfte einmal wenden."
+  ],
+  "notiz": null,
+  "untertitel": null,
+  "clipart": null,
+  "quelle": "von Claude ergänzt",
+  "geschaetzt": [],
+  "freigegeben": false,
+  "ergaenzt": true,
+  "aenderungen": [
+    "Neu ergänzt, damit jedes Unterkapitel mindestens 5 Rezepte hat"
+  ],
+  "oberkapitel": "Kleinigkeiten & Beilagen"
+}

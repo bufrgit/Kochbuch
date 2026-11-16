@@ -2,7 +2,7 @@
   "id": "bananenbrot",
   "titel": "Bananenbrot",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 Kastenform",
   "zeit": "60 Min",
   "merkmale": [
@@ -59,7 +59,9 @@
   "geschaetzt": [],
   "aenderungen": [
     "Handschriftliches Rezept",
-    "„Brotbackform“ → „Kastenform“; Utensilien (Form, Backpapier) aus der Zutatenliste genommen"
+    "„Brotbackform“ → „Kastenform“; Utensilien (Form, Backpapier) aus der Zutatenliste genommen",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

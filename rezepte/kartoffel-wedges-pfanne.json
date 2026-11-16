@@ -2,7 +2,7 @@
   "id": "kartoffel-wedges-pfanne",
   "titel": "Kartoffel-Wedges-Pfanne mit Tomaten & Feta",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": "2",
   "zeit": "ca. 45 Minuten",
   "merkmale": [],
@@ -80,7 +80,9 @@
   "aenderungen": [
     "Zeit geschätzt",
     "Handschriftliche Ergänzungen (Hack, gehackte Tomaten) eingearbeitet",
-    "Notiz von mir"
+    "Notiz von mir",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

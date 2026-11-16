@@ -2,7 +2,7 @@
   "id": "honig-bbq-wings",
   "titel": "Honig-BBQ-Wings",
   "untertitel": null,
-  "kapitel": "Snacks & Kleinigkeiten",
+  "kapitel": "Snacks",
   "portionen": "4",
   "zeit": "ca. 65 Minuten",
   "merkmale": [],
@@ -60,7 +60,9 @@
   ],
   "aenderungen": [
     "Portionen (4) und Zeit geschätzt",
-    "Notiz zu den handschriftlichen ½-Mengen von mir"
+    "Notiz zu den handschriftlichen ½-Mengen von mir",
+    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Kleinigkeiten & Beilagen"
 }

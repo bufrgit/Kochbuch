@@ -2,7 +2,7 @@
   "id": "butter-chicken",
   "titel": "Butter Chicken",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": "2",
   "zeit": "ca. 1 Stunde + 1,5 Stunden Marinieren",
   "merkmale": [],
@@ -104,7 +104,9 @@
   "aenderungen": [
     "Zeit geschätzt",
     "Lange Anleitung auf 5 Schritte zusammengefasst",
-    "Knoblauch und Ingwer der Marinade in die Zutatenliste übernommen"
+    "Knoblauch und Ingwer der Marinade in die Zutatenliste übernommen",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

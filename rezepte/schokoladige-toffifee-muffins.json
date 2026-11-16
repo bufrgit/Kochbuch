@@ -2,7 +2,7 @@
   "id": "schokoladige-toffifee-muffins",
   "titel": "Schokoladige Toffifee-Muffins",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "12 Stück",
   "zeit": "35 Min",
   "merkmale": [
@@ -66,7 +66,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "„12 Portionen“ → „12 Stück“"
+    "„12 Portionen“ → „12 Stück“",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

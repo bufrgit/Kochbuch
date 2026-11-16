@@ -1,0 +1,53 @@
+{
+  "id": "zimtsterne",
+  "titel": "Zimtsterne",
+  "kapitel": "Weihnachtsbäckerei",
+  "portionen": "ca. 40 Stück",
+  "zeit": "ca. 1 Std. + Trockenzeit",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "3",
+      "zutat": "Eiweiß"
+    },
+    {
+      "menge": "1 Prise",
+      "zutat": "Salz"
+    },
+    {
+      "menge": "250 g",
+      "zutat": "Puderzucker"
+    },
+    {
+      "menge": "1 TL",
+      "zutat": "Zimt"
+    },
+    {
+      "menge": "375 g",
+      "zutat": "gemahlene Mandeln"
+    },
+    {
+      "menge": "etwas",
+      "zutat": "Puderzucker zum Ausrollen"
+    }
+  ],
+  "schritte": [
+    "Eiweiß mit Salz steif schlagen, dabei den Puderzucker nach und nach einrieseln lassen. 4 EL davon für die Glasur abnehmen und beiseitestellen.",
+    "Zimt und Mandeln unter die übrige Masse kneten. Den Teig ca. 1 Std. kalt stellen.",
+    "Teig auf Puderzucker ca. 7 mm dick ausrollen, Sterne ausstechen und auf ein mit Backpapier belegtes Blech setzen. Mit der Glasur bestreichen.",
+    "Bei 140 °C Umluft ca. 10–12 Min. backen. Die Glasur soll weiß bleiben."
+  ],
+  "notiz": null,
+  "untertitel": null,
+  "clipart": null,
+  "quelle": "von Claude ergänzt",
+  "geschaetzt": [],
+  "freigegeben": false,
+  "ergaenzt": true,
+  "aenderungen": [
+    "Neu ergänzt, damit jedes Unterkapitel mindestens 5 Rezepte hat"
+  ],
+  "oberkapitel": "Süßes"
+}

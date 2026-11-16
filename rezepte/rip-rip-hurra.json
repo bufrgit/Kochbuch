@@ -2,7 +2,7 @@
   "id": "rip-rip-hurra",
   "titel": "Rip Rip Hurra!!",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": null,
   "zeit": "1 Std. 45 Min + Vorbereitung",
   "merkmale": [],
@@ -97,7 +97,9 @@
     "Portionen und Rippchen-Menge fehlen im Original – offen gelassen",
     "„Rippchen“ als Zutat ergänzt (im Original nur in der Anleitung)",
     "Vorbereitung und Zubereitung zu einer durchgehenden Schrittliste zusammengefasst",
-    "Abgestimmt: kein Foto"
+    "Abgestimmt: kein Foto",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

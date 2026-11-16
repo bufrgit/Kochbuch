@@ -2,7 +2,7 @@
   "id": "zigarrenboerek",
   "titel": "Zigarrenbörek",
   "untertitel": null,
-  "kapitel": "Snacks & Kleinigkeiten",
+  "kapitel": "Snacks",
   "portionen": 4,
   "zeit": "45 Min",
   "merkmale": [],
@@ -107,7 +107,9 @@
   "aenderungen": [
     "Portionen fehlen im Original („[ Portionen]“ leer) – 4 geschätzt",
     "Zeit geschätzt",
-    "Gewürzmischung ergibt mehr als benötigt (nur 2 EL werden verwendet) – unverändert"
+    "Gewürzmischung ergibt mehr als benötigt (nur 2 EL werden verwendet) – unverändert",
+    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Kleinigkeiten & Beilagen"
 }

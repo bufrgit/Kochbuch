@@ -2,7 +2,7 @@
   "id": "chili-con-carne",
   "titel": "Chili con Carne",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": 4,
   "zeit": "2 Std. 20 Min",
   "merkmale": [],
@@ -80,7 +80,9 @@
     "zeit"
   ],
   "aenderungen": [
-    "Zeit geschätzt (2 Std. Köcheln laut Rezept)"
+    "Zeit geschätzt (2 Std. Köcheln laut Rezept)",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

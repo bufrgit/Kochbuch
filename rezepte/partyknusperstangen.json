@@ -2,7 +2,7 @@
   "id": "partyknusperstangen",
   "titel": "Partyknusperstangen",
   "untertitel": null,
-  "kapitel": "Snacks & Kleinigkeiten",
+  "kapitel": "Snacks",
   "portionen": "24 Stück",
   "zeit": "40 Min",
   "merkmale": [],
@@ -60,7 +60,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "„2 x Blätterteig“ → „2 Packungen“"
+    "„2 x Blätterteig“ → „2 Packungen“",
+    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Kleinigkeiten & Beilagen"
 }

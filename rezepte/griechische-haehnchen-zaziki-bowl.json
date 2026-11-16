@@ -2,7 +2,7 @@
   "id": "griechische-haehnchen-zaziki-bowl",
   "titel": "Griechische Hähnchen-Zaziki-Bowl",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": "2",
   "zeit": "ca. 30 Minuten + 30 Minuten Marinieren",
   "merkmale": [],
@@ -72,7 +72,9 @@
   "aenderungen": [
     "Zeit geschätzt",
     "Olivenöl: Liste sagt 1½ EL, Anleitung braucht 2½ EL – auf 2½ EL gesetzt",
-    "Abgestimmt: 1½ EL Olivenöl (1 EL Marinade, ½ EL Zaziki)"
+    "Abgestimmt: 1½ EL Olivenöl (1 EL Marinade, ½ EL Zaziki)",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

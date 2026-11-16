@@ -2,7 +2,7 @@
   "id": "schwarzwaelder-kirschtorte",
   "titel": "Schwarzwälder Kirschtorte",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 Springform",
   "zeit": "ca. 1 Std. 30 Min",
   "merkmale": [
@@ -72,7 +72,9 @@
     "Zutaten aus Fließtext in Liste umgewandelt",
     "„125 gemahlene Haselnüsse“ → „125 g“",
     "Zeit geschätzt (ohne Abkühlen)",
-    "Steht mit dem Russischen Zupfkuchen auf einem Blatt"
+    "Steht mit dem Russischen Zupfkuchen auf einem Blatt",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

@@ -2,7 +2,7 @@
   "id": "suesskartoffel-hackfleisch-pfanne",
   "titel": "Süßkartoffel-Hackfleisch-Pfanne mit Feta",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": "3",
   "zeit": "ca. 40 Minuten",
   "merkmale": [],
@@ -68,7 +68,9 @@
   "aenderungen": [
     "Zeit geschätzt",
     "Handschriftliche Korrekturen übernommen: 2 große Süßkartoffeln, „kurz mit anbraten“, gehackte Tomaten, 15–20 statt 10 Minuten",
-    "Notiz aus „Große Pfanne!“"
+    "Notiz aus „Große Pfanne!“",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

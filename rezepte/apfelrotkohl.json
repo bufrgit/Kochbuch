@@ -1,0 +1,69 @@
+{
+  "id": "apfelrotkohl",
+  "titel": "Apfelrotkohl",
+  "kapitel": "Beilagen",
+  "portionen": "6",
+  "zeit": "ca. 1 Std.",
+  "merkmale": [
+    "vegetarisch"
+  ],
+  "zutaten": [
+    {
+      "menge": "1 kleiner",
+      "zutat": "Rotkohl (ca. 1 kg)"
+    },
+    {
+      "menge": "2",
+      "zutat": "säuerliche Äpfel"
+    },
+    {
+      "menge": "1",
+      "zutat": "Zwiebel"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Butter oder Schmalz"
+    },
+    {
+      "menge": "2 EL",
+      "zutat": "Zucker"
+    },
+    {
+      "menge": "4 EL",
+      "zutat": "Rotweinessig"
+    },
+    {
+      "menge": "200 ml",
+      "zutat": "Apfelsaft"
+    },
+    {
+      "menge": "2",
+      "zutat": "Lorbeerblätter"
+    },
+    {
+      "menge": "3",
+      "zutat": "Nelken"
+    },
+    {
+      "menge": "",
+      "zutat": "Salz & Pfeffer"
+    }
+  ],
+  "schritte": [
+    "Rotkohl putzen, vierteln, den Strunk entfernen und in feine Streifen schneiden. Äpfel schälen und würfeln, Zwiebel würfeln.",
+    "Fett in einem großen Topf erhitzen, Zwiebel darin anschwitzen. Zucker dazugeben und leicht karamellisieren lassen.",
+    "Rotkohl, Äpfel, Essig, Apfelsaft, Lorbeer und Nelken dazugeben. Zugedeckt bei kleiner Hitze ca. 45 Min. schmoren, ab und zu umrühren.",
+    "Lorbeer und Nelken entfernen, mit Salz, Pfeffer und evtl. etwas Zucker abschmecken."
+  ],
+  "notiz": "Schmeckt aufgewärmt am nächsten Tag noch besser.",
+  "untertitel": null,
+  "clipart": null,
+  "quelle": "von Claude ergänzt",
+  "geschaetzt": [],
+  "freigegeben": false,
+  "ergaenzt": true,
+  "aenderungen": [
+    "Neu ergänzt, damit jedes Unterkapitel mindestens 5 Rezepte hat"
+  ],
+  "oberkapitel": "Kleinigkeiten & Beilagen"
+}

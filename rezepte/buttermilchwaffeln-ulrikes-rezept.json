@@ -2,7 +2,7 @@
   "id": "buttermilchwaffeln-ulrikes-rezept",
   "titel": "Buttermilchwaffeln (Ulrikes Rezept)",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "8 Stück",
   "zeit": "30 Min",
   "merkmale": [
@@ -56,7 +56,9 @@
     "Zeit geschätzt",
     "Tippfehler „steig“ → „steif“",
     "Frage: Ausbacken im Waffeleisen ergänzen?",
-    "Abgestimmt: Ausbacken (von mir ergänzt)"
+    "Abgestimmt: Ausbacken (von mir ergänzt)",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

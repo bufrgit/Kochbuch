@@ -2,7 +2,7 @@
   "id": "erdnusshuhn-mit-reisnudeln",
   "titel": "Erdnusshuhn mit Reisnudeln",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": "4",
   "zeit": "ca. 40 Minuten",
   "merkmale": [],
@@ -79,7 +79,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "Schneide-Schritte zusammengefasst"
+    "Schneide-Schritte zusammengefasst",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

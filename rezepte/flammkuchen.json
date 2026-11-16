@@ -2,7 +2,7 @@
   "id": "flammkuchen",
   "titel": "Flammkuchen",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "4",
   "zeit": "ca. 45 Minuten",
   "merkmale": [],
@@ -64,7 +64,9 @@
   "aenderungen": [
     "Zeit geschätzt",
     "Schritt „Teig ausrollen, bestreichen, belegen“ ergänzt",
-    "Belagvorschläge zu einer Zeile zusammengefasst"
+    "Belagvorschläge zu einer Zeile zusammengefasst",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

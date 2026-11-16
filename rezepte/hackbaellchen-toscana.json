@@ -2,7 +2,7 @@
   "id": "hackbaellchen-toscana",
   "titel": "Hackbällchen Toscana mit Reis",
   "untertitel": "Mit Tomaten-Sahne-Soße und Mozzarella überbacken",
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": "3",
   "zeit": "ca. 50 Minuten",
   "merkmale": [],
@@ -68,7 +68,9 @@
   "aenderungen": [
     "Untertitel von mir",
     "Zeit geschätzt",
-    "Reis in Zutatenliste ergänzt"
+    "Reis in Zutatenliste ergänzt",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

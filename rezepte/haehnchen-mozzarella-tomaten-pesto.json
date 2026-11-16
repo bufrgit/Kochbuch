@@ -2,7 +2,7 @@
   "id": "haehnchen-mozzarella-tomaten-pesto",
   "titel": "Hähnchen mit Mozzarella, Tomaten und Pesto",
   "untertitel": null,
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": 2,
   "zeit": "20 Min",
   "merkmale": [],
@@ -57,7 +57,9 @@
     "Zeit geschätzt",
     "Frage: „40 g Cherrytomaten“ wirkt wenig – evtl. 400 g? Unverändert übernommen",
     "Titel: „Hühnchen“ zu „Hähnchen“ vereinheitlicht",
-    "Abgestimmt: 200 g Cherrytomaten"
+    "Abgestimmt: 200 g Cherrytomaten",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }

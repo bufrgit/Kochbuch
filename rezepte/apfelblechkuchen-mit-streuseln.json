@@ -2,7 +2,7 @@
   "id": "apfelblechkuchen-mit-streuseln",
   "titel": "Apfelblechkuchen mit Streuseln",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": null,
   "zeit": "1 Std.",
   "merkmale": [
@@ -78,7 +78,9 @@
   ],
   "aenderungen": [
     "Zeit geschätzt",
-    "Portionen: 1 Blech (keine Angabe im Original)"
+    "Portionen: 1 Blech (keine Angabe im Original)",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

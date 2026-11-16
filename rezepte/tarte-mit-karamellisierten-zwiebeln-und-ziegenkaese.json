@@ -2,7 +2,7 @@
   "id": "tarte-mit-karamellisierten-zwiebeln-und-ziegenkaese",
   "titel": "Tarte mit karamellisierten Zwiebeln und Ziegenkäse",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": 4,
   "zeit": "1 Std. 15 Min",
   "merkmale": [],
@@ -66,7 +66,9 @@
   ],
   "aenderungen": [
     "Portionen fehlen im Original – 4 geschätzt",
-    "Zeit geschätzt"
+    "Zeit geschätzt",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

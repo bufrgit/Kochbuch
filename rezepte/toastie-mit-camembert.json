@@ -2,7 +2,7 @@
   "id": "toastie-mit-camembert",
   "titel": "Toastie mit Camembert",
   "untertitel": null,
-  "kapitel": "Snacks & Kleinigkeiten",
+  "kapitel": "Snacks",
   "portionen": "4",
   "zeit": "ca. 20 Minuten",
   "merkmale": [
@@ -44,7 +44,9 @@
   ],
   "aenderungen": [
     "Portionen (4) und Zeit geschätzt",
-    "„nach Packungsanweisung“ ergänzt"
+    "„nach Packungsanweisung“ ergänzt",
+    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Kleinigkeiten & Beilagen"
 }

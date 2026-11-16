@@ -2,7 +2,7 @@
   "id": "gefuellte-champignons-ziegenkaese",
   "titel": "Gefüllte Champignons mit Ziegenkäse und geröstetem Paniermehl",
   "untertitel": null,
-  "kapitel": "Snacks & Kleinigkeiten",
+  "kapitel": "Snacks",
   "portionen": "2",
   "zeit": "ca. 30 Minuten",
   "merkmale": [
@@ -65,7 +65,9 @@
     "portionen"
   ],
   "aenderungen": [
-    "Portionen (2) und Zeit geschätzt"
+    "Portionen (2) und Zeit geschätzt",
+    "Abgestimmt: Kapitel „Snacks & Kleinigkeiten“ heißt jetzt „Snacks“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Kleinigkeiten & Beilagen"
 }

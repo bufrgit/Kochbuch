@@ -2,7 +2,7 @@
   "id": "nutella-torte",
   "titel": "Nutella-Torte",
   "untertitel": null,
-  "kapitel": "Backen",
+  "kapitel": "Kuchen & Backen",
   "portionen": "1 Springform (26 cm)",
   "zeit": "ca. 45 Min + Kühlzeit",
   "merkmale": [
@@ -84,7 +84,9 @@
   "aenderungen": [
     "Zeit geschätzt",
     "„Saft verwahren“ → „aufbewahren“",
-    "„2x/1x“ → „Päckchen“ in der Zutatenliste"
+    "„2x/1x“ → „Päckchen“ in der Zutatenliste",
+    "Abgestimmt: Kapitel „Backen“ heißt jetzt „Kuchen & Backen“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Süßes"
 }

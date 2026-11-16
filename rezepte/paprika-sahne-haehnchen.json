@@ -2,7 +2,7 @@
   "id": "paprika-sahne-haehnchen",
   "titel": "Paprika-Sahne-Hähnchen",
   "untertitel": "Überbacken aus dem Ofen, dazu Reis",
-  "kapitel": "Hauptgerichte",
+  "kapitel": "Pfanne & Co",
   "portionen": "4",
   "zeit": "ca. 50 Minuten",
   "merkmale": [],
@@ -82,7 +82,9 @@
     "Untertitel von mir",
     "Zeit geschätzt",
     "„Backofen vorheizen“ als Schritt ergänzt",
-    "Salz in Zutatenliste ergänzt"
+    "Salz in Zutatenliste ergänzt",
+    "Abgestimmt: Kapitel „Hauptgerichte“ heißt jetzt „Pfanne & Co“"
   ],
-  "freigegeben": false
+  "freigegeben": false,
+  "oberkapitel": "Herzhaftes"
 }
