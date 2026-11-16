@@ -26,6 +26,10 @@ WEB = os.path.join(HIER, "web")
 FONTS = ("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400"
          "&family=Caveat:wght@500;700&family=Karla:wght@400;600&display=swap")
 e = html.escape
+# Adresse des gemeinsamen Online-Speichers (Firebase Realtime Database, …/wochenplan.json; siehe README).
+# Fehlt die Datei, speichert jedes Gerät für sich.
+_sp = os.path.join(HIER, "speicher.txt")
+SPEICHER = open(_sp).read().strip() if os.path.exists(_sp) else ""
 
 FELDER = ["id", "titel", "kapitel", "zeit"]  # mehr braucht der Wochenplan nicht
 REZEPTE = sorted((json.load(open(f, encoding="utf-8")) for f in glob.glob(os.path.join(ROOT, "rezepte", "*.json"))),
@@ -80,7 +84,7 @@ def rezeptseite(r):
     return f"""{kopf(r['titel'], 1, r['untertitel'] or '')}
 <style>.rezept .kap{{color:{farbe}}}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
-</head><body data-seite="rezept" data-id="{e(r['id'])}" data-titel="{e(r['titel'])}" data-portionen="{r['portionen']}">
+</head><body data-seite="rezept" data-speicher="{e(SPEICHER)}" data-id="{e(r['id'])}" data-titel="{e(r['titel'])}" data-portionen="{r['portionen']}">
 <main class="rezept">
 <a class="zurueck" href="../">← Zum Wochenplan</a>
 {motiv}
@@ -104,7 +108,7 @@ def startseite():
     daten = {"rezepte": [{k: r.get(k) for k in FELDER} for r in REZEPTE]}
     js = json.dumps(daten, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     return f"""{kopf(TITEL, 0, 'Unser Wochenplan zum Familienkochbuch')}
-</head><body data-seite="app">
+</head><body data-seite="app" data-speicher="{e(SPEICHER)}">
 <main id="app"><noscript><p>Für den Wochenplan bitte JavaScript einschalten.</p></noscript></main>
 <script type="application/json" id="daten">{js}</script>
 <script src="app.js"></script></body></html>"""
@@ -135,4 +139,4 @@ if __name__ == "__main__":
     for r in REZEPTE:
         os.makedirs(f"{OUT}/{r['id']}")
         open(f"{OUT}/{r['id']}/index.html", "w", encoding="utf-8").write(rezeptseite(r))
-    print(f"{len(REZEPTE)} Rezepte -> {OUT}")
+    print(f"{len(REZEPTE)} Rezepte -> {OUT}", f"(Online-Speicher: {SPEICHER})" if SPEICHER else "(ohne Online-Speicher)")
